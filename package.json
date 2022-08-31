@@ -1,0 +1,22 @@
+{
+  "name": "it_project",
+  "version": "1.0.0",
+  "description": "Group version control for our IT Project work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-ware/IT_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-ware/IT_Project/issues"
+  },
+  "homepage": "https://github.com/alex-ware/IT_Project#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
