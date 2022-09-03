@@ -7,16 +7,18 @@ html,body{
     padding: 0px;
 }
 header {
+    padding: 20px 20px;
     position: sticky;
     top: 0;
-    width: 100%;
+    
+    height: 90px;
     background-color: black;
-    display: flex;
+    
     flex-direction: row;
-    justify-content: space-between;
-    font-size: 40px;
+    text-align: center;
+    font-size: 60px;
     color: white;
-
+    font-family: arial;
 }
 .test {
     background-color:#D8D6D6;

@@ -3,4 +3,5 @@ const homeRouter = express.Router()
 const homeController = require('../controllers/homeController.js')
 
 homeRouter.get('/', homeController.home)
+homeRouter.get('/login',homeController.login)
 module.exports = homeRouter
