@@ -170,7 +170,6 @@
 .valign-text-middle {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .rectangle-9 {
