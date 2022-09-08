@@ -2,10 +2,11 @@
 html,body{
     margin:0;
 }
+
 *{
-    background-color: gray;
     padding: 0px;
 }
+
 header {
     padding: 20px 20px;
     position: sticky;
@@ -20,6 +21,7 @@ header {
     color: white;
     font-family: arial;
 }
+
 .test {
     background-color:#D8D6D6;
 }
