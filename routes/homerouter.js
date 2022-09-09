@@ -4,4 +4,7 @@ const homeController = require('../controllers/homeController.js')
 
 homeRouter.get('/', homeController.home)
 homeRouter.get('/login',homeController.login)
+homeRouter.get('/createAccount', homeController.createAccount)
+homeRouter.get('/accountCreated', homeController.accountCreated)
+
 module.exports = homeRouter

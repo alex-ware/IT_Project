@@ -3,23 +3,91 @@ html,body{
     margin:0;
 }
 *{
-    background-color: gray;
+    
     padding: 0px;
+    font-family: arial;
 }
 header {
     padding: 20px 20px;
     position: sticky;
     top: 0;
     
-    height: 90px;
+    height: 45px;
     background-color: black;
     
     flex-direction: row;
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
     color: white;
     font-family: arial;
 }
 .test {
     background-color:#D8D6D6;
 }
+footer {
+    text-align: center;
+    color: black;
+    ;
+}
+
+header.navbar{
+    font-size: 15px;
+    background: black !important;
+    background-size: cover;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+}
+div.createAccBox {
+    width:320px;
+    height:420px;
+    background-color: gray;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 15px 30px;
+}
+div.loginBox {
+    width:320px;
+    height:310px;
+    background-color: gray;
+    color: black;
+    
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 15px 30px;
+}
+div.accCreatedBox {
+    width:500px;
+    height:275px;
+
+    background-color: gray;
+    color: black;
+
+    text-align: center;
+
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 15px 30px;
+}
+.loginButton {
+    background-color: black;
+    color: white;
+    font-size: large;
+
+    cursor: pointer;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
