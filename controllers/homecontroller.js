@@ -1,19 +1,17 @@
 const home = (req, res) => {
-    res.render('home', {loggedIn: req.user})
+    res.render('home')
 }
 
-const login = (req,res) => {
-    res.render('login')
-}
 const createAccount = (req,res) => {
     res.render('createAccount')
 }
+
 const accountCreated = (req,res) => {
     res.render('accountCreated')
 }
+
 module.exports = {
     home,
-    login,
     createAccount,
-    accountCreated
+    accountCreated,
 }
