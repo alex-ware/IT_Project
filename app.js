@@ -9,7 +9,7 @@ const app = express()
 const handlebars = require('express-handlebars')
 app.use(express.urlencoded({ extended: true }))
 app.use(express.static('public'))
-app.use(
+app.engine(
     'hbs',
     handlebars.engine({
         defaultlayout: 'main',
