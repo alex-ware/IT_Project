@@ -5,7 +5,7 @@ const user_router = express.Router()
 user_router.use(bodyParser.urlencoded({extended: true}));
 
 // Show homepage
-user_router.get('/homepage', function(req, res) {
+user_router.get('/', function(req, res) {
     res.render('userHomepage', { email: req.user.username, layout: 'user.hbs' })
 })
 
