@@ -30,6 +30,11 @@ const powerSupply = (req,res) => {
     res.render('powerSupply')
 }
 
+const bestBuy = (req,res) => {
+    res.render('bestBuy')
+}
+
+
 module.exports = {
     home,
     createAccount,
@@ -39,4 +44,5 @@ module.exports = {
     ram,
     motherboard,
     powerSupply,
+    bestBuy,
 }

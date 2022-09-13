@@ -5,7 +5,7 @@ html,body{
 
 *{
     padding: 0px;
-    font-family: arial;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -19,7 +19,7 @@ header {
     
     flex-direction: row;
     align-items: center;
-    justify-content: left;
+    justify-content: space-between;
     
     font-size: 30px;
     color: white;
@@ -165,7 +165,25 @@ div.accCreatedBox {
     font-size: x-large;
     cursor: pointer;
     justify-content: left;
-    padding-right: 500px ;
 
     border-right: #D8D6D6;
+}
+
+.item-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    column-gap: 20%;
+    row-gap: 20%;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+div.homeWelcome {
+    top: 50%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
 }
