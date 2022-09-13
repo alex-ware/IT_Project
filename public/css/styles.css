@@ -61,10 +61,22 @@ header {
     border-radius: 999em;
 }
 
-footer {
+.page-heading h1 {
+    font-size: var(--text-h1);
+    color: white;
     text-align: center;
+    padding: 35px 0px;
+}
+
+footer {
+    position: bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #fdfbfb;
     color: black;
-    ;
+    text-align: center;
 }
 
 header.navbar{
