@@ -46,6 +46,20 @@ header {
     color: white;
     font-family: arial;
 }
+.button {
+    font-family: var(--font-family-body);
+    font-weight: 600;
+    font-size: var(--text-p);
+    color: white;
+    background-color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 999em;
+}
 
 footer {
     text-align: center;
