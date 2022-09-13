@@ -1,9 +1,31 @@
+:root {
+    --text-h1: 35px;
+    --text-h2: 28px;
+    --text-h3: 25px;
+    --text-p: 18px;
+    --text-p-mobile: 15px;
+    --font-family-body: 'Poppins', sans-serif;
+    --font-family-heading: 'Poppins', sans-serif;
+    --colour-h1: rgba(1, 58, 99, 1);
+    --colour-background-grey: #d8d6d8;
+    --colour-text: rgba(28, 70, 89, 1);
+    --colour-h2: rgba(5, 85, 142, 1);
+    --colour-black: black;
+    --colour-first: rgb(204, 255, 197);
+    --colour-second: rgba(252, 245, 147, 1);
+    --colour-third: rgba(255, 175, 95, 1);
+    --colour-fourth: rgb(255, 179, 179);
+    --colour-fifth: rgb(223, 167, 255);
+    --colour-measured: rgb(141, 141, 141);
+    --curved_corners: 20px;
+  }
+
 
 body {
     font-family: var(--font-family-body);
     margin: 0;
     padding: 0;
-    background-color: #D8D6D6;
+    background-color: var(--colour-background-grey);
     color: #ffffff;
 }
 
