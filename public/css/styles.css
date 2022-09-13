@@ -89,6 +89,7 @@ header.navbar{
 .createAccBox {
     width:320px;
     height:420px;
+    border: 0.5px outset black;
     color: black;
     top: 50%;
     left: 50%;
@@ -100,6 +101,7 @@ header.navbar{
 .loginBox {
     width:320px;
     height:400px;
+    border: 0.5px outset black;
     color: black;
     top: 50%;
     left: 50%;
@@ -111,6 +113,7 @@ header.navbar{
 .accCreatedBox {
     width:500px;
     height:275px;
+    border: 0.5px outset black;
     color: black;
     text-align: center;
     top: 50%;
