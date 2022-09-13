@@ -86,7 +86,7 @@ header.navbar{
     padding-left: 20px;
     color: rgb(255, 255, 255);
 }
-div.createAccBox {
+.createAccBox {
     width:320px;
     height:420px;
     background-color: gray;
@@ -98,7 +98,7 @@ div.createAccBox {
     box-sizing: border-box;
     padding: 15px 30px;
 }
-div.loginBox {
+.loginBox {
     width:320px;
     height:400px;
     background-color: gray;
@@ -111,7 +111,7 @@ div.loginBox {
     box-sizing: border-box;
     padding: 15px 30px;
 }
-div.accCreatedBox {
+.accCreatedBox {
     width:500px;
     height:275px;
 
@@ -225,7 +225,7 @@ div.accCreatedBox {
     
 }
 
-div.homeWelcome {
+.homeWelcome {
     top: 50%;
     align-content: center;
     justify-content: center;
