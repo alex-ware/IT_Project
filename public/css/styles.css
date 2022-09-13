@@ -69,9 +69,8 @@ header {
 }
 
 #footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
+    position: fixed;
+    bottom:0;
     width: 100%;
     padding: 10px;
     background-color: #fdfbfb;
