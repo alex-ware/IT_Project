@@ -29,11 +29,6 @@ body {
     color: #ffffff;
 }
 
-*{
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 header {
     padding: 20px 20px;
     position: sticky;
@@ -52,9 +47,6 @@ header {
     font-family: arial;
 }
 
-.test {
-    background-color:#D8D6D6;
-}
 footer {
     text-align: center;
     color: black;
