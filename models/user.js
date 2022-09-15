@@ -4,9 +4,11 @@ const Schema = mongoose.Schema
 
 // Schema for user authentication.
 const userSchema = new mongoose.Schema({
+    name: { type: String, required: true },
     username: { type: String, required: true, unique: true },
-    password: { type: String, required: true },
-}, {collection:'User', versionKey: false})
+    mobile: {type: String, required: true},
+    password: { type: String, required: true},
+}, {collection:'User Registration Data', versionKey: false})
 
 // Password verification.
 userSchema.methods.verifyPassword = function (password, callback) {
@@ -33,5 +35,5 @@ userSchema.pre('save', function save(next) {
     })
 })
 
-const User = mongoose.model('User', userSchema)
+const User = mongoose.model('User Registration Data', userSchema)
 module.exports = User

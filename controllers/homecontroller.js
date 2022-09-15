@@ -6,10 +6,6 @@ const createAccount = (req,res) => {
     res.render('createAccount')
 }
 
-const accountCreated = (req,res) => {
-    res.render('accountCreated')
-}
-
 const cpu = (req,res) => {
     res.render('cpu')
 }
@@ -38,7 +34,6 @@ const bestBuy = (req,res) => {
 module.exports = {
     home,
     createAccount,
-    accountCreated,
     cpu,
     gpu,
     ram,

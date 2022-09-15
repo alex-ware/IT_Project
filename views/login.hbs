@@ -8,14 +8,14 @@
     
     <form action="login" method="post">
         <p>Email:</p>
-        <input type="text" name="username" placeholder="Enter your email">
+        <input type="email" name="username" placeholder="Enter your email" autocomplete="on">
         <p>Password:</p>
         <input type="password" name="password" placeholder="Enter your password">
         <br>
         <br>
-        <input text-align="center" class="loginButton" type="submit" name="" value="Login">
+        <input text-align="center" class="loginButton" type="submit" value="Login">
     </form>
 
     <p>Not a member yet?</p>
-    <input class="loginButton" type="button" name="" value="Create an account" onclick="window.location.href = '/createAccount';" >
+    <input class="loginButton" type="button" value="Create an account" onclick="window.location.href = '/createAccount';" >
 </div>
