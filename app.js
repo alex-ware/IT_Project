@@ -17,10 +17,6 @@ app.engine(
     })
 )
 app.set('view engine', 'hbs')
-app.use('/', homerouter);
-
-// Flash messages for failed logins and other errors
-app.use(flash())
 
 // Track authenticated users through login sessions
 app.use(
@@ -40,6 +36,10 @@ app.use(
 if (app.get('env') === 'production') {
     app.set('trust proxy', 1);
 }
+
+// Display flash warnings in case of incorrect input.
+app.use(flash())
+app.use('/', homerouter);
 
 // Initialise passport.js
 const passport = require('./passport')

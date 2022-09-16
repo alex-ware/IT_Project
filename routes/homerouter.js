@@ -9,11 +9,21 @@ homeRouter.get('/', homeController.home)
 homeRouter.get('/createAccount', homeController.createAccount)
 homeRouter.post('/createAccount', (req, res, next) => {
     data = req.body;
-    User.create(data, (err, user) => {
-        if (err) return next(err);
-        res.redirect('/login');
-    });
-});
+    User.findOne({username: data.username}, (err, user) => {
+        if (err) {return err}
+        else if (user) {
+            req.flash('error', 'This email has already been registered.')
+            res.redirect('/createAccount')
+        }
+        else {
+            User.create(data, (err, user) => {
+                if (err) return next(err)
+                req.flash('error', 'Your account has been created. Please log in.')
+                res.redirect('/login')
+            })
+            }
+    })
+})
 
 homeRouter.get('/cpu', homeController.cpu)
 homeRouter.get('/gpu', homeController.gpu)

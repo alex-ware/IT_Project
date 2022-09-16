@@ -3,7 +3,7 @@ const home = (req, res) => {
 }
 
 const createAccount = (req,res) => {
-    res.render('createAccount')
+    res.render('createAccount', { flash: req.flash('error') })
 }
 
 const cpu = (req,res) => {
