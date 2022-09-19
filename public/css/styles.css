@@ -66,6 +66,7 @@ header {
     color: white;
     text-align: center;
     padding: 35px 0px;
+    margin: 0 auto 80px;
 }
 
 #footer {
@@ -206,10 +207,12 @@ header.navbar{
     display: grid;
     justify-content: center;
     align-content: center;
-    column-gap: 20%;
-    row-gap: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    column-gap: 5%;
+    row-gap: 10%;
     grid-template-columns: auto auto auto auto;
-    background-color: white;
     padding: 10px;
     
 }
@@ -219,4 +222,18 @@ header.navbar{
     align-content: center;
     justify-content: center;
     text-align: center;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
 }
