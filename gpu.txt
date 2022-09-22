@@ -1,0 +1,80 @@
+Product Title = ASUS ROG Strix AMD Radeon RX 6700 XT OC Edition Gaming Graphics Card (AMD RDNA 2, PCIe 4.0, 12GB GDDR6, DisplayPort 1.4a, Axial-tech Fan Design, 2.9-Slot, Super Alloy Power II)
+Product Image = 
+Product Price = $799.00
+Product Rating = 4.4 out of 5 stars
+Number of Product Reviews = 24 ratings
+Availability = In stock.
+
+
+Product Title = Gigabyte nVidia GeForce RTX 3080 Gaming OC rev 2.0 10G ATX GDDR6X 1800MHz / 1710 MHz PCIE4.0x16 3xDP 2xHDMI
+Product Image = 
+Product Price = $1,159.00
+Product Rating = 4.7 out of 5 stars
+Number of Product Reviews = 80 ratings
+Availability = Usually dispatched within 1 to 4 weeks.
+
+
+Product Title = MSI nVidia Geforce RTX 3080 Gaming Z Trio rev 2.0 10G Video Graphics Cards
+Product Image = 
+Product Price = $1,550.97
+Product Rating = 4.5 out of 5 stars
+Number of Product Reviews = 149 ratings
+Availability = Only 5 left in stock.
+
+
+Product Title = Gigabyte GeForce RTX 3070 Ti Gaming OC 8GB Graphics Card
+Product Image = 
+Product Price = $978.90
+Product Rating = 4.4 out of 5 stars
+Number of Product Reviews = 192 ratings
+Availability = In stock.
+
+
+Product Title = ASUS Geforce GTX 1050 Ti 4GB Phoenix Fan Edition DVI-D HDMI DP 1.4 Gaming Graphics Card (PH-GTX1050TI-4G) Graphic Cards
+Product Image = 
+Product Price = $230.16
+Product Rating = 4.6 out of 5 stars
+Number of Product Reviews = 4,277 ratings
+Availability = In stock.
+
+
+Product Title = Gigabyte GeForce RTX 3060 Gaming OC 12GB (GV-N3060GAMING-OC-12GD-2.0)
+Product Image = 
+Product Price = $569.00
+Product Rating = 4.8 out of 5 stars
+Number of Product Reviews = 558 ratings
+Availability = Usually dispatched within 2 to 3 days.
+
+
+Product Title = MSI Gaming GeForce GT 1030 2GB GDRR4 64-bit HDCP Support DirectX 12 ITX OC Graphics Card (GT 1030 AERO ITX 2GD4 OC)
+Product Image = 
+Product Price = $119.00
+Product Rating = 4.1 out of 5 stars
+Number of Product Reviews = 39 ratings
+Availability = In stock.
+
+
+Product Title = GIGABYTE NVidia GeForce RTX 3080 Vision OC 10G LHR GDDR6X Video Graphic Card, Silver
+Product Image = 
+Product Price = $1,299.00
+Product Rating = 4.2 out of 5 stars
+Number of Product Reviews = 34 ratings
+Availability = Only 3 left in stock.
+
+
+Product Title = Gigabyte GeForce GTX 1650 OC Low Profile 4G Graphics Card, 2X Windforce Fans, 4GB 128-Bit GDDR5, Gv-N1650OC-4GL Video Card
+Product Image = 
+Product Price = $279.00
+Product Rating = 4.6 out of 5 stars
+Number of Product Reviews = 305 ratings
+Availability = In stock.
+
+
+Product Title = Gigabyte GeForce RTX 3070 Vision OC 8GB Graphics Card
+Product Image = 
+Product Price = $879.00
+Product Rating = 4.8 out of 5 stars
+Number of Product Reviews = 5 ratings
+Availability = In stock.
+
+

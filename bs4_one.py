@@ -3,8 +3,11 @@
 # How to scrape Amazon Product Information Using Beautiful Soup
 # Published by Meghna Gangwar on 04.08.2022
 
+from cgi import print_exception
+import string
 from bs4 import BeautifulSoup
 import requests
+
 
 # Function to extract Product Title
 def get_title(soup):
@@ -30,11 +33,12 @@ def get_title(soup):
 
 	return title_string
 
+
 # Function to extract Product Price
 def get_price(soup):
 
 	try:
-		price = soup.find("span", attrs={'id':'priceblock_ourprice'}).string.strip()
+		price = (soup.find("span", attrs={'class':'a-price'}).find("span", attrs={'class': 'a-offscreen'})).string.strip()
 
 	except AttributeError:
 
@@ -88,41 +92,68 @@ if __name__ == '__main__':
 
 	# Headers for request
 	HEADERS = ({'User-Agent':
-	            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36',
-	            'Accept-Language': 'en-US'})
+				'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36',
+				'Accept-Language': 'en-US'})
 
 	# The webpage URL
-	URL = "https://www.amazon.com/s?k=playstation+4&ref=nb_sb_noss_2"
+	URL_GPU = "https://www.amazon.com.au/s?k=graphics+card&i=computers&rh=n%3A4913341051%2Cp_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&dc&crid=3S4CAVV0ZCU5B&qid=1663857345&rnid=2547911051&sprefix=graphics%2Caps%2C325&ref=sr_nr_p_72_2&ds=v1%3AKCM0CQnMzoaH%2FdbHc3QJhTz%2BvW27Z0wJJpMjRqyXt2U"
+	URL_CPU = "https://www.amazon.com.au/s?k=cpu&i=computers&bbn=4913338051&rh=n%3A4913338051%2Cp_89%3AAMD%7CIntel%2Cp_72%3A2547913051&dc&qid=1663857416&rnid=2547911051&sprefix=graphics%2Caps%2C325&ref=sr_nr_p_72_2&ds=v1%3ABIE%2BhsL9GaE9rwLRhmrxPbLLzuB8TXeECoj2kO09sas"
+	URL_RAM = "https://www.amazon.com.au/s?k=ram&i=computers&bbn=4913306051&rh=n%3A4913306051%2Cp_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&dc&qid=1663857447&rnid=2547911051&ref=sr_nr_p_72_2&ds=v1%3AZyC4otDzyRhhmm0zIxMf%2FaBs%2FXP%2BL9v9jLl56oT0HFA"
+	URL_PS = "https://www.amazon.com.au/s?k=power+supply&i=computers&bbn=4913306051&rh=n%3A4913306051%2Cp_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&dc&qid=1663857474&rnid=2547911051&ref=sr_nr_p_72_2&ds=v1%3A%2FcOo3TSW6vbWcb0TxbhYcNJa%2FPJKS0U%2BPolMT5nRv8k"
+	URL_MBOARD = "https://www.amazon.com.au/s?k=motherboard&i=computers&bbn=4851683051&rh=n%3A4851683051%2Cn%3A4913306051%2Cn%3A4913347051%2Cp_89%3AASRock%7CASUS%7CCORSAIR%7CGIGABYTE%7CMSI%2Cp_72%3A2547913051&dc&crid=3KNEAN8KC2MWS&qid=1663857518&rnid=2547911051&sprefix=motherboar%2Caps%2C346&ref=sr_nr_p_72_2&ds=v1%3AZrf2nFxzEoCeGbHjeojNUN0ulKXUkPnfcq7e6F58L3I"
 	
+	url_list = [URL_GPU, URL_CPU, URL_RAM , URL_PS, URL_MBOARD]
 	# HTTP Request
-	webpage = requests.get(URL, headers=HEADERS)
+	i = 0
+	for url in url_list:
+		webpage = requests.get(URL_GPU, headers=HEADERS)
 
-	# Soup Object containing all data
-	soup = BeautifulSoup(webpage.content, "lxml")
-
-	# Fetch links as List of Tag Objects
-	links = soup.find_all("a", attrs={'class':'a-link-normal s-no-outline'})
-
-	# Store the links
-	links_list = []
-
-	# Loop for extracting links from Tag Objects
-	for link in links:
-		links_list.append(link.get('href'))
+		# Soup Object containing all data
+		soup = BeautifulSoup(webpage.content, "lxml")
 
 
-	# Loop for extracting product details from each link 
-	for link in links_list:
+		# Fetch links as List of Tag Objects
+		links = soup.find_all("a", attrs={'class':'a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal'})
 
-		new_webpage = requests.get("https://www.amazon.com" + link, headers=HEADERS)
+		# Store the links
+		links_list = []
 
-		new_soup = BeautifulSoup(new_webpage.content, "lxml")
+
+		# Loop for extracting links from Tag Objects
+		for link in links:
+			links_list.append(link.get('href'))
+			
 		
-		# Function calls to display all necessary product information
-		print("Product Title =", get_title(new_soup))
-		print("Product Price =", get_price(new_soup))
-		print("Product Rating =", get_rating(new_soup))
-		print("Number of Product Reviews =", get_review_count(new_soup))
-		print("Availability =", get_availability(new_soup))
-		print()
-		print()
+		filename = ""
+		if i == 0:filename = "gpu.txt"
+		elif i == 1: filename = "cpu.txt"
+		elif i == 2: filename = "ram.txt"
+		elif i == 3: filename = "powersupply.txt"
+		else: filename = "motherboard.txt"
+		i += 1
+		
+
+
+		f = open(filename, 'w', encoding="utf-8")
+		# Loop for extracting product details from each link 
+		for link in links_list:
+
+			new_webpage = requests.get("https://www.amazon.com.au" + link, headers=HEADERS)
+
+			new_soup = BeautifulSoup(new_webpage.content, "lxml")
+			
+			# Function calls to display all necessary product information
+			title = "Product Title = " + get_title(new_soup) + '\n'
+			f.write(title)
+			price = "Product Price = " + get_price(new_soup) + '\n'
+			f.write(price)
+			rating = "Product Rating = " + get_rating(new_soup) + '\n'
+			f.write(rating)
+			reviews = "Number of Product Reviews = " + get_review_count(new_soup) + '\n'
+			f.write(reviews)
+			availability = "Availability = " + get_availability(new_soup) + '\n'
+			f.write(availability)
+			f.write("\n\n")
+		
+		f.close()
+		print(filename + " has been completed!")
