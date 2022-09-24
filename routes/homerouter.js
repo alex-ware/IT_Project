@@ -26,6 +26,7 @@ homeRouter.post('/createAccount', (req, res, next) => {
 })
 
 homeRouter.get('/cpu', homeController.cpu)
+homeRouter.get('/cpuItem', homeController.cpuItem)
 homeRouter.get('/gpu', homeController.gpu)
 homeRouter.get('/motherboard', homeController.motherboard)
 homeRouter.get('/powerSupply', homeController.powerSupply)

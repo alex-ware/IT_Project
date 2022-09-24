@@ -14,6 +14,9 @@ user_router.get('/gpu', function(req, res) {
 user_router.get('/cpu', function(req, res) {
     res.render('cpu', {layout: 'user.hbs' })
 })
+user_router.get('/cpuItem', function(req, res){
+    res.render('cpuItem',{layout:'cpuItem.hbs'})
+})
 user_router.get('/motherboard', function(req, res) {
     res.render('motherboard', {layout: 'user.hbs' })
 })
