@@ -10,11 +10,7 @@ const cpu = (req,res) => {
     res.render('cpu')
 }
 
-const cpuItem= (req,res) =>{
-    res.render('cpuItem')
-}
-
-function gpu(req, res) {
+const gpu = (req,res) => {
     res.render('gpu')
 }
 
@@ -39,7 +35,6 @@ module.exports = {
     home,
     createAccount,
     cpu,
-    cpuItem,
     gpu,
     ram,
     motherboard,
