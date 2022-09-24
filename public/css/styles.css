@@ -237,3 +237,8 @@ header.navbar{
     position: relative;
     line-height: 60px;
 }
+
+.itemFlexBox{
+    display: flexbox;
+    justify-content: center;
+}
