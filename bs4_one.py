@@ -32,6 +32,13 @@ def get_title(soup):
 		title_string = ""	
 
 	return title_string
+## Function to extract Product Image
+def get_image(soup):
+		
+	images = soup.findAll('img')
+
+	return images
+
 
 
 # Function to extract Product Price
@@ -132,7 +139,7 @@ if __name__ == '__main__':
 		else: filename = "motherboard.txt"
 		i += 1
 		
-
+		
 
 		f = open(filename, 'w', encoding="utf-8")
 		# Loop for extracting product details from each link 
@@ -141,10 +148,13 @@ if __name__ == '__main__':
 			new_webpage = requests.get("https://www.amazon.com.au" + link, headers=HEADERS)
 
 			new_soup = BeautifulSoup(new_webpage.content, "lxml")
+			print(get_image(new_soup))
 			
 			# Function calls to display all necessary product information
 			title = "Product Title = " + get_title(new_soup) + '\n'
 			f.write(title)
+			# image = "Product Image = " + get_image(new_soup) + '\n'
+			# f.write(image)
 			price = "Product Price = " + get_price(new_soup) + '\n'
 			f.write(price)
 			rating = "Product Rating = " + get_rating(new_soup) + '\n'

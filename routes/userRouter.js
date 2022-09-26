@@ -29,6 +29,21 @@ user_router.get('/wishlist', function(req, res) {
 user_router.get('/userHistory', function(req, res) {
     res.render('userHistory', {layout: 'user.hbs' })
 })
+user_router.get('/cpuItem', function(req, res) {
+    res.render('cpuItem', {layout: 'user.hbs' })
+})
+user_router.get('/gpuItem', function(req, res) {
+    res.render('gpuItem', {layout: 'user.hbs' })
+})
+user_router.get('/ramItem', function(req, res) {
+    res.render('ramItem', {layout: 'user.hbs' })
+})
+user_router.get('/motherboardItem', function(req, res) {
+    res.render('motherboardItem', {layout: 'user.hbs' })
+})
+user_router.get('/powerSupplyItem', function(req, res) {
+    res.render('powerSupplyItem', {layout: 'user.hbs' })
+})
 
 // Handle logout
 user_router.post('/logout', (req, res) => {

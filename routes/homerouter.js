@@ -31,5 +31,11 @@ homeRouter.get('/motherboard', homeController.motherboard)
 homeRouter.get('/powerSupply', homeController.powerSupply)
 homeRouter.get('/ram', homeController.ram)
 homeRouter.get('/bestBuy', homeController.bestBuy)
+homeRouter.get('/gpuItem', homeController.gpuItem)
+homeRouter.get('/cpuItem', homeController.cpuItem)
+homeRouter.get('/ramItem', homeController.ramItem)
+homeRouter.get('/motherboardItem', homeController.motherboardItem)
+homeRouter.get('/powerSupplyItem', homeController.powerSupplyItem)
+
 
 module.exports = homeRouter
