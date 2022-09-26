@@ -1,168 +1,192 @@
-Product Title = msi Radeon RX 6500 XT MECH 2X 4G OC Graphics Card, Black (V508-003R)
-Product Price = $295.83
-Product Rating = 4.1 out of 5 stars
-Number of Product Reviews = 159 ratings
-Availability = In stock.
-
-
-Product Title = ASUS ROG Strix AMD Radeon RX 6700 XT OC Edition Gaming Graphics Card (AMD RDNA 2, PCIe 4.0, 12GB GDDR6, DisplayPort 1.4a, Axial-tech Fan Design, 2.9-Slot, Super Alloy Power II)
-Product Price = $799.00
-Product Rating = 4.4 out of 5 stars
-Number of Product Reviews = 24 ratings
-Availability = In stock.
-
-
-Product Title = Gigabyte nVidia GeForce RTX 3080 Gaming OC rev 2.0 10G ATX GDDR6X 1800MHz / 1710 MHz PCIE4.0x16 3xDP 2xHDMI
-Product Price = $1,159.00
-Product Rating = 4.7 out of 5 stars
-Number of Product Reviews = 80 ratings
-Availability = Usually dispatched within 1 to 4 weeks.
-
-
-Product Title = MSI nVidia Geforce RTX 3080 Gaming Z Trio rev 2.0 10G Video Graphics Cards
-Product Price = $1,557.79
-Product Rating = 4.5 out of 5 stars
-Number of Product Reviews = 149 ratings
-Availability = Only 5 left in stock.
-
-
-Product Title = ASUS Geforce GTX 1050 Ti 4GB Phoenix Fan Edition DVI-D HDMI DP 1.4 Gaming Graphics Card (PH-GTX1050TI-4G) Graphic Cards
-Product Price = $230.16
+Product Title = CORSAIR RM750 (2021), RM Series, 750 Watt 80 Plus Gold Fully Modular ATX Power Supply (Triple EPS12V Connectors, Low-Noise Operation, Zero RPM Fan Mode, 105°C Capacitors, Modern Standby) White, CP-9020231-AU
+Product Source = https://www.amazon.com.au/Corsair-Connectors-Low-Noise-Operation-Capacitors/dp/B09D89RJLN/ref=sr_1_1?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-1
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71xTqrCyM1L.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $169.00
 Product Rating = 4.6 out of 5 stars
-Number of Product Reviews = 4,276 ratings
+Number of Product Reviews = 64 ratings
 Availability = In stock.
 
-
-Product Title = Gigabyte GeForce RTX 3060 Gaming OC 12GB (GV-N3060GAMING-OC-12GD-2.0)
-Product Price = $569.00
+Product Title = Corsair CX650M (2021), CX-M Series, 650 Watt 80 Plus Bronze Semi-Modular Low-Noise ATX Power Supply (Single EPS12V Connection, Low-Noise Operation, 105°C Capacitors, Compact Size) Black
+Product Source = https://www.amazon.com.au/Semi-Modular-Low-Noise-Connection-Operation-Capacitors/dp/B09D8FBSH8/ref=sr_1_2?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-2
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71RA928k1gL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $102.78
 Product Rating = 4.8 out of 5 stars
-Number of Product Reviews = 557 ratings
-Availability = Usually dispatched within 2 to 3 days.
-
-
-Product Title = MSI Gaming GeForce GT 1030 2GB GDRR4 64-bit HDCP Support DirectX 12 ITX OC Graphics Card (GT 1030 AERO ITX 2GD4 OC)
-Product Price = $119.00
-Product Rating = 4.1 out of 5 stars
-Number of Product Reviews = 39 ratings
+Number of Product Reviews = 6 ratings
 Availability = In stock.
 
-
-Product Title = Gigabyte GeForce RTX 3070 Ti Gaming OC 8GB Graphics Card
-Product Price = $979.00
-Product Rating = 4.4 out of 5 stars
-Number of Product Reviews = 192 ratings
-Availability = In stock.
-
-
-Product Title = GIGABYTE NVidia GeForce RTX 3080 Vision OC 10G LHR GDDR6X Video Graphic Card, Silver
-Product Price = $1,299.00
-Product Rating = 4.2 out of 5 stars
-Number of Product Reviews = 34 ratings
-Availability = Only 3 left in stock.
-
-
-Product Title = Gigabyte GeForce RTX 3070 Vision OC 8GB Graphics Card
-Product Price = $879.00
-Product Rating = 4.8 out of 5 stars
-Number of Product Reviews = 5 ratings
-Availability = In stock.
-
-
-Product Title = GIGABYTE GeForce RTX 3070 Gaming OC 8G (REV2.0) Graphics Card, 3X WINDFORCE Fans, LHR, 8GB 256-bit GDDR6, GV-N3070GAMING OC-8GD REV2.0 Video Card
-Product Price = $879.00
-Product Rating = 4.7 out of 5 stars
-Number of Product Reviews = 217 ratings
-Availability = In stock.
-
-
-Product Title = ASUS TUF Gaming NVIDIA GeForce RTX 3070 Ti OC Edition Graphics Card (PCIe 4.0, 8GB GDDR6X, HDMI 2.1, DisplayPort 1.4a, Dual Ball Fan Bearings, Military-Grade Certification, GPU Tweak II)
-Product Price = $949.00
-Product Rating = 4.5 out of 5 stars
-Number of Product Reviews = 233 ratings
-Availability = In stock.
-
-
-Product Title = ASUS PH-RTX3060-12G-V2, (90YV0GB4-M0NA10)
-Product Price = $585.00
-Product Rating = 4.4 out of 5 stars
-Number of Product Reviews = 83 ratings
-Availability = Only 2 left in stock.
-
-
-Product Title = GIGABYTE GeForce RTX 3060 Vision OC 12G (REV2.0) Graphics Card, 3X WINDFORCE Fans, 12GB 192-bit GDDR6, GV-N3060VISION OC-12GD REV2.0 Video Card
-Product Price = $599.00
-Product Rating = 4.7 out of 5 stars
-Number of Product Reviews = 144 ratings
-Availability = 
-
-
-Product Title = MSI Gaming GeForce RTX 3060 12GB 15 Gbps GDRR6 192-Bit HDMI/DP PCIe 4 Torx Twin Fan Ampere OC Graphics Card (RTX 3060 Ventus 2X 12G OC)
-Product Price = $599.00
-Product Rating = 4.5 out of 5 stars
-Number of Product Reviews = 496 ratings
-Availability = 
-
-
-Product Title = GIGABYTE Radeon RX 6500 XT Gaming OC 4G Graphics Card, WINDFORCE 3X Cooling System, 4GB 64-bit GDDR6, GV-R65XTGAMING OC-4GD Video Card
-Product Price = $341.00
+Product Title = Cooler Master MWE 80Plus White 650W 230V 80Plus Single +12V Rail Silent Mode DC-to-DC Power Supply - Black - MPE-6501-ACABW-AU
+Product Source = https://www.amazon.com.au/Cooler-Master-80Plus-Single-Silent/dp/B085G2KWQ8/ref=sr_1_3?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-3
+Product Image = https://images-na.ssl-images-amazon.com/images/I/61X5vhKMnML.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $85.00
 Product Rating = 4.6 out of 5 stars
-Number of Product Reviews = 183 ratings
-Availability = Only 3 left in stock.
+Number of Product Reviews = 597 ratings
+Availability = In stock.
 
-
-Product Title = ASUS GeForce GTX 1660 Super Overclocked 6GB Phoenix Fan Edition HDMI DP DVI Graphics Card (PH-GTX1660S-O6G)
-Product Price = $368.50
-Product Rating = 4.7 out of 5 stars
-Number of Product Reviews = 1,527 ratings
-Availability = Only 2 left in stock.
-
-
-Product Title = GIGABYTE NVidia GeForce RTX 3050 Eagle 8G Video Graphic Card, Black
-Product Price = $448.50
+Product Title = Thermaltake Litepower GEN2 450W PSU (LTP-0450P-2)
+Product Source = https://www.amazon.com.au/Thermaltake-Litepower-GEN2-450w-PSU/dp/B01HCDMX2K/ref=sr_1_4?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-4
+Product Image = https://images-na.ssl-images-amazon.com/images/I/51upBYL8hIL.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $59.00
 Product Rating = 4.6 out of 5 stars
-Number of Product Reviews = 10 ratings
-Availability = Only 4 left in stock.
+Number of Product Reviews = 35 ratings
+Availability = Only 3 left in stock (more on the way).
 
+Product Title = Thermaltake Toughpower GF1 850W 80+ Gold Ultra Quiet Fully Modular PSU
+Product Source = https://www.amazon.com.au/Thermaltake-Toughpower-Power-Supply-PS-TPD-0850FNFAGA-1/dp/B07N7Z6V34/ref=sr_1_5?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-5
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71pwjfXbZ1L.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $199.00
+Product Rating = 4.6 out of 5 stars
+Number of Product Reviews = 1,730 ratings
+Availability = In stock.
 
-Product Title = Asus Radeon RX 6600 Dual Graphics Card
-Product Price = $359.00
+Product Title = Thermaltake Smart RGB 700W 80+ White Power Supply, PS-SPR-0700NHSAWA-1
+Product Source = https://www.amazon.com.au/Thermaltake-SMART-700W-Power-Supply/dp/B0744P7VHW/ref=sr_1_6?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-6
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71iXeXcXc1L.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $87.23
 Product Rating = 4.5 out of 5 stars
-Number of Product Reviews = 14 ratings
-Availability = In stock.
-
-
-Product Title = GIGABYTE GeForce RTX 3050 Gaming OC 8G Graphics Card, 3X WINDFORCE Fans, 8GB GDDR6 128-bit GDDR6, GV-N3050GAMING OC-8GD Video Card
-Product Price = $479.00
-Product Rating = 4.7 out of 5 stars
-Number of Product Reviews = 194 ratings
-Availability = In stock.
-
-
-Product Title = ASUS Radeon RX 6700 XT ROG Strix Gaming OC 12GB Next GEN Ray Tracing Graphics Card
-Product Price = $809.00
-Product Rating = 3.9 out of 5 stars
-Number of Product Reviews = 14 ratings
+Number of Product Reviews = 3,423 ratings
 Availability = Only 1 left in stock.
 
-
-Product Title = MSI Gaming GeForce RTX 3090 Ti Gaming X Trio OC Graphics Card 24GB GDRR6X 384-Bit Tri-Frozr Ampere Architecture 1x HDMI 2.1 3X DisplayPort 1.4a w/ MT HDMI 2.1, Anti-Sag RGB Holder
-Product Price = $2,199.99
+Product Title = Cooler Master MWE Gold 750W V2 Full Modular 80 Plus Gold Certified ATX Power Supply Unit
+Product Source = https://www.amazon.com.au/Cooler-Master-Modular-Certified-Supply/dp/B099MRBPPT/ref=sr_1_7?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-7
+Product Image = https://m.media-amazon.com/images/I/91ORE+R6LdS._AC_SY300_SX300_.jpg
+Product Price = $145.00
 Product Rating = 5.0 out of 5 stars
-Number of Product Reviews = 1 rating
-Availability = Only 1 left in stock.
-
-
-Product Title = GIGABYTE GeForce RTX 3060 Ti Eagle 8G OC Graphics Card, Multicolor
-Product Price = $829.00
-Product Rating = 4.5 out of 5 stars
-Number of Product Reviews = 48 ratings
+Number of Product Reviews = 2 ratings
 Availability = Only 1 left in stock (more on the way).
 
-
-Product Title = ASUS TUF Gaming AMD Radeon™ RX 6800 OC Edition Graphics Card (PCIe 4.0, 16GB GDDR6, HDMI 2.1, DisplayPort 1.4a, Dual Ball Fan Bearings, All-Aluminum Shroud, Reinforced Frame, GPU Tweak II)
-Product Price = $1,229.00
+Product Title = Corsair SF Series, SF600 Platinum, 600W Fully Modular, 80+ Platinum Certified, Power Supply Unit - Black
+Product Source = https://www.amazon.com.au/CORSAIR-SF600-Platinum-Modular-Supply/dp/B07L48TZP1/ref=sr_1_8?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-8
+Product Image = https://images-na.ssl-images-amazon.com/images/I/61Q7IWQbglL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $170.00
 Product Rating = 4.6 out of 5 stars
-Number of Product Reviews = 5 ratings
+Number of Product Reviews = 53 ratings
+Availability = Only 4 left in stock.
+
+Product Title = Corsair CP-9020183-AU AX1600i 1600 Watt 80 Plus Titanium Certified Fully Modular Power Supply Unit,black
+Product Source = https://www.amazon.com.au/Corsair-1600W-Titanium-AX1600i-Supply/dp/B07L5Z46HQ/ref=sr_1_9?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-9
+Product Image = https://m.media-amazon.com/images/I/61FrVQp+lIL._AC_SY300_SX300_.jpg
+Product Price = $649.00
+Product Rating = 4.4 out of 5 stars
+Number of Product Reviews = 12 ratings
+Availability = Only 5 left in stock.
+
+Product Title = Thermaltake Smart BX1 650W 80+ Bronze PSU
+Product Source = https://www.amazon.com.au/Thermaltake-Smart-Bronze-Supply-PS-SPD-0650NNSABA-1/dp/B07KYTRQ84/ref=sr_1_10?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-10
+Product Image = https://images-na.ssl-images-amazon.com/images/I/91xt1T3VZUL.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $89.00
+Product Rating = 4.5 out of 5 stars
+Number of Product Reviews = 1,225 ratings
 Availability = In stock.
 
+Product Title = Cooler Master MWE Gold 650W 80Plus Gold Certified Fully Modular Cable Design Compact DC-to-DC Power Supply - Black - MPY-6501-AFAAG-AU
+Product Source = https://www.amazon.com.au/Cooler-Master-80Plus-Modular-Warranty/dp/B07D8YLQ42/ref=sr_1_11?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-11
+Product Image = https://images-na.ssl-images-amazon.com/images/I/61nSVTbLayL.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $179.32
+Product Rating = 4.3 out of 5 stars
+Number of Product Reviews = 405 ratings
+Availability = In stock.
+
+Product Title = Corsair CP-9020140-AU HX Series HX1200 ATX/EPS Fully Modular 80 Plus Platinum Power Supply Unit,black,1200W
+Product Source = https://www.amazon.com.au/Corsair-HX1200M-Platinum-Modular-Supply/dp/B077JBSY7M/ref=sr_1_12?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-12
+Product Image = https://images-na.ssl-images-amazon.com/images/I/61uSxidHpBL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $359.00
+Product Rating = 4.8 out of 5 stars
+Number of Product Reviews = 40 ratings
+Availability = Only 3 left in stock (more on the way).
+
+Product Title = Corsair CV Series Non-Modular Power Supply,CP-9020209-AU, Black, 450W
+Product Source = https://www.amazon.com.au/Corsair-Non-Modular-Power-Supply-CP-9020209-AU/dp/B083YT3XHS/ref=sr_1_13?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-13
+Product Image = https://images-na.ssl-images-amazon.com/images/I/719ibP90r2L.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $65.00
+Product Rating = 4.6 out of 5 stars
+Number of Product Reviews = 3,467 ratings
+Availability = Only 3 left in stock.
+
+Product Title = Cooler Master MWE 650W 80 Plus Bronze V2 230V Power Supply Unit
+Product Source = https://www.amazon.com.au/Cooler-Master-Bronze-Power-Supply/dp/B09JGFWKCY/ref=sr_1_14?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-14
+Product Image = https://images-na.ssl-images-amazon.com/images/I/516BPHYirFL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $95.00
+Product Rating = 5.0 out of 5 stars
+Number of Product Reviews = 1 rating
+Availability = In stock.
+
+Product Title = Thermaltake TtMod Sleeve Extension Power Supply Cable Kit ATX/EPS/8-pin PCI-E/6-pin PCI-E with Combs, Orange/Black AC-036-CN1NAN-A1
+Product Source = https://www.amazon.com.au/Thermaltake-Sleeve-Extension-Supply-AC-036-CN1NAN-A1/dp/B01IA9FD5E/ref=sr_1_15?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-15
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71OkllyzGUL.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $47.00
+Product Rating = 4.6 out of 5 stars
+Number of Product Reviews = 314 ratings
+Availability = Only 2 left in stock.
+
+Product Title = Cooler Master PVC PSU Extension Cable Kit, White/Black
+Product Source = https://www.amazon.com.au/Cooler-Master-Sleeved-Extension-Cable/dp/B08BF8F6FX/ref=sr_1_16?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-16
+Product Image = https://images-na.ssl-images-amazon.com/images/I/81wtS7TOnkL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $47.04
+Product Rating = 4.4 out of 5 stars
+Number of Product Reviews = 260 ratings
+Availability = In stock.
+
+Product Title = Thermaltake Smart Pro 750 W Fully Modular RGB Fan 80 Plus Power Supply Unit - Black
+Product Source = https://www.amazon.com.au/Thermaltake-750W-Smart-Power-Supply/dp/B01MQWBZMI/ref=sr_1_17?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-17
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71rUXFM1fRL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $153.47
+Product Rating = 4.5 out of 5 stars
+Number of Product Reviews = 142 ratings
+Availability = In stock.
+
+Product Title = Cooler Master MasterWatt 750W 80Plus Bronze Semi-Fanless Semi-Modular DC-to-DC Power Supply - Black - MPX-7501-AMAAB-AU
+Product Source = https://www.amazon.com.au/Cooler-Master-MPX-7501-AMAAB-AU-MasterWatt-Bronze/dp/B076FHVNWG/ref=sr_1_18?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-18
+Product Image = https://images-na.ssl-images-amazon.com/images/I/41JnGzU7H8L.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $119.00
+Product Rating = 3.5 out of 5 stars
+Number of Product Reviews = 7 ratings
+Availability = Only 4 left in stock.
+
+Product Title = Corsair RMX White Series (2018), RM850x, 850 Watt, 80+ Gold Certified, Fully Modular Power Supply - White, 80 Plus Gold (CP-9020188-NA)
+Product Source = https://www.amazon.com.au/CORSAIR-Certified-Fully-Modular-Supply/dp/B07JWT8YV3/ref=sr_1_19?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-19
+Product Image = https://images-na.ssl-images-amazon.com/images/I/61DyiqlbzKL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $169.00
+Product Rating = 4.7 out of 5 stars
+Number of Product Reviews = 11,822 ratings
+Availability = 
+
+Product Title = Corsair CX550F RGB, 550 Watt, 80 Plus Bronze, Fully Modular RGB Power Supply
+Product Source = https://www.amazon.com.au/Corsair-CX550F-Bronze-Modular-Supply/dp/B08FVHGKDY/ref=sr_1_20?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-20
+Product Image = https://images-na.ssl-images-amazon.com/images/I/81NMFliOttL.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $231.02
+Product Rating = 4.7 out of 5 stars
+Number of Product Reviews = 2,044 ratings
+Availability = In stock.
+
+Product Title = Corsair RM850x 80 Plus Gold, 850 Watts, Fully Modular ATX Power Supply Unit - Black
+Product Source = https://www.amazon.com.au/Corsair-RM850x-Watts-Modular-Supply/dp/B07B71JV8T/ref=sr_1_21?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-21
+Product Image = https://images-na.ssl-images-amazon.com/images/I/811h2sfjP0L.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $199.00
+Product Rating = 4.8 out of 5 stars
+Number of Product Reviews = 7,996 ratings
+Availability = 
+
+Product Title = Corsair CP-9020178-AU RM650x 80 Plus Gold Fully Modular ATX Power Supply Unit, black, 650W
+Product Source = https://www.amazon.com.au/Corsair-RM650x-Fully-Modular-Supply/dp/B07H3JCPC5/ref=sr_1_22?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-22
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71jLhpuEwKL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $203.90
+Product Rating = 4.8 out of 5 stars
+Number of Product Reviews = 257 ratings
+Availability = In stock.
+
+Product Title = Corsair RMX Series, RM750x, 750 Watt, 80+ Gold Certified, Fully Modular Power Supply (Low Noise, Zero RPM Fan Mode, 105°C Capacitors, Fully Modular Cables, Compact Size) Black
+Product Source = https://www.amazon.com.au/CORSAIR-RM750x-Modular-Supply-Certified/dp/B079HGN5QS/ref=sr_1_23?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-23
+Product Image = https://m.media-amazon.com/images/I/71vXweqjv+L._AC_SY300_SX300_.jpg
+Product Price = $277.87
+Product Rating = 4.8 out of 5 stars
+Number of Product Reviews = 15,981 ratings
+Availability = Usually dispatched within 2 to 3 days.
+
+Product Title = Thermaltake V100 Mid-Tower Chassis with 500W Power Supply CA-3K7-50M1NA-00
+Product Source = https://www.amazon.com.au/Thermaltake-Mid-Tower-Chassis-Supply-CA-3K7-50M1NA-00/dp/B07GY61XPT/ref=sr_1_24?keywords=power+supply&qid=1664208650&qu=eyJxc2MiOiI1LjgyIiwicXNhIjoiNS40MSIsInFzcCI6IjUuMDgifQ%3D%3D&refinements=p_89%3ACORSAIR%7CCooler+Master%7CThermaltake%7Cbe+quiet%21%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-24
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71iHTQaqfrL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $109.00
+Product Rating = 4.0 out of 5 stars
+Number of Product Reviews = 7 ratings
+Availability = Only 1 left in stock (more on the way).
 

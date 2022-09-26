@@ -1,168 +1,192 @@
 Product Title = ASUS Geforce GTX 1050 Ti 4GB Phoenix Fan Edition DVI-D HDMI DP 1.4 Gaming Graphics Card (PH-GTX1050TI-4G) Graphic Cards
+Product Source = https://www.amazon.com.au/ASUS-Geforce-Phoenix-Graphics-PH-GTX1050TI-4G/dp/B01M360WG6/ref=sr_1_1?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-1
+Product Image = https://images-na.ssl-images-amazon.com/images/I/61TgBrsiRKS.__AC_SX300_SY300_QL70_ML2_.jpg
 Product Price = $230.16
 Product Rating = 4.6 out of 5 stars
-Number of Product Reviews = 4,276 ratings
+Number of Product Reviews = 4,288 ratings
 Availability = In stock.
 
-
 Product Title = MSI Gaming GeForce GT 1030 2GB GDRR4 64-bit HDCP Support DirectX 12 ITX OC Graphics Card (GT 1030 AERO ITX 2GD4 OC)
+Product Source = https://www.amazon.com.au/MSI-1030-ITX-AERO-2GD4/dp/B07DQL13CM/ref=sr_1_2?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-2
+Product Image = https://images-na.ssl-images-amazon.com/images/I/61IZsildgiL.__AC_SY300_SX300_QL70_ML2_.jpg
 Product Price = $119.00
 Product Rating = 4.1 out of 5 stars
 Number of Product Reviews = 39 ratings
 Availability = In stock.
 
-
-Product Title = GIGABYTE Radeon RX 6500 XT Gaming OC 4G Graphics Card, WINDFORCE 3X Cooling System, 4GB 64-bit GDDR6, GV-R65XTGAMING OC-4GD Video Card
-Product Price = $341.00
-Product Rating = 4.6 out of 5 stars
-Number of Product Reviews = 183 ratings
-Availability = Only 3 left in stock.
-
-
-Product Title = GIGABYTE NVidia GeForce RTX 3080 Vision OC 10G LHR GDDR6X Video Graphic Card, Silver
-Product Price = $1,299.00
-Product Rating = 4.2 out of 5 stars
-Number of Product Reviews = 34 ratings
-Availability = Only 3 left in stock.
-
+Product Title = MSI Gaming GeForce RTX 3060 12GB 15 Gbps GDRR6 192-Bit HDMI/DP PCIe 4 Torx Twin Fan Ampere OC Graphics Card (RTX 3060 Ventus 2X 12G OC)
+Product Source = https://www.amazon.com.au/MSI-GeForce-RTX-3060-12G/dp/B08WPRMVWB/ref=sr_1_3?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-3
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71tduSp8ooL.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $619.00
+Product Rating = 4.5 out of 5 stars
+Number of Product Reviews = 507 ratings
+Availability = In stock.
 
 Product Title = Gigabyte GeForce RTX 3070 Ti Gaming OC 8GB Graphics Card
+Product Source = https://www.amazon.com.au/Gigabyte-GeForce-3070-Gaming-Graphics/dp/B095X6RLJW/ref=sr_1_4?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-4
+Product Image = https://images-na.ssl-images-amazon.com/images/I/61ky87wSNQS.__AC_SX300_SY300_QL70_ML2_.jpg
 Product Price = $979.00
 Product Rating = 4.4 out of 5 stars
-Number of Product Reviews = 192 ratings
+Number of Product Reviews = 195 ratings
 Availability = In stock.
-
 
 Product Title = ASUS TUF Gaming NVIDIA GeForce RTX 3070 Ti OC Edition Graphics Card (PCIe 4.0, 8GB GDDR6X, HDMI 2.1, DisplayPort 1.4a, Dual Ball Fan Bearings, Military-Grade Certification, GPU Tweak II)
+Product Source = https://www.amazon.com.au/ASUS-Graphics-DisplayPort-Military-Grade-Certification/dp/B0971D8FB4/ref=sr_1_5?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-5
+Product Image = https://images-na.ssl-images-amazon.com/images/I/81t7Ga7nyxS.__AC_SX300_SY300_QL70_ML2_.jpg
 Product Price = $949.00
 Product Rating = 4.5 out of 5 stars
-Number of Product Reviews = 233 ratings
-Availability = In stock.
+Number of Product Reviews = 234 ratings
+Availability = Only 4 left in stock.
 
+Product Title = GIGABYTE AORUS GeForce RTX 3060 Elite 12G (REV2.0) Graphics Card, 3X WINDFORCE Fans, 12GB 192-bit GDDR6, GV-N3060AORUS E-12GD REV2.0 Video Card
+Product Source = https://www.amazon.com.au/GIGABYTE-REV2-0-Graphics-WINDFORCE-GV-N3060AORUS/dp/B09719T6FT/ref=sr_1_6?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-6
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71jZ39boXhS.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $697.25
+Product Rating = 4.5 out of 5 stars
+Number of Product Reviews = 238 ratings
+Availability = Only 1 left in stock.
 
-Product Title = MSI nVidia Geforce RTX 3060 Gaming X 12GB GDDR6 Video Card, PCI-e 4.0, 1837 MHz Boost, 3X DisplayPort 1.4a, 1x HDMI 2.1
-Product Price = $628.00
+Product Title = GIGABYTE Radeon RX 6500 XT Gaming OC 4G Graphics Card, WINDFORCE 3X Cooling System, 4GB 64-bit GDDR6, GV-R65XTGAMING OC-4GD Video Card
+Product Source = https://www.amazon.com.au/GIGABYTE-Graphics-WINDFORCE-GV-R65XTGAMING-OC-4GD/dp/B09QNQZMZR/ref=sr_1_7?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-7
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71oyRDhifFL.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $341.00
 Product Rating = 4.6 out of 5 stars
-Number of Product Reviews = 291 ratings
-Availability = Usually dispatched within 4 to 5 days.
-
-
-Product Title = msi Radeon RX 6500 XT MECH 2X 4G OC Graphics Card, Black (V508-003R)
-Product Price = $296.60
-Product Rating = 4.1 out of 5 stars
-Number of Product Reviews = 159 ratings
+Number of Product Reviews = 185 ratings
 Availability = Only 3 left in stock.
 
+Product Title = msi Radeon RX 6500 XT MECH 2X 4G OC Graphics Card, Black (V508-003R)
+Product Source = https://www.amazon.com.au/Radeon-6500-Graphics-Black-V508-003R/dp/B09R1RVN3R/ref=sr_1_8?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-8
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71X7ZMV-gmL.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $299.00
+Product Rating = 4.1 out of 5 stars
+Number of Product Reviews = 164 ratings
+Availability = Only 2 left in stock.
+
+Product Title = GIGABYTE NVidia GeForce RTX 3080 Vision OC 10G LHR GDDR6X Video Graphic Card, Silver
+Product Source = https://www.amazon.com.au/Gigabyte-nVidia-GeForce-Vision-GDDR6X/dp/B09969WV5Y/ref=sr_1_9?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-9
+Product Image = https://m.media-amazon.com/images/I/61Gh+sKdeSL._AC_SY300_SX300_.jpg
+Product Price = $1,299.00
+Product Rating = 4.2 out of 5 stars
+Number of Product Reviews = 36 ratings
+Availability = Only 2 left in stock.
+
+Product Title = MSI GeForce RTX 3050 Gaming X 8G Short Design Next GEN Graphics Card
+Product Source = https://www.amazon.com.au/MSI-GeForce-RTX-3050-8G/dp/B09QB28Y5M/ref=sr_1_10?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-10
+Product Image = https://images-na.ssl-images-amazon.com/images/I/61kZbhbH7mL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $559.00
+Product Rating = 4.8 out of 5 stars
+Number of Product Reviews = 182 ratings
+Availability = Only 3 left in stock.
 
 Product Title = GIGABYTE NVidia GeForce RTX 3050 Eagle 8G Video Graphic Card, Black
+Product Source = https://www.amazon.com.au/GIGABYTE-NVidia-GeForce-Eagle-Graphic/dp/B09RSW3YV9/ref=sr_1_11?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-11
+Product Image = https://images-na.ssl-images-amazon.com/images/I/61MZ5Glzd8L.__AC_SY300_SX300_QL70_ML2_.jpg
 Product Price = $448.50
 Product Rating = 4.6 out of 5 stars
 Number of Product Reviews = 10 ratings
-Availability = Only 4 left in stock.
+Availability = Only 3 left in stock.
 
-
-Product Title = MSI GeForce RTX 3050 Gaming X 8G Short Design Next GEN Graphics Card
-Product Price = $555.82
-Product Rating = 4.8 out of 5 stars
-Number of Product Reviews = 182 ratings
-Availability = Only 1 left in stock.
-
-
-Product Title = MSI Radeon RX 6900 XT Gaming X Trio 16G Gaming Graphics Card - 16GB GDDR6, 2340MHz, PCI Express 4, 256-bit, 3X DP v 1.4, HDMI 2.1 (Supports 4K)
-Product Price = $1,685.09
-Product Rating = 4.4 out of 5 stars
-Number of Product Reviews = 77 ratings
+Product Title = MSI nVidia Geforce RTX 3060 Gaming X 12GB GDDR6 Video Card, PCI-e 4.0, 1837 MHz Boost, 3X DisplayPort 1.4a, 1x HDMI 2.1
+Product Source = https://www.amazon.com.au/MSI-GeForce-Express-1837MHz-15000MHz/dp/B08WHML7GL/ref=sr_1_12?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-12
+Product Image = https://m.media-amazon.com/images/I/811sBakp3+L._AC_SX300_SY300_.jpg
+Product Price = $599.00
+Product Rating = 4.6 out of 5 stars
+Number of Product Reviews = 303 ratings
 Availability = In stock.
-
 
 Product Title = MSI nVidia Geforce RTX 3080 Gaming Z Trio rev 2.0 10G Video Graphics Cards
-Product Price = $1,550.97
+Product Source = https://www.amazon.com.au/MSI-nVidia-Geforce-Gaming-Graphics/dp/B096SLRQRY/ref=sr_1_13?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-13
+Product Image = https://images-na.ssl-images-amazon.com/images/I/81lBqpfoncS.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $1,549.02
 Product Rating = 4.5 out of 5 stars
-Number of Product Reviews = 149 ratings
-Availability = Only 5 left in stock.
+Number of Product Reviews = 151 ratings
+Availability = Only 4 left in stock.
 
-
-Product Title = GIGABYTE GeForce RTX 3070 Gaming OC 8G (REV2.0) Graphics Card, 3X WINDFORCE Fans, LHR, 8GB 256-bit GDDR6, GV-N3070GAMING OC-8GD REV2.0 Video Card
-Product Price = $879.00
-Product Rating = 4.7 out of 5 stars
-Number of Product Reviews = 219 ratings
-Availability = In stock.
-
-
-Product Title = Gigabyte nVidia GeForce RTX 3080 Gaming OC rev 2.0 10G ATX GDDR6X 1800MHz / 1710 MHz PCIE4.0x16 3xDP 2xHDMI
-Product Price = $1,159.00
-Product Rating = 4.7 out of 5 stars
-Number of Product Reviews = 80 ratings
-Availability = Usually dispatched within 1 to 4 weeks.
-
-
-Product Title = MSI GeForce RTX 2060 Ventus GP OC Short Design Graphics Card
-Product Price = $428.50
-Product Rating = 4.6 out of 5 stars
-Number of Product Reviews = 302 ratings
-Availability = In stock.
-
-
-Product Title = GIGABYTE Radeon RX 6500 XT Eagle 4G Graphics Card, WINDFORCE 2X Cooling System, 4GB 64-bit GDDR6, GV-R65XTEAGLE-4GD Video Card
-Product Price = $317.00
-Product Rating = 4.6 out of 5 stars
-Number of Product Reviews = 65 ratings
+Product Title = MSI GeForce RTX 3070 Ti Ventus 3X 8G OC Gaming Graphics Card - 8GB GDDR6X, 1800 MHz, PCI Express Gen 4, 256-bit, 3X DP v 1.4a, HDMI 2.1 (Supports 4K)
+Product Source = https://www.amazon.com.au/MSI-RTX-3070TI-Ventus-3X/dp/B0957VHM86/ref=sr_1_14?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-14
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71rdJ3-N63L.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $993.00
+Product Rating = 4.4 out of 5 stars
+Number of Product Reviews = 81 ratings
 Availability = Only 1 left in stock.
 
-
-Product Title = GIGABYTE GeForce RTX 3050 Gaming OC 8G Graphics Card, 3X WINDFORCE Fans, 8GB GDDR6 128-bit GDDR6, GV-N3050GAMING OC-8GD Video Card
-Product Price = $479.00
+Product Title = GIGABYTE GeForce RTX 3070 Gaming OC 8G (REV2.0) Graphics Card, 3X WINDFORCE Fans, LHR, 8GB 256-bit GDDR6, GV-N3070GAMING OC-8GD REV2.0 Video Card
+Product Source = https://www.amazon.com.au/GIGABYTE-REV2-0-WINDFORCE-GV-N3070GAMING-OC-8GD/dp/B098Q4M4WH/ref=sr_1_15?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-15
+Product Image = https://m.media-amazon.com/images/I/71XcVOdHX+S._AC_SX300_SY300_.jpg
+Product Price = $879.00
 Product Rating = 4.7 out of 5 stars
-Number of Product Reviews = 194 ratings
+Number of Product Reviews = 227 ratings
 Availability = In stock.
 
+Product Title = GIGABYTE Radeon RX 6500 XT Eagle 4G Graphics Card, WINDFORCE 2X Cooling System, 4GB 64-bit GDDR6, GV-R65XTEAGLE-4GD Video Card
+Product Source = https://www.amazon.com.au/GIGABYTE-Graphics-WINDFORCE-Cooling-GV-R65XTEAGLE-4GD/dp/B09QV67R17/ref=sr_1_16?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-16
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71xoI1ZHjtL.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $317.00
+Product Rating = 4.6 out of 5 stars
+Number of Product Reviews = 66 ratings
+Availability = Only 1 left in stock.
 
 Product Title = Gigabyte GeForce RTX 3070 Vision OC 8GB Graphics Card
+Product Source = https://www.amazon.com.au/Gigabyte-nVidia-GeForce-Vision-Video/dp/B096Y3NSV3/ref=sr_1_17?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-17
+Product Image = https://images-na.ssl-images-amazon.com/images/I/611UnMvqNVS.__AC_SX300_SY300_QL70_ML2_.jpg
 Product Price = $879.00
 Product Rating = 4.8 out of 5 stars
 Number of Product Reviews = 5 ratings
 Availability = In stock.
 
-
-Product Title = INNO3D GEFORCE RTX 3050 Twin X2 OC Graphics Card -N30502-08D6X-11902130
-Product Price = $449.00
-Product Rating = 5.0 out of 5 stars
-Number of Product Reviews = 1 rating
+Product Title = ASUS Radeon RX 6700 XT ROG Strix Gaming OC 12GB Next GEN Ray Tracing Graphics Card
+Product Source = https://www.amazon.com.au/ASUS-Radeon-Gaming-Tracing-Graphics/dp/B08YY6PCP1/ref=sr_1_18?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-18
+Product Image = https://images-na.ssl-images-amazon.com/images/I/81esHh03sTL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $809.00
+Product Rating = 3.9 out of 5 stars
+Number of Product Reviews = 14 ratings
 Availability = Only 1 left in stock.
 
-
-Product Title = GIGABYTE NVidia GeForce RTX 3060 Eagle 12G Rev 2.0 GDDR6 Video Graphic Card, Black
-Product Price = $634.55
-Product Rating = 5.0 out of 5 stars
-Number of Product Reviews = 10 ratings
+Product Title = MSI GeForce RTX 2060 Ventus GP OC Short Design Graphics Card
+Product Source = https://www.amazon.com.au/MSI-GeForce-RTX-2060-GP/dp/B091PVFYXM/ref=sr_1_19?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-19
+Product Image = https://images-na.ssl-images-amazon.com/images/I/61in2eJQ1RL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $428.50
+Product Rating = 4.6 out of 5 stars
+Number of Product Reviews = 305 ratings
 Availability = In stock.
 
-
 Product Title = ASUS ROG Strix AMD Radeon RX 6700 XT OC Edition Gaming Graphics Card (AMD RDNA 2, PCIe 4.0, 12GB GDDR6, DisplayPort 1.4a, Axial-tech Fan Design, 2.9-Slot, Super Alloy Power II)
+Product Source = https://www.amazon.com.au/ASUS-Graphics-DisplayPort-Axial-tech-2-9-Slot/dp/B08BZPX64M/ref=sr_1_20?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-20
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71N9UU82PHS.__AC_SX300_SY300_QL70_ML2_.jpg
 Product Price = $799.00
 Product Rating = 4.4 out of 5 stars
 Number of Product Reviews = 24 ratings
 Availability = In stock.
 
+Product Title = Asus TUF-RX6900XT-O16G-GAMING Graphic Card
+Product Source = https://www.amazon.com.au/ASUS-90YV0GE0-M0NM00-Asus-TUF-RX6900XT-O16G-GAMING-Graphic/dp/B08BQX8VP3/ref=sr_1_21?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-21
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71yGTBcKFxL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $1,478.82
+Product Rating = 4.5 out of 5 stars
+Number of Product Reviews = 12 ratings
+Availability = In stock.
 
-Product Title = Gigabyte GeForce RTX 3060 Gaming OC 12GB (GV-N3060GAMING-OC-12GD-2.0)
-Product Price = $569.00
-Product Rating = 4.8 out of 5 stars
-Number of Product Reviews = 558 ratings
-Availability = Usually dispatched within 2 to 3 days.
-
-
-Product Title = MSI Gaming GeForce RTX 3070 LHR 8GB GDRR6 256-Bit HDMI/DP Nvlink Torx Fan 2 Ampere Architecture OC Graphics Card (RTX 3070 Ventus 2X 8G OC LHR)
-Product Price = $904.99
+Product Title = ASUS Phoenix NVIDIA GeForce GTX 1650 OC Edition Gaming Graphics Card (PCIe 3.0, 4GB GDDR6 Memory, HDMI, DisplayPort, DVI-D, Axial-tech Fan Design)
+Product Source = https://www.amazon.com.au/ASUS-Phoenix-Graphics-DisplayPort-Axial-tech/dp/B08G5CH316/ref=sr_1_22?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-22
+Product Image = https://images-na.ssl-images-amazon.com/images/I/81Ibi02jRrL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $279.00
 Product Rating = 4.6 out of 5 stars
-Number of Product Reviews = 175 ratings
+Number of Product Reviews = 326 ratings
+Availability = Only 1 left in stock.
+
+Product Title = MSI nVidia Geforce GTX 1660 Super Ventus XS OC 6GB GDDR6 7680 x4320 3xDP1.4 1xHDMI2.0b 1815 MHz TORX Fan 2.0 G-SYNC VR
+Product Source = https://www.amazon.com.au/MSI-nVidia-Geforce-3xDP1-4-1xHDMI2-0b/dp/B07ZPM6WKQ/ref=sr_1_23?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-23
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71M9UUSpEeL.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $364.99
+Product Rating = 4.6 out of 5 stars
+Number of Product Reviews = 1,169 ratings
+Availability = Only 1 left in stock.
+
+Product Title = Gigabyte nVidia GeForce RTX 3080 Gaming OC rev 2.0 10G ATX GDDR6X 1800MHz / 1710 MHz PCIE4.0x16 3xDP 2xHDMI
+Product Source = https://www.amazon.com.au/Gigabyte-nVidia-GeForce-1800MHz-PCIE4-0x16/dp/B096Y36BM3/ref=sr_1_24?crid=3S4CAVV0ZCU5B&keywords=graphics+card&qid=1664208499&refinements=p_n_feature_browse-bin%3A10500702051%7C10500703051%7C10500707051%7C10500708051%2Cp_n_feature_two_browse-bin%3A10584340051%7C10584341051%7C10584343051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sprefix=graphics%2Caps%2C325&sr=1-24
+Product Image = https://images-na.ssl-images-amazon.com/images/I/61SYYrsgd5S.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $1,199.00
+Product Rating = 4.7 out of 5 stars
+Number of Product Reviews = 82 ratings
 Availability = In stock.
-
-
-Product Title = Gigabyte Radeon RX 6800 Gaming OC 16GB Graphics Card
-Product Price = $981.24
-Product Rating = 4.3 out of 5 stars
-Number of Product Reviews = 16 ratings
-Availability = In stock.
-
 

@@ -1,168 +1,224 @@
-Product Title = msi Radeon RX 6500 XT MECH 2X 4G OC Graphics Card, Black (V508-003R)
-Product Price = $295.83
-Product Rating = 4.1 out of 5 stars
-Number of Product Reviews = 159 ratings
-Availability = In stock.
-
-
-Product Title = ASUS ROG Strix AMD Radeon RX 6700 XT OC Edition Gaming Graphics Card (AMD RDNA 2, PCIe 4.0, 12GB GDDR6, DisplayPort 1.4a, Axial-tech Fan Design, 2.9-Slot, Super Alloy Power II)
-Product Price = $799.00
-Product Rating = 4.4 out of 5 stars
-Number of Product Reviews = 24 ratings
-Availability = In stock.
-
-
-Product Title = Gigabyte nVidia GeForce RTX 3080 Gaming OC rev 2.0 10G ATX GDDR6X 1800MHz / 1710 MHz PCIE4.0x16 3xDP 2xHDMI
-Product Price = $1,159.00
+Product Title = Kingston Fury Beast RGB 16GB (2x8GB) 3200MHz DDR4 CL16 Desktop Memory Kit of 2 KF432C16BBAK2/16
+Product Source = https://www.amazon.com.au/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_computers_sr_pg1_1?ie=UTF8&adId=A11C66BCM7QNOP&url=%2FKingston-3200MHz-Desktop-KF432C16BBAK2-16%2Fdp%2FB097HNYMYR%2Fref%3Dsr_1_1_sspa%3Fkeywords%3Dram%26qid%3D1664208592%26refinements%3Dp_89%253ACORSAIR%257CGLOBAL%2BMEMORY%257CKingston%252Cp_72%253A2547913051%26rnid%3D2547911051%26s%3Dcomputers%26sr%3D1-1-spons%26psc%3D1&qualifier=1664208592&id=4417599403942081&widgetName=sp_atf
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71nQp70NhYL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $99.00
 Product Rating = 4.7 out of 5 stars
-Number of Product Reviews = 80 ratings
-Availability = Usually dispatched within 1 to 4 weeks.
-
-
-Product Title = MSI nVidia Geforce RTX 3080 Gaming Z Trio rev 2.0 10G Video Graphics Cards
-Product Price = $1,557.79
-Product Rating = 4.5 out of 5 stars
-Number of Product Reviews = 149 ratings
-Availability = Only 5 left in stock.
-
-
-Product Title = ASUS Geforce GTX 1050 Ti 4GB Phoenix Fan Edition DVI-D HDMI DP 1.4 Gaming Graphics Card (PH-GTX1050TI-4G) Graphic Cards
-Product Price = $230.16
-Product Rating = 4.6 out of 5 stars
-Number of Product Reviews = 4,276 ratings
-Availability = In stock.
-
-
-Product Title = Gigabyte GeForce RTX 3060 Gaming OC 12GB (GV-N3060GAMING-OC-12GD-2.0)
-Product Price = $569.00
-Product Rating = 4.8 out of 5 stars
-Number of Product Reviews = 557 ratings
-Availability = Usually dispatched within 2 to 3 days.
-
-
-Product Title = MSI Gaming GeForce GT 1030 2GB GDRR4 64-bit HDCP Support DirectX 12 ITX OC Graphics Card (GT 1030 AERO ITX 2GD4 OC)
-Product Price = $119.00
-Product Rating = 4.1 out of 5 stars
-Number of Product Reviews = 39 ratings
-Availability = In stock.
-
-
-Product Title = Gigabyte GeForce RTX 3070 Ti Gaming OC 8GB Graphics Card
-Product Price = $979.00
-Product Rating = 4.4 out of 5 stars
-Number of Product Reviews = 192 ratings
-Availability = In stock.
-
-
-Product Title = GIGABYTE NVidia GeForce RTX 3080 Vision OC 10G LHR GDDR6X Video Graphic Card, Silver
-Product Price = $1,299.00
-Product Rating = 4.2 out of 5 stars
-Number of Product Reviews = 34 ratings
+Number of Product Reviews = 799 ratings
 Availability = Only 3 left in stock.
 
-
-Product Title = Gigabyte GeForce RTX 3070 Vision OC 8GB Graphics Card
-Product Price = $879.00
+Product Title = Corsair CMW16GX4M2C3200C16 Vengeance RGB PRO 16GB (2x8GB) DDR4 3200MHz C16 Desktop Gaming Memory, RGB PRO- Black
+Product Source = https://www.amazon.com.au/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_computers_sr_pg1_1?ie=UTF8&adId=AMH3DGKD2L0AT&url=%2FCORSAIR-Vengeance-3200MHz-Desktop-Memory%2Fdp%2FB07D1XCKWW%2Fref%3Dsr_1_2_sspa%3Fkeywords%3Dram%26qid%3D1664208592%26refinements%3Dp_89%253ACORSAIR%257CGLOBAL%2BMEMORY%257CKingston%252Cp_72%253A2547913051%26rnid%3D2547911051%26s%3Dcomputers%26sr%3D1-2-spons%26psc%3D1&qualifier=1664208592&id=4417599403942081&widgetName=sp_atf
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71Kkm5nIRKL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $109.00
 Product Rating = 4.8 out of 5 stars
-Number of Product Reviews = 5 ratings
+Number of Product Reviews = 46,627 ratings
 Availability = In stock.
 
-
-Product Title = GIGABYTE GeForce RTX 3070 Gaming OC 8G (REV2.0) Graphics Card, 3X WINDFORCE Fans, LHR, 8GB 256-bit GDDR6, GV-N3070GAMING OC-8GD REV2.0 Video Card
-Product Price = $879.00
+Product Title = Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200MHz C16 Desktop Gaming Memory Black 16-18-18-36 1.35V XMP 2.0 Supports 6th Intel® Core™ i5/i7
+Product Source = https://www.amazon.com.au/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_computers_sr_pg1_1?ie=UTF8&adId=A31OH55N1T8MHI&url=%2FCorsair-Vengeance-3200MHz-Desktop-Memory%2Fdp%2FB0143UM4TC%2Fref%3Dsr_1_3_sspa%3Fkeywords%3Dram%26qid%3D1664208592%26refinements%3Dp_89%253ACORSAIR%257CGLOBAL%2BMEMORY%257CKingston%252Cp_72%253A2547913051%26rnid%3D2547911051%26s%3Dcomputers%26sr%3D1-3-spons%26psc%3D1&qualifier=1664208592&id=4417599403942081&widgetName=sp_atf
+Product Image = https://images-na.ssl-images-amazon.com/images/I/41a2jzudKtL.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $94.00
 Product Rating = 4.7 out of 5 stars
-Number of Product Reviews = 217 ratings
+Number of Product Reviews = 137,823 ratings
 Availability = In stock.
 
-
-Product Title = ASUS TUF Gaming NVIDIA GeForce RTX 3070 Ti OC Edition Graphics Card (PCIe 4.0, 8GB GDDR6X, HDMI 2.1, DisplayPort 1.4a, Dual Ball Fan Bearings, Military-Grade Certification, GPU Tweak II)
-Product Price = $949.00
-Product Rating = 4.5 out of 5 stars
-Number of Product Reviews = 233 ratings
-Availability = In stock.
-
-
-Product Title = ASUS PH-RTX3060-12G-V2, (90YV0GB4-M0NA10)
-Product Price = $585.00
-Product Rating = 4.4 out of 5 stars
-Number of Product Reviews = 83 ratings
-Availability = Only 2 left in stock.
-
-
-Product Title = GIGABYTE GeForce RTX 3060 Vision OC 12G (REV2.0) Graphics Card, 3X WINDFORCE Fans, 12GB 192-bit GDDR6, GV-N3060VISION OC-12GD REV2.0 Video Card
-Product Price = $599.00
+Product Title = Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200MHz C16 Desktop Gaming Memory Black 16-18-18-36 1.35V XMP 2.0 Supports 6th Intel® Core™ i5/i7
+Product Source = https://www.amazon.com.au/Corsair-Vengeance-3200MHz-Desktop-Memory/dp/B0143UM4TC/ref=sr_1_4?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-4
+Product Image = https://images-na.ssl-images-amazon.com/images/I/41a2jzudKtL.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $94.00
 Product Rating = 4.7 out of 5 stars
-Number of Product Reviews = 144 ratings
+Number of Product Reviews = 137,823 ratings
+Availability = In stock.
+
+Product Title = Corsair CMW16GX4M2C3200C16 Vengeance RGB PRO 16GB (2x8GB) DDR4 3200MHz C16 Desktop Gaming Memory, RGB PRO- Black
+Product Source = https://www.amazon.com.au/CORSAIR-Vengeance-3200MHz-Desktop-Memory/dp/B07D1XCKWW/ref=sr_1_5?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-5
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71Kkm5nIRKL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $109.00
+Product Rating = 4.8 out of 5 stars
+Number of Product Reviews = 46,627 ratings
+Availability = In stock.
+
+Product Title = Corsair Vengeance RGB PRO 16GB (2x8GB) DDR4 3600MHz C18 Desktop Gaming Memory Intel XMP2.0 AMD Ryzen
+Product Source = https://www.amazon.com.au/Corsair-Vengeance-PC4-28800-Desktop-Memory/dp/B07TB3R9JB/ref=sr_1_6?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-6
+Product Image = https://images-na.ssl-images-amazon.com/images/I/61GpY38PAWL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $124.00
+Product Rating = 4.8 out of 5 stars
+Number of Product Reviews = 17,498 ratings
+Availability = In stock.
+
+Product Title = Corsair Vengeance RGB PRO SL 32GB (2x16GB) DDR4 3600Mhz C18 White Heatspreader Desktop Gaming Memory
+Product Source = https://www.amazon.com.au/CORSAIR-Vengeance-2x16GB-PC4-28800-Desktop/dp/B08SQRF8MJ/ref=sr_1_7?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-7
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71DkL7k9yjL.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $199.00
+Product Rating = 4.8 out of 5 stars
+Number of Product Reviews = 5,179 ratings
+Availability = In stock.
+
+Product Title = Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200MHz C16 Desktop Gaming Memory Black
+Product Source = https://www.amazon.com.au/Corsair-Vengeance-PC4-25600-Desktop-Memory/dp/B07RS1G6XW/ref=sr_1_8?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-8
+Product Image = https://images-na.ssl-images-amazon.com/images/I/51WDUl2xGCL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $89.00
+Product Rating = 4.8 out of 5 stars
+Number of Product Reviews = 1,350 ratings
 Availability = 
 
+Product Title = Corsair Vengeance LPX 32GB (2x16GB) DDR4 3200MHz C16 Desktop Gaming Memory Black ~CMK32GX4M2E3200C16
+Product Source = https://www.amazon.com.au/Corsair-Vengeance-PC4-25600-Desktop-Memory/dp/B07RW6Z692/ref=sr_1_9?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-9
+Product Image = https://images-na.ssl-images-amazon.com/images/I/518T3hrUY4L.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $161.85
+Product Rating = 4.7 out of 5 stars
+Number of Product Reviews = 4,345 ratings
+Availability = In stock.
 
-Product Title = GIGABYTE Radeon RX 6500 XT Gaming OC 4G Graphics Card, WINDFORCE 3X Cooling System, 4GB 64-bit GDDR6, GV-R65XTGAMING OC-4GD Video Card
-Product Price = $341.00
-Product Rating = 4.6 out of 5 stars
-Number of Product Reviews = 183 ratings
+Product Title = Corsair Vengeance LPX 32GB (2x16GB) DDR4 3600MHz C18 Black Heat Spreader XMP 2.0 Desktop Gaming Memory Black
+Product Source = https://www.amazon.com.au/Corsair-Vengeance-PC4-28800-Desktop-Memory/dp/B07ZPLM1R1/ref=sr_1_10?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-10
+Product Image = https://images-na.ssl-images-amazon.com/images/I/51DmAKBhmxL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $179.00
+Product Rating = 4.8 out of 5 stars
+Number of Product Reviews = 3,253 ratings
+Availability = In stock.
+
+Product Title = Corsair Vengeance RGB PRO 32GB (2x16GB) DDR4 3600MHz C18 Desktop Gaming Memory AMD Optimized
+Product Source = https://www.amazon.com.au/CORSAIR-Vengeance-2x16GB-PC4-28800-Optimized/dp/B082DGZJ9C/ref=sr_1_11?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-11
+Product Image = https://images-na.ssl-images-amazon.com/images/I/61GpY38PAWL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $194.24
+Product Rating = 4.8 out of 5 stars
+Number of Product Reviews = 6,076 ratings
+Availability = In stock.
+
+Product Title = Kingston Fury Beast RGB 16GB (2x8GB) 3200MHz DDR4 CL16 Desktop Memory Kit of 2 KF432C16BBAK2/16
+Product Source = https://www.amazon.com.au/Kingston-3200MHz-Desktop-KF432C16BBAK2-16/dp/B097HNYMYR/ref=sr_1_12?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-12
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71nQp70NhYL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $99.00
+Product Rating = 4.7 out of 5 stars
+Number of Product Reviews = 799 ratings
 Availability = Only 3 left in stock.
 
+Product Title = Corsair Vengeance RGB PRO 32GB (2x16GB) DDR4 3600MHz C18 Desktop Gaming Memory AMD Optimized
+Product Source = https://www.amazon.com.au/gp/slredirect/picassoRedirect.html/ref=pa_sp_mtf_computers_sr_pg1_1?ie=UTF8&adId=A7C3QL6Q1RUS2&url=%2FCORSAIR-Vengeance-2x16GB-PC4-28800-Optimized%2Fdp%2FB082DGZJ9C%2Fref%3Dsr_1_13_sspa%3Fkeywords%3Dram%26qid%3D1664208592%26refinements%3Dp_89%253ACORSAIR%257CGLOBAL%2BMEMORY%257CKingston%252Cp_72%253A2547913051%26rnid%3D2547911051%26s%3Dcomputers%26sr%3D1-13-spons%26psc%3D1&qualifier=1664208592&id=4417599403942081&widgetName=sp_mtf
+Product Image = https://images-na.ssl-images-amazon.com/images/I/61GpY38PAWL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $194.24
+Product Rating = 4.8 out of 5 stars
+Number of Product Reviews = 6,076 ratings
+Availability = In stock.
 
-Product Title = ASUS GeForce GTX 1660 Super Overclocked 6GB Phoenix Fan Edition HDMI DP DVI Graphics Card (PH-GTX1660S-O6G)
-Product Price = $368.50
+Product Title = Corsair Vengeance RGB PRO 32GB (2x16GB) DDR4 3600MHz C18 Desktop Gaming Memory
+Product Source = https://www.amazon.com.au/CORSAIR-Vengeance-2x16GB-PC4-28800-Desktop/dp/B082DJ19CK/ref=sr_1_14?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-14
+Product Image = https://images-na.ssl-images-amazon.com/images/I/61GpY38PAWL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $199.00
+Product Rating = 4.8 out of 5 stars
+Number of Product Reviews = 4,308 ratings
+Availability = In stock.
+
+Product Title = Corsair Vengeance RGB RS 16GB (2X8GB) DDR4 3600MHz C18 18-22-22-42 Black Heatspreader Desktop Gaming Memory
+Product Source = https://www.amazon.com.au/Corsair-Vengeance-3600MHz-18-22-22-42-Heatspreader/dp/B09C5TW31M/ref=sr_1_15?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-15
+Product Image = https://m.media-amazon.com/images/I/71-SZhpB+lL._AC_SX300_SY300_.jpg
+Product Price = $119.00
 Product Rating = 4.7 out of 5 stars
-Number of Product Reviews = 1,527 ratings
-Availability = Only 2 left in stock.
+Number of Product Reviews = 403 ratings
+Availability = In stock.
 
+Product Title = Corsair Vengeance RGB PRO 32GB (2x16GB) DDR4 3200MHz C16 Desktop Gaming Memory ~CMW32GX4M2E3200C16
+Product Source = https://www.amazon.com.au/Corsair-CMW32GX4M2E3200C16-Vengeance-32GB-3200MHz/dp/B081XWLQKS/ref=sr_1_16?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-16
+Product Image = https://images-na.ssl-images-amazon.com/images/I/51gCXtjJKhL.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $189.00
+Product Rating = 4.8 out of 5 stars
+Number of Product Reviews = 4,019 ratings
+Availability = In stock.
 
-Product Title = GIGABYTE NVidia GeForce RTX 3050 Eagle 8G Video Graphic Card, Black
-Product Price = $448.50
-Product Rating = 4.6 out of 5 stars
-Number of Product Reviews = 10 ratings
+Product Title = Corsair Vengeance RGB PRO 16GB (2x8GB) DDR4 3000MHz C16 Desktop Gaming Memory
+Product Source = https://www.amazon.com.au/Corsair-Vengeance-288-Pin-24000-CMW16GX4M2D3000C16/dp/B07FPWFF4B/ref=sr_1_17?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-17
+Product Image = https://images-na.ssl-images-amazon.com/images/I/61OqKwPv6gS.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $112.50
+Product Rating = 4.8 out of 5 stars
+Number of Product Reviews = 154 ratings
+Availability = In stock.
+
+Product Title = Kingston Fury Beast RGB 32GB (2x16GB) 3600MHz DDR4 CL18 Desktop Memory Kit of 2 KF436C18BBAK2/32
+Product Source = https://www.amazon.com.au/Kingston-3600MHz-Desktop-KF436C18BBAK2-32/dp/B097HPN1S3/ref=sr_1_18?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-18
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71nQp70NhYL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $219.00
+Product Rating = 4.7 out of 5 stars
+Number of Product Reviews = 269 ratings
 Availability = Only 4 left in stock.
 
-
-Product Title = Asus Radeon RX 6600 Dual Graphics Card
-Product Price = $359.00
-Product Rating = 4.5 out of 5 stars
-Number of Product Reviews = 14 ratings
-Availability = In stock.
-
-
-Product Title = GIGABYTE GeForce RTX 3050 Gaming OC 8G Graphics Card, 3X WINDFORCE Fans, 8GB GDDR6 128-bit GDDR6, GV-N3050GAMING OC-8GD Video Card
-Product Price = $479.00
-Product Rating = 4.7 out of 5 stars
-Number of Product Reviews = 194 ratings
-Availability = In stock.
-
-
-Product Title = MSI Gaming GeForce RTX 3060 12GB 15 Gbps GDRR6 192-Bit HDMI/DP PCIe 4 Torx Twin Fan Ampere OC Graphics Card (RTX 3060 Ventus 2X 12G OC)
-Product Price = $599.00
-Product Rating = 4.5 out of 5 stars
-Number of Product Reviews = 496 ratings
-Availability = 
-
-
-Product Title = ASUS Radeon RX 6700 XT ROG Strix Gaming OC 12GB Next GEN Ray Tracing Graphics Card
-Product Price = $809.00
-Product Rating = 3.9 out of 5 stars
-Number of Product Reviews = 14 ratings
-Availability = Only 1 left in stock.
-
-
-Product Title = MSI Gaming GeForce RTX 3090 Ti Gaming X Trio OC Graphics Card 24GB GDRR6X 384-Bit Tri-Frozr Ampere Architecture 1x HDMI 2.1 3X DisplayPort 1.4a w/ MT HDMI 2.1, Anti-Sag RGB Holder
-Product Price = $2,199.99
-Product Rating = 5.0 out of 5 stars
-Number of Product Reviews = 1 rating
-Availability = Only 1 left in stock.
-
-
-Product Title = GIGABYTE GeForce RTX 3060 Ti Eagle 8G OC Graphics Card, Multicolor
-Product Price = $829.00
-Product Rating = 4.5 out of 5 stars
-Number of Product Reviews = 48 ratings
-Availability = Only 1 left in stock (more on the way).
-
-
-Product Title = ASUS TUF Gaming AMD Radeon™ RX 6800 OC Edition Graphics Card (PCIe 4.0, 16GB GDDR6, HDMI 2.1, DisplayPort 1.4a, Dual Ball Fan Bearings, All-Aluminum Shroud, Reinforced Frame, GPU Tweak II)
-Product Price = $1,229.00
+Product Title = CORSAIR Vengeance LPX 32GB (2 x 16GB) DDR4 3200 (PC4-25600) C18 1.35V Desktop Memory - Black (CMK32GX4M2C3200C18)
+Product Source = https://www.amazon.com.au/CORSAIR-Vengeance-PC4-25600-Desktop-Memory/dp/B09QPWRWLY/ref=sr_1_19?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-19
+Product Image = https://images-na.ssl-images-amazon.com/images/I/51A3PhpmkDL.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $169.00
 Product Rating = 4.6 out of 5 stars
-Number of Product Reviews = 5 ratings
+Number of Product Reviews = 43 ratings
 Availability = In stock.
 
+Product Title = Corsair Vengeance RGB PRO 64GB (2X 32GB) DDR4 3200MHz C16 Desktop Gaming Memory
+Product Source = https://www.amazon.com.au/CORSAIR-Vengeance-PC4-25600-Desktop-Memory-Black/dp/B081BTGNDW/ref=sr_1_20?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-20
+Product Image = https://images-na.ssl-images-amazon.com/images/I/61GpY38PAWL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $351.19
+Product Rating = 4.8 out of 5 stars
+Number of Product Reviews = 716 ratings
+Availability = Only 1 left in stock.
+
+Product Title = Kingston Fury Renegade DDR4 3200MHz 64GB (2 x 32GB) Desktop Gaming RAM Kit, Black
+Product Source = https://www.amazon.com.au/Kingston-Renegade-3200MHz-Desktop-Gaming/dp/B097RHDGVL/ref=sr_1_21?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-21
+Product Image = https://m.media-amazon.com/images/I/71+U9hzXPOS._AC_SX300_SY300_.jpg
+Product Price = $431.26
+Product Rating = 4.7 out of 5 stars
+Number of Product Reviews = 396 ratings
+Availability = Usually dispatched within 2 to 3 days.
+
+Product Title = Corsair Vengeance RGB PRO 32GB (4x8GB) DDR4 3200MHz C16 Desktop Gaming Memory
+Product Source = https://www.amazon.com.au/Corsair-Vengeance-PC4-25600-Desktop-Memory/dp/B07RJXBMM7/ref=sr_1_22?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-22
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71JB5da5-2L.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $289.78
+Product Rating = 4.8 out of 5 stars
+Number of Product Reviews = 86 ratings
+Availability = Only 1 left in stock.
+
+Product Title = CORSAIR Vengeance DDR5 32GB (2x16GB) DDR5 5600 (PC5-44800) C36 1.25V - Black, 5600MHz (CMK32GX5M2B5600C36)
+Product Source = https://www.amazon.com.au/CORSAIR-Vengeance-2x16GB-PC5-44800-1-25V/dp/B09NCNF2ZQ/ref=sr_1_23?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-23
+Product Image = https://images-na.ssl-images-amazon.com/images/I/71W0l9URZOL.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $275.09
+Product Rating = 4.7 out of 5 stars
+Number of Product Reviews = 264 ratings
+Availability = In stock.
+
+Product Title = Corsair Vengeance Low Profile 8GB (2x4GB) DDR3 1600MHz C9 Desktop Gaming Memory Black
+Product Source = https://www.amazon.com.au/Corsair-CML8GX3M2A1600C9-Vengeance-Desktop-Memory/dp/B00569K7LM/ref=sr_1_24?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-24
+Product Image = https://images-na.ssl-images-amazon.com/images/I/51STGHU619L.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $53.53
+Product Rating = 4.7 out of 5 stars
+Number of Product Reviews = 1,337 ratings
+Availability = In stock.
+
+Product Title = Corsair Dominator Platinum RGB 16GB (2x8GB) DDR4 3200MHz C16 1.35V UDIMM XMP 2.0 White Heatspreaders Desktop PC Gaming Memory
+Product Source = https://www.amazon.com.au/Corsair-CMT16GX4M2C3200C16W-Unbuffered-16-18-18-36-Dominator/dp/B088MWPC18/ref=sr_1_25?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-25
+Product Image = https://images-na.ssl-images-amazon.com/images/I/61rxpuKraQL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $169.00
+Product Rating = 4.7 out of 5 stars
+Number of Product Reviews = 3,374 ratings
+Availability = In stock.
+
+Product Title = Corsair Vengeance LPX 16GB (2x8GB) DDR4 3600MHz C18 Desktop Gaming Memory Black
+Product Source = https://www.amazon.com.au/Corsair-Vengeance-PC4-28800-Desktop-Memory/dp/B07RM39V5F/ref=sr_1_26?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-26
+Product Image = https://images-na.ssl-images-amazon.com/images/I/51cbs7SW8JS.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $99.00
+Product Rating = 4.8 out of 5 stars
+Number of Product Reviews = 11,559 ratings
+Availability = In stock.
+
+Product Title = Corsair 8GB (1x8GB) DDR4 SODIMM 2133MHz C15 1.2V Value Select Notebook Laptop Memory RAM
+Product Source = https://www.amazon.com.au/Corsair-Module-2133MHz-Unbuffered-SODIMM/dp/B0143UM6Y0/ref=sr_1_27?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-27
+Product Image = https://images-na.ssl-images-amazon.com/images/I/81qWcCnrMrL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Price = $49.00
+Product Rating = 4.7 out of 5 stars
+Number of Product Reviews = 7,557 ratings
+Availability = In stock.
+
+Product Title = CORSAIR VENGEANCE DDR5 SODIMM 64GB (2x32GB) DDR5 4800MHz C40 (Compatible with Nearly Any Intel and AMD System, Easy Installation, Faster Load Times, XMP 3.0 Compatibility) Black
+Product Source = https://www.amazon.com.au/CORSAIR-VENGEANCE-Compatible-Installation-Compatibility/dp/B09X5SNVF9/ref=sr_1_28?keywords=ram&qid=1664208592&refinements=p_89%3ACORSAIR%7CGLOBAL+MEMORY%7CKingston%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-28
+Product Image = https://images-na.ssl-images-amazon.com/images/I/51YgnMva5XL.__AC_SY300_SX300_QL70_ML2_.jpg
+Product Price = $699.00
+Product Rating = 4.4 out of 5 stars
+Number of Product Reviews = 27 ratings
+Availability = Only 1 left in stock (more on the way).
 

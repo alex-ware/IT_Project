@@ -14,13 +14,7 @@ def get_title(soup):
 	
 	try:
 		# Outer Tag Object
-		title = soup.find("span", attrs={"id":'productTitle'})
-
-		# Inner NavigatableString Object
-		title_value = title.string
-
-		# Title as a string value
-		title_string = title_value.strip()
+		title = soup.find("span", attrs={"id":'productTitle'}).string.strip()
 
 		# # Printing types of values for efficient understanding
 		# print(type(title))
@@ -29,15 +23,18 @@ def get_title(soup):
 		# print()
 
 	except AttributeError:
-		title_string = ""	
+		title = ""	
 
-	return title_string
+	return title
 ## Function to extract Product Image
 def get_image(soup):
-		
-	images = soup.findAll('img')
+	try:	
+		image = soup.find("div", attrs={"class":'imgTagWrapper'}).find("img", attrs={"id": 'landingImage'})
+		source = image['src']
+	except AttributeError:
+		source = ""
 
-	return images
+	return source
 
 
 
@@ -57,6 +54,19 @@ def get_price(soup):
 			price = ""	
 
 	return price
+
+# Function to extract Product Description
+def get_desc(soup):
+	
+	try:
+		print (soup)
+		desc = soup.find("div", attrs={'id':'productDescription_feature_div'}).find("div", attrs={"id":"productDescription_feature_div"}).find("div", attrs={"id":'productDescription'}).find('span'.text)
+		
+	except AttributeError:
+		desc = "description not found"
+		
+
+	return desc
 
 # Function to extract Product Rating
 def get_rating(soup):
@@ -99,7 +109,7 @@ if __name__ == '__main__':
 
 	# Headers for request
 	HEADERS = ({'User-Agent':
-				'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36',
+				'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
 				'Accept-Language': 'en-US'})
 
 	# The webpage URL
@@ -113,7 +123,7 @@ if __name__ == '__main__':
 	# HTTP Request
 	i = 0
 	for url in url_list:
-		webpage = requests.get(URL_GPU, headers=HEADERS)
+		webpage = requests.get(url, headers=HEADERS)
 
 		# Soup Object containing all data
 		soup = BeautifulSoup(webpage.content, "lxml")
@@ -129,6 +139,14 @@ if __name__ == '__main__':
 		# Loop for extracting links from Tag Objects
 		for link in links:
 			links_list.append(link.get('href'))
+		reduced_list = []
+		## to make use of reduced list, see line 164
+		## vvvv Currently not in use, but potentially will be used if we reduce number of products scraped  vvvv
+		## get the first 8 links
+		j = 0
+		while j < 8:
+			reduced_list.append(links_list[i])
+			j += 1
 			
 		
 		filename = ""
@@ -148,13 +166,16 @@ if __name__ == '__main__':
 			new_webpage = requests.get("https://www.amazon.com.au" + link, headers=HEADERS)
 
 			new_soup = BeautifulSoup(new_webpage.content, "lxml")
-			print(get_image(new_soup))
 			
 			# Function calls to display all necessary product information
 			title = "Product Title = " + get_title(new_soup) + '\n'
 			f.write(title)
-			# image = "Product Image = " + get_image(new_soup) + '\n'
-			# f.write(image)
+			itemSrc = "Product Source = " + "https://www.amazon.com.au" + link + '\n' 
+			f.write(itemSrc)
+			image = "Product Image = " + get_image(new_soup) + '\n'
+			f.write(image)
+			## imageSrc = get_image(new_soup)
+			## print(imageSrc + "\n\n")
 			price = "Product Price = " + get_price(new_soup) + '\n'
 			f.write(price)
 			rating = "Product Rating = " + get_rating(new_soup) + '\n'
@@ -163,7 +184,7 @@ if __name__ == '__main__':
 			f.write(reviews)
 			availability = "Availability = " + get_availability(new_soup) + '\n'
 			f.write(availability)
-			f.write("\n\n")
+			f.write("\n")
 		
 		f.close()
 		print(filename + " has been completed!")
