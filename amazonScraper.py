@@ -52,10 +52,9 @@ def get_price(soup):
 # Function to extract Product Description
 def get_desc(soup):
 	try:
-		print (soup)
-		desc = soup.find("div", attrs={'id':'productDescription_feature_div'}).find("div", attrs={"id":"productDescription_feature_div"}).find("div", attrs={"id":'productDescription'}).find('span'.text)	
+		desc = soup.find("div", attrs={'id':'productDescription_feature_div'}).find("div", attrs={"id":"productDescription_feature_div"}).find('div', attrs={"class":'a-section a-spacing-small'}).find('span').string.strip()
 	except AttributeError:
-		desc = "description not found"	
+		desc = "Description Unavailable"	
 	return desc
 
 # Function to extract Product Rating
@@ -145,16 +144,15 @@ if __name__ == '__main__':
 		i += 1
 		
 		# Loop for extracting product details from each link 
-		for link in links_list:
+		for link in reduced_list:
 			new_webpage = requests.get("https://www.amazon.com.au" + link, headers=HEADERS)
 			new_soup = BeautifulSoup(new_webpage.content, "html5lib")
 			product = {
 				"title" : get_title(new_soup),
 				"source" : "https://www.amazon.com.au" + link,
 				"image" : get_image(new_soup),
-				## imageSrc = get_image(new_soup)
-				## print(imageSrc + "\n\n")
 				"price" : get_price(new_soup),
+				"description" : get_desc(new_soup),
 				"rating" : get_rating(new_soup),
 				"reviews_no" : get_review_count(new_soup),
 				"availability" : get_availability(new_soup),
