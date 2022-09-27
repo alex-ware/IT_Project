@@ -1,3 +1,7 @@
+// Adapted from "Web Information Technologies Tutorial 9"
+// Accessed 27.09.2022
+// INFO30005 Tutorial 9 - Passport.js
+
 const passport = require('passport')
 const express = require('express')
 const router = express.Router()

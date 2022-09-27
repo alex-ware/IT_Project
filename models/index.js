@@ -1,3 +1,7 @@
+// Adapted from "Web Information Technologies Workshop 7"
+// Accessed 27.09.2022
+// Workshop 7 - Heroku and MongoDB
+
 // Connection to MongoDb configuration.
 
 if (process.env.NODE_ENV != 'production'){
@@ -19,6 +23,9 @@ const db = mongoose.connection.on('error', err => {
 
 db.once('open', async () => {
     console.log(`Mongo connection started on ${db.host}:${db.port}`)
+    const {spawn} = require('child_process');
+    const python = spawn('python', [__dirname+'/../amazonScraper.py']);
+    python.stderr.pipe(process.stdout)
 })
 
 require('./user')

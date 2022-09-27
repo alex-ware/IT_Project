@@ -18,6 +18,9 @@ app.engine(
 )
 app.set('view engine', 'hbs')
 
+// Adapted from "Web Information Technologies Tutorial 9"
+// Accessed 27.09.2022
+// INFO30005 Tutorial 9 - Passport.js
 // Track authenticated users through login sessions
 app.use(
     session({

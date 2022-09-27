@@ -7,25 +7,27 @@ from cgi import print_exception
 import string
 from bs4 import BeautifulSoup
 import requests
+from pymongo import MongoClient
 
+# Connect to the database.
+MONGO_URL="mongodb+srv://username:8lSW02qSgVdZG5fQ@team-45-cluster.usr52zy.mongodb.net/?retryWrites=true&w=majority"
+client = MongoClient(MONGO_URL)
+db = client['Team-45-Cluster']
 
 # Function to extract Product Title
 def get_title(soup):
-	
 	try:
 		# Outer Tag Object
 		title = soup.find("span", attrs={"id":'productTitle'}).string.strip()
-
 		# # Printing types of values for efficient understanding
 		# print(type(title))
 		# print(type(title_value))
 		# print(type(title_string))
 		# print()
-
 	except AttributeError:
 		title = ""	
-
 	return title
+
 ## Function to extract Product Image
 def get_image(soup):
 	try:	
@@ -33,64 +35,46 @@ def get_image(soup):
 		source = image['src']
 	except AttributeError:
 		source = ""
-
 	return source
-
-
 
 # Function to extract Product Price
 def get_price(soup):
-
 	try:
 		price = (soup.find("span", attrs={'class':'a-price'}).find("span", attrs={'class': 'a-offscreen'})).string.strip()
-
 	except AttributeError:
-
 		try:
 			# If there is some deal price
 			price = soup.find("span", attrs={'id':'priceblock_dealprice'}).string.strip()
-
 		except:		
 			price = ""	
-
 	return price
 
 # Function to extract Product Description
 def get_desc(soup):
-	
 	try:
 		print (soup)
-		desc = soup.find("div", attrs={'id':'productDescription_feature_div'}).find("div", attrs={"id":"productDescription_feature_div"}).find("div", attrs={"id":'productDescription'}).find('span'.text)
-		
+		desc = soup.find("div", attrs={'id':'productDescription_feature_div'}).find("div", attrs={"id":"productDescription_feature_div"}).find("div", attrs={"id":'productDescription'}).find('span'.text)	
 	except AttributeError:
-		desc = "description not found"
-		
-
+		desc = "description not found"	
 	return desc
 
 # Function to extract Product Rating
 def get_rating(soup):
-
 	try:
 		rating = soup.find("i", attrs={'class':'a-icon a-icon-star a-star-4-5'}).string.strip()
-		
 	except AttributeError:
-		
 		try:
 			rating = soup.find("span", attrs={'class':'a-icon-alt'}).string.strip()
 		except:
-			rating = ""	
-
+			rating = ""
 	return rating
 
 # Function to extract Number of User Reviews
 def get_review_count(soup):
 	try:
 		review_count = soup.find("span", attrs={'id':'acrCustomerReviewText'}).string.strip()
-		
 	except AttributeError:
 		review_count = ""	
-
 	return review_count
 
 # Function to extract Availability Status
@@ -98,10 +82,8 @@ def get_availability(soup):
 	try:
 		available = soup.find("div", attrs={'id':'availability'})
 		available = available.find("span").string.strip()
-
 	except AttributeError:
 		available = "Not Available"	
-
 	return available	
 
 
@@ -126,7 +108,7 @@ if __name__ == '__main__':
 		webpage = requests.get(url, headers=HEADERS)
 
 		# Soup Object containing all data
-		soup = BeautifulSoup(webpage.content, "lxml")
+		soup = BeautifulSoup(webpage.content, "html5lib")
 
 
 		# Fetch links as List of Tag Objects
@@ -134,7 +116,6 @@ if __name__ == '__main__':
 
 		# Store the links
 		links_list = []
-
 
 		# Loop for extracting links from Tag Objects
 		for link in links:
@@ -148,43 +129,34 @@ if __name__ == '__main__':
 			reduced_list.append(links_list[i])
 			j += 1
 			
-		
-		filename = ""
-		if i == 0:filename = "gpu.txt"
-		elif i == 1: filename = "cpu.txt"
-		elif i == 2: filename = "ram.txt"
-		elif i == 3: filename = "powersupply.txt"
-		else: filename = "motherboard.txt"
+		# Insert output to MongoDB
+		gpu = db["GPU Scraper"]
+		cpu = db["CPU Scraper"]
+		ram = db["RAM Scraper"]
+		power_supply = db["Power Supplies Scraper"]
+		motherboard = db["Motherboard Scraper"]
+
+		collection_name = ""
+		if i == 0:collection_name = gpu
+		elif i == 1: collection_name = cpu
+		elif i == 2: collection_name = ram
+		elif i == 3: collection_name = power_supply
+		else: collection_name = motherboard
 		i += 1
 		
-		
-
-		f = open(filename, 'w', encoding="utf-8")
 		# Loop for extracting product details from each link 
 		for link in links_list:
-
 			new_webpage = requests.get("https://www.amazon.com.au" + link, headers=HEADERS)
-
-			new_soup = BeautifulSoup(new_webpage.content, "lxml")
-			
-			# Function calls to display all necessary product information
-			title = "Product Title = " + get_title(new_soup) + '\n'
-			f.write(title)
-			itemSrc = "Product Source = " + "https://www.amazon.com.au" + link + '\n' 
-			f.write(itemSrc)
-			image = "Product Image = " + get_image(new_soup) + '\n'
-			f.write(image)
-			## imageSrc = get_image(new_soup)
-			## print(imageSrc + "\n\n")
-			price = "Product Price = " + get_price(new_soup) + '\n'
-			f.write(price)
-			rating = "Product Rating = " + get_rating(new_soup) + '\n'
-			f.write(rating)
-			reviews = "Number of Product Reviews = " + get_review_count(new_soup) + '\n'
-			f.write(reviews)
-			availability = "Availability = " + get_availability(new_soup) + '\n'
-			f.write(availability)
-			f.write("\n")
-		
-		f.close()
-		print(filename + " has been completed!")
+			new_soup = BeautifulSoup(new_webpage.content, "html5lib")
+			product = {
+				"title" : get_title(new_soup),
+				"source" : "https://www.amazon.com.au" + link,
+				"image" : get_image(new_soup),
+				## imageSrc = get_image(new_soup)
+				## print(imageSrc + "\n\n")
+				"price" : get_price(new_soup),
+				"rating" : get_rating(new_soup),
+				"reviews_no" : get_review_count(new_soup),
+				"availability" : get_availability(new_soup),
+			}
+			collection_name.insert_one(product)

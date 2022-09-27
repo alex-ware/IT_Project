@@ -1,5 +1,5 @@
 const home = (req, res) => {
-    res.render('home')
+    res.render('home');
 }
 
 const createAccount = (req,res) => {
