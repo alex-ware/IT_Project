@@ -241,5 +241,7 @@ header.navbar{
 .flex-container {
     display: flex;
     justify-content: center;
+    margin: 5px;
+    padding: 5px;
   }
   
