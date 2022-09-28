@@ -68,9 +68,9 @@ app.get('*', (req, res) => {
     res.render('404')
 })
 
-// Tells the app to listen on port 3000 and logs that information to the console. 
-app.listen(3000, () => { 
-    console.log('works') 
+// Tells the app to listen on port number provided by Heroku or 3000 and logs that information to the console. 
+app.listen(process.env.PORT || 3000, () => { 
+    console.log('app is running') 
 });
 
 require('./models')
