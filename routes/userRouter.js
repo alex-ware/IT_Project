@@ -1,28 +1,24 @@
 const express = require('express')
 const bodyParser = require("body-parser");
 const user_router = express.Router()
-
+const pcPartsController = require('../controllers/pcPartsController')
 user_router.use(bodyParser.urlencoded({extended: true}));
 
 // Show homepage
 user_router.get('/', function(req, res) {
     res.render('userHomepage', { email: req.user.username, layout: 'user.hbs' })
 })
-user_router.get('/gpu', function(req, res) {
-    res.render('gpu', {layout: 'user.hbs' })
-})
-user_router.get('/cpu', function(req, res) {
-    res.render('cpu', {layout: 'user.hbs' })
-})
-user_router.get('/motherboard', function(req, res) {
-    res.render('motherboard', {layout: 'user.hbs' })
-})
-user_router.get('/ram', function(req, res) {
-    res.render('ram', {layout: 'user.hbs' })
-})
-user_router.get('/powerSupply', function(req, res) {
-    res.render('powerSupply', {layout: 'user.hbs' })
-})
+
+user_router.get('/gpu', pcPartsController.get_gpu_data)
+
+user_router.get('/cpu', pcPartsController.get_cpu_data)
+
+user_router.get('/motherboard', pcPartsController.get_motherboard_data)
+
+user_router.get('/ram', pcPartsController.get_ram_data)
+
+user_router.get('/powerSupply', pcPartsController.get_powersupply_data)
+
 user_router.get('/wishlist', function(req, res) {
     res.render('wishlist', {layout: 'user.hbs' })
 })
