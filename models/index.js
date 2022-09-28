@@ -23,9 +23,7 @@ const db = mongoose.connection.on('error', err => {
 
 db.once('open', async () => {
     console.log(`Mongo connection started on ${db.host}:${db.port}`)
-    const {spawn} = require('child_process');
-    const python = spawn('python', [__dirname+'/../amazonScraper.py']);
-    python.stderr.pipe(process.stdout)
 })
 
 require('./user')
+module.exports = db

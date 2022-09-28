@@ -1,4 +1,4 @@
-//runs the app 
+// Runs the app 
 const express = require('express') 
 const homerouter = require('./routes/homerouter')
 const flash = require('express-flash')

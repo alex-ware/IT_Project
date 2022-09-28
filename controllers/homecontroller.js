@@ -6,10 +6,6 @@ const createAccount = (req,res) => {
     res.render('createAccount', { flash: req.flash('error') })
 }
 
-const cpu = (req,res) => {
-    res.render('cpu')
-}
-
 const gpu = (req,res) => {
     res.render('gpu')
 }
@@ -49,7 +45,6 @@ const motherboardItem = (req,res) => {
 module.exports = {
     home,
     createAccount,
-    cpu,
     gpu,
     ram,
     motherboard,

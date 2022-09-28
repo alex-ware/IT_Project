@@ -1,7 +1,9 @@
 const express = require('express')
 const homeRouter = express.Router()
 const homeController = require('../controllers/homeController.js')
+const pcPartsController = require('../controllers/pcPartsController')
 const User = require('../models/user')
+
 
 homeRouter.get('/', homeController.home)
 
@@ -25,7 +27,7 @@ homeRouter.post('/createAccount', (req, res, next) => {
     })
 })
 
-homeRouter.get('/cpu', homeController.cpu)
+homeRouter.get('/cpu', pcPartsController.get_cpu_data)
 homeRouter.get('/gpu', homeController.gpu)
 homeRouter.get('/motherboard', homeController.motherboard)
 homeRouter.get('/powerSupply', homeController.powerSupply)
