@@ -3,7 +3,6 @@ const homeRouter = express.Router()
 const homeController = require('../controllers/homeController.js')
 const pcPartsController = require('../controllers/pcPartsController')
 const User = require('../models/user')
-const app = require('../app.js');
 
 
 homeRouter.get('/', homeController.home)
