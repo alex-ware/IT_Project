@@ -5,11 +5,16 @@
 <div class="item-grid">
     {{#each data}}
     <div class="small-container">
-        <a href="/ramItem">
+        <a href="/user/ramItem">
         <img src="{{this.image}}" width="100%">
         </a>
         <h4>{{this.title}}</h4>
-        <p>{{this.price}}</p>
+        <p>
+            <span>{{this.price}}</span>
+            <span>
+                <i>&#9825;</i>
+            </span>
+        </p>
     </div>
     {{/each}}
 </div>
