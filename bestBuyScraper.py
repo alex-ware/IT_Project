@@ -4,11 +4,13 @@
 # Published by Meghna Gangwar on 04.08.2022
 
 from cgi import print_exception
+from ctypes import sizeof
+from http.client import LENGTH_REQUIRED
 import string
 from bs4 import BeautifulSoup
 import requests
 from pymongo import MongoClient
-
+import time
 # Connect to the database.
 MONGO_URL="mongodb+srv://username:8lSW02qSgVdZG5fQ@team-45-cluster.usr52zy.mongodb.net/?retryWrites=true&w=majority"
 client = MongoClient(MONGO_URL)
@@ -55,6 +57,14 @@ def get_normal_price(soup):
 	except AttributeError:
 		price = ""	
 	return price
+
+# Function to extract Savings (%)
+def get_savings(soup):
+	try:
+		savings = soup.find("span", attrs={'class':'a-size-large a-color-price savingPriceOverride aok-align-center reinventPriceSavingsPercentageMargin savingsPercentage'}).string.strip()
+	except AttributeError:
+		savings = ""	
+	return savings
 
 # Function to extract Product Description
 def get_desc(soup):
@@ -130,7 +140,7 @@ if __name__ == '__main__':
 		
 		## get the first 4 links (only wish to display 4 deals currently)
 		j = 0
-		while j < 4:
+		while j < 4 and j < len(links_list):
 			reduced_list.append(links_list[j])
 			j += 1
 
@@ -158,6 +168,8 @@ if __name__ == '__main__':
 			file.write("Product Sale Price: "+ price + "\n")
 			normal_price = get_normal_price(new_soup)
 			file.write("Product Regular Price: "+ normal_price + "\n")
+			savings = get_savings(new_soup)
+			file.write("Product Savings: " + savings + "\n")
 			description = get_desc(new_soup)
 			file.write("Product Description: " + description + "\n")
 			rating = get_rating(new_soup)
@@ -167,7 +179,9 @@ if __name__ == '__main__':
 			availability = get_availability(new_soup)
 			file.write("Product Availability: " + availability + "\n")
 			file.write("\n--------------------------------------------------------\n\n")
+			time.sleep(4)
 		file.close()
+		
 				
 		
 		

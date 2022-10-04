@@ -1,8 +1,9 @@
 Product Name: GIGABYTE B550M Gaming AMD Ryzen Micro ATX Gaming Motherboard
-Product Source: https://www.amazon.com.au/GIGABYTE-B550M-Gaming-mATX-Motherboard/dp/B08BG7WM4V/ref=sr_1_1?keywords=motherboard&qid=1664802230&qu=eyJxc2MiOiI2LjMxIiwicXNhIjoiNS45OSIsInFzcCI6IjUuMDQifQ%3D%3D&refinements=p_89%3AASUS%7CGIGABYTE%7CMSI%2Cp_n_deal_type%3A10343590051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-1
+Product Source: https://www.amazon.com.au/GIGABYTE-B550M-Gaming-mATX-Motherboard/dp/B08BG7WM4V/ref=sr_1_1?keywords=motherboard&qid=1664865899&qu=eyJxc2MiOiI2LjMxIiwicXNhIjoiNS45OSIsInFzcCI6IjUuMDQifQ%3D%3D&refinements=p_89%3AASUS%7CGIGABYTE%7CMSI%2Cp_n_deal_type%3A10343590051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-1
 Product Image: https://m.media-amazon.com/images/I/71-W+ekUqqL._AC_SY300_SX300_.jpg
 Product Sale Price: $132.00
 Product Regular Price: $179.00
+Product Savings: -26%
 Product Description: AMD B550 Gaming Motherboard with Pure Digital VRM Solution, GIGABYTE Gaming LAN with Bandwidth Management, PCIe 4.0/3.0 x4 M.2, RGB FUSION 2.0, Smart Fan 5, Q-Flash Plus, Anti-Sulfur Resistors Design
 Product Rating: 4.1 out of 5 stars
 Product Review Count: 17 ratings
@@ -11,38 +12,41 @@ Product Availability: Only 4 left in stock.
 --------------------------------------------------------
 
 Product Name: MSI MAG B660M Bazooka DDR4 Intel LGA 1700 mATX Motherboard
-Product Source: https://www.amazon.com.au/MSI-B660M-Bazooka-Motherboard-Micro-ATX/dp/B09NTPPSBP/ref=sr_1_2?keywords=motherboard&qid=1664802230&qu=eyJxc2MiOiI2LjMxIiwicXNhIjoiNS45OSIsInFzcCI6IjUuMDQifQ%3D%3D&refinements=p_89%3AASUS%7CGIGABYTE%7CMSI%2Cp_n_deal_type%3A10343590051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-2
+Product Source: https://www.amazon.com.au/MSI-B660M-Bazooka-Motherboard-Micro-ATX/dp/B09NTPPSBP/ref=sr_1_2?keywords=motherboard&qid=1664865899&qu=eyJxc2MiOiI2LjMxIiwicXNhIjoiNS45OSIsInFzcCI6IjUuMDQifQ%3D%3D&refinements=p_89%3AASUS%7CGIGABYTE%7CMSI%2Cp_n_deal_type%3A10343590051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-2
 Product Image: https://m.media-amazon.com/images/I/91KdgVtiNuL.__AC_SX300_SY300_QL70_ML2_.jpg
 Product Sale Price: $184.50
 Product Regular Price: $297.00
-Product Description: MSI is no stranger to building high-performance motherboard. Engineering teams have reviewed countless designs, evaluated a wide selection of high quality components and developed products for reliability even under extreme conditions. With more coresï¿½ processors, thermal and power design is more important to make sure the temperature keeps lower. MSI extended PWM heatsink and enhanced circuit design ensures even high-end Intel CPU to run in full speed with MSI motherboards. High performance MSI motherboards are loaded with advanced features and the latest technology to overwhelm any challenge at hand no matter whether youï¿½re a gamer, prosumer or PC enthusiast. Utilizing 12th Gen Intel Core processors, MSI B660 motherboards feature latest Lightning Gen 4 M.2 which is the fastest onboard storage solution on the market with up to 64 Gb/s transfer speed. MSI motherboards are built with a variety of connectors to satisfy gamers. Enhanced audio, advanced LAN networking capabilities, USB and Mystic Light turn any gaming experience into an immerse one. 2.5Gbps LAN provides incredible data transfer speed faster than general Gigabit LAN. This is a premium solution for demanding users. Running at PCIe Gen 4 maximizes performance for NVMe based SSDs. Audio Boost: Reward your ears with studio grade sound quality. Multi-GPU: With Steel armor PCIe slots. Supports AMD Crossfire.
-Product Rating: 4.5 out of 5 stars
-Product Review Count: 164 ratings
+Product Savings: -38%
+Product Description: MSI is no stranger to building high-performance motherboard. Engineering teams have reviewed countless designs, evaluated a wide selection of high quality components and developed products for reliability even under extreme conditions. With more cores’ processors, thermal and power design is more important to make sure the temperature keeps lower. MSI extended PWM heatsink and enhanced circuit design ensures even high-end Intel CPU to run in full speed with MSI motherboards. High performance MSI motherboards are loaded with advanced features and the latest technology to overwhelm any challenge at hand no matter whether you’re a gamer, prosumer or PC enthusiast. Utilizing 12th Gen Intel Core processors, MSI B660 motherboards feature latest Lightning Gen 4 M.2 which is the fastest onboard storage solution on the market with up to 64 Gb/s transfer speed. MSI motherboards are built with a variety of connectors to satisfy gamers. Enhanced audio, advanced LAN networking capabilities, USB and Mystic Light turn any gaming experience into an immerse one. 2.5Gbps LAN provides incredible data transfer speed faster than general Gigabit LAN. This is a premium solution for demanding users. Running at PCIe Gen 4 maximizes performance for NVMe based SSDs. Audio Boost: Reward your ears with studio grade sound quality. Multi-GPU: With Steel armor PCIe slots. Supports AMD Crossfire.
+Product Rating: 4.6 out of 5 stars
+Product Review Count: 167 ratings
 Product Availability: Only 2 left in stock.
 
 --------------------------------------------------------
 
-Product Name: GIGABYTE Z690M Aorus Elite AX DDR4 Intel LGA 1700 Micro ATX Motherboard, Black
-Product Source: https://www.amazon.com.au/GIGABYTE-Z690M-Aorus-Elite-Motherboard/dp/B09KVH5B7J/ref=sr_1_3?keywords=motherboard&qid=1664802230&qu=eyJxc2MiOiI2LjMxIiwicXNhIjoiNS45OSIsInFzcCI6IjUuMDQifQ%3D%3D&refinements=p_89%3AASUS%7CGIGABYTE%7CMSI%2Cp_n_deal_type%3A10343590051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-3
-Product Image: https://m.media-amazon.com/images/I/61IHYdFmPOL.__AC_SX300_SY300_QL70_ML2_.jpg
-Product Sale Price: $299.00
-Product Regular Price: $349.00
-Product Description: GIGABYTE offers a comprehensive product lineup that aims to ï¿½Upgrade Your Life.ï¿½ With expertise encompassing consumer, business, gaming, and cloud systems, GIGABYTE established its reputation as a leader in the industry with award-winning products including motherboards, graphics cards, laptops, mini PCs, monitors, and other PC components and accessories.
-Product Rating: 4.3 out of 5 stars
-Product Review Count: 560 ratings
-Product Availability: Only 3 left in stock (more on the way).
+Product Name: Gigabyte B660M AORUS PRO DDR4 Intel LGA 1700 mATX Motherboard
+Product Source: https://www.amazon.com.au/B660M-AORUS-PRO-DDR4-Motherboard/dp/B09QQ92344/ref=sr_1_3?keywords=motherboard&qid=1664865899&qu=eyJxc2MiOiI2LjMxIiwicXNhIjoiNS45OSIsInFzcCI6IjUuMDQifQ%3D%3D&refinements=p_89%3AASUS%7CGIGABYTE%7CMSI%2Cp_n_deal_type%3A10343590051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-3
+Product Image: https://m.media-amazon.com/images/I/61xmOWCvq5L.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Sale Price: $236.00
+Product Regular Price: $347.60
+Product Savings: -32%
+Product Description: Description Unavailable
+Product Rating: 4.2 out of 5 stars
+Product Review Count: 7 ratings
+Product Availability: In stock.
 
 --------------------------------------------------------
 
-Product Name: Gigabyte X570S UD AMD Ryzen AM4 ATX Motherboard
-Product Source: https://www.amazon.com.au/Gigabyte-X570S-UD-Ryzen-Motherboard/dp/B09B7HBTMJ/ref=sr_1_4?keywords=motherboard&qid=1664802230&qu=eyJxc2MiOiI2LjMxIiwicXNhIjoiNS45OSIsInFzcCI6IjUuMDQifQ%3D%3D&refinements=p_89%3AASUS%7CGIGABYTE%7CMSI%2Cp_n_deal_type%3A10343590051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-4
-Product Image: https://m.media-amazon.com/images/I/61Ien-FBu0L.__AC_SX300_SY300_QL70_ML2_.jpg
-Product Sale Price: $249.00
-Product Regular Price: $339.00
-Product Description: AMDï¿½ X570S UD Motherboard with Twin 12+2 Phases Digital VRM Solution with 50A DrMOS, Fully Covered Thermal Design, Triple Ultra-Fast NVMe PCIe 4.0/3.0 x4 M.2 with Thermal Guard, Fast 2.5GbE LAN, Rear & Front USB 3.2 Type-Cï¿½, RGB FUSION 2.0, Q-Flash Plus
-Product Rating: 3.4 out of 5 stars
-Product Review Count: 3 ratings
-Product Availability: Only 4 left in stock.
+Product Name: MSI Z690-A Pro WiFi DDR4 Intel ATX Motherboard
+Product Source: https://www.amazon.com.au/MSI-Z690-DDR4-Intel-Motherboard/dp/B09HK67Z3N/ref=sr_1_4?keywords=motherboard&qid=1664865899&qu=eyJxc2MiOiI2LjMxIiwicXNhIjoiNS45OSIsInFzcCI6IjUuMDQifQ%3D%3D&refinements=p_89%3AASUS%7CGIGABYTE%7CMSI%2Cp_n_deal_type%3A10343590051%2Cp_72%3A2547913051&rnid=2547911051&s=computers&sr=1-4
+Product Image: https://m.media-amazon.com/images/I/81A34xBx3zL.__AC_SX300_SY300_QL70_ML2_.jpg
+Product Sale Price: $319.00
+Product Regular Price: $389.00
+Product Savings: -18%
+Product Description: PRO series helps users work smarter by delivering an efficient and productive experience. Featuring stable functionality and high-quality assembly, PRO series motherboards provide not only optimized professional workflows but also less troubleshooting and longevity. With more cores’ processors, thermal and power design is more important to make sure the temperature keeps lower. MSI extended PWM heatsink with 7W/mK thermal pad ensures even high-end processors to run in full speed with MSI motherboards. 2.5Gbps LAN provides incredible data transfer speed faster than general Gigabit LAN. This is a premium solution for demanding users. Unleash and sustain maximum performance with an aggressive VRM design built with a total of 14 digital CPU power phases. Combining 2x 8-pin power connectors and exclusive Core Boost technology, PRO series motherboard is ready to sustain heavy daily work.
+Product Rating: 4.4 out of 5 stars
+Product Review Count: 462 ratings
+Product Availability: In stock.
 
 --------------------------------------------------------
 
