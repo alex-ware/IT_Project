@@ -28,16 +28,15 @@ homeRouter.post('/createAccount', (req, res, next) => {
 })
 
 homeRouter.get('/cpu', pcPartsController.get_cpu_data)
+homeRouter.get('/cpu/:id', pcPartsController.get_cpu_item)
 homeRouter.get('/gpu', pcPartsController.get_gpu_data)
+homeRouter.get('/gpu/:id', pcPartsController.get_gpu_item)
 homeRouter.get('/motherboard', pcPartsController.get_motherboard_data)
+homeRouter.get('/motherboard/:id', pcPartsController.get_motherboard_item)
 homeRouter.get('/powerSupply', pcPartsController.get_powersupply_data)
+homeRouter.get('/powerSupply/:id', pcPartsController.get_powersupply_item)
 homeRouter.get('/ram', pcPartsController.get_ram_data)
+homeRouter.get('/ram/:id', pcPartsController.get_ram_item)
 homeRouter.get('/bestBuy', homeController.bestBuy)
-homeRouter.get('/gpuItem', homeController.gpuItem)
-homeRouter.get('/cpuItem', homeController.cpuItem)
-homeRouter.get('/ramItem', homeController.ramItem)
-homeRouter.get('/motherboardItem', homeController.motherboardItem)
-homeRouter.get('/powerSupplyItem', homeController.powerSupplyItem)
-
 
 module.exports = homeRouter
