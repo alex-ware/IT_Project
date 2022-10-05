@@ -9,36 +9,22 @@ user_router.get('/', function(req, res) {
     res.render('userHomepage', { email: req.user.username, layout: 'user.hbs' })
 })
 
-user_router.get('/gpuUser', pcPartsController.get_gpu_data_user)
-
-user_router.get('/cpuUser', pcPartsController.get_cpu_data_user)
-
-user_router.get('/motherboardUser', pcPartsController.get_motherboard_data_user)
-
-user_router.get('/ramUser', pcPartsController.get_ram_data_user)
-
-user_router.get('/powerSupplyUser', pcPartsController.get_powersupply_data_user)
+user_router.get('/gpu', pcPartsController.get_gpu_data_user)
+user_router.get('/gpu/:id', pcPartsController.get_gpu_item_user)
+user_router.get('/cpu', pcPartsController.get_cpu_data_user)
+user_router.get('/cpu/:id', pcPartsController.get_cpu_item_user)
+user_router.get('/motherboard', pcPartsController.get_motherboard_data_user)
+user_router.get('/motherboard/:id', pcPartsController.get_motherboard_item_user)
+user_router.get('/ram', pcPartsController.get_ram_data_user)
+user_router.get('/ram/:id', pcPartsController.get_ram_item_user)
+user_router.get('/powerSupply', pcPartsController.get_powersupply_data_user)
+user_router.get('/powerSupply/:id', pcPartsController.get_powersupply_item_user)
 
 user_router.get('/wishlist', function(req, res) {
     res.render('wishlist', {layout: 'user.hbs' })
 })
 user_router.get('/userHistory', function(req, res) {
     res.render('userHistory', {layout: 'user.hbs' })
-})
-user_router.get('/cpuItem', function(req, res) {
-    res.render('cpuItem', {layout: 'user.hbs' })
-})
-user_router.get('/gpuItem', function(req, res) {
-    res.render('gpuItem', {layout: 'user.hbs' })
-})
-user_router.get('/ramItem', function(req, res) {
-    res.render('ramItem', {layout: 'user.hbs' })
-})
-user_router.get('/motherboardItem', function(req, res) {
-    res.render('motherboardItem', {layout: 'user.hbs' })
-})
-user_router.get('/powerSupplyItem', function(req, res) {
-    res.render('powerSupplyItem', {layout: 'user.hbs' })
 })
 
 // Handle logout
