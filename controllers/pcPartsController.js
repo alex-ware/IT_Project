@@ -208,7 +208,7 @@ const get_cpu_deal = async(req, res, next) => {
     try {
         const this_cpu_id = mongoose.Types.ObjectId(req.params.id)
         const cpu_item_info = await db.collection('CPU Best Deals').findOne({_id : this_cpu_id})
-        res.render('item', {data: cpu_item_info, title: "Processors Best Deals"})
+        res.render('itemDeal', {data: cpu_item_info, title: "Processors Best Deals"})
     } catch(err) {
         return next(err)
     }
@@ -218,7 +218,7 @@ const get_gpu_deal = async(req, res, next) => {
     try {
         const this_gpu_id = mongoose.Types.ObjectId(req.params.id)
         const gpu_item_info = await db.collection('GPU Best Deals').findOne({_id : this_gpu_id})
-        res.render('item', {data: gpu_item_info, title: "Graphics Cards Best Deals"})
+        res.render('itemDeal', {data: gpu_item_info, title: "Graphics Cards Best Deals"})
     } catch(err) {
         return next(err)
     }
@@ -228,7 +228,7 @@ const get_ram_deal = async(req, res, next) => {
     try {
         const this_ram_id = mongoose.Types.ObjectId(req.params.id)
         const ram_item_info = await db.collection('RAM Best Deals').findOne({_id : this_ram_id})
-        res.render('item', {data: ram_item_info, title: "Memory Best Deals"})
+        res.render('itemDeal', {data: ram_item_info, title: "Memory Best Deals"})
     } catch(err) {
         return next(err)
     }
@@ -238,7 +238,7 @@ const get_motherboard_deal = async(req, res, next) => {
     try {
         const this_motherboard_id = mongoose.Types.ObjectId(req.params.id)
         const motherboard_item_info = await db.collection('Motherboard Best Deals').findOne({_id : this_motherboard_id})
-        res.render('item', {data: motherboard_item_info, title: "Motherboards Best Deals"})
+        res.render('itemDeal', {data: motherboard_item_info, title: "Motherboards Best Deals"})
     } catch(err) {
         return next(err)
     }
@@ -248,7 +248,7 @@ const get_powersupply_deal = async(req, res, next) => {
     try {
         const this_powersupply_id = mongoose.Types.ObjectId(req.params.id)
         const powersupply_item_info = await db.collection('Power Supplies Best Deals').findOne({_id : this_powersupply_id})
-        res.render('item', {data: powersupply_item_info, title: "Power Supplies Best Deals"})
+        res.render('itemDeal', {data: powersupply_item_info, title: "Power Supplies Best Deals"})
     } catch(err) {
         return next(err)
     }
