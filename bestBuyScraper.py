@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 import requests
 from pymongo import MongoClient
 import time
+
 # Connect to the database.
 MONGO_URL="mongodb+srv://username:8lSW02qSgVdZG5fQ@team-45-cluster.usr52zy.mongodb.net/?retryWrites=true&w=majority"
 client = MongoClient(MONGO_URL)
@@ -50,6 +51,7 @@ def get_price(soup):
 		except:		
 			price = ""	
 	return price
+
 # Function to extract normal Product Price
 def get_normal_price(soup):
 	try:
@@ -144,44 +146,38 @@ if __name__ == '__main__':
 			reduced_list.append(links_list[j])
 			j += 1
 
-		filename = ""
-		if i == 0:filename = "gpu.txt"
-		elif i == 1: filename = "cpu.txt"
-		elif i == 2: filename = "ram.txt"
-		elif i == 3: filename = "power_supply.txt"
-		else: filename = "motherboard.txt"
+		# Insert output to MongoDB
+		gpu = db["GPU Best Deals"]
+		cpu = db["CPU Best Deals"]
+		ram = db["RAM Best Deals"]
+		power_supply = db["Power Supplies Best Deals"]
+		motherboard = db["Motherboard Best Deals"]
+
+		collection_name = ""
+		if i == 0:collection_name = gpu
+		elif i == 1: collection_name = cpu
+		elif i == 2: collection_name = ram
+		elif i == 3: collection_name = power_supply
+		else: collection_name = motherboard
 		i += 1
 		
 		# Loop for extracting product details from each link 
-		file = open(filename, 'w')
-		
 		for link in reduced_list:
 			new_webpage = requests.get("https://www.amazon.com.au" + link, headers=HEADERS)
 			new_soup = BeautifulSoup(new_webpage.content, "html5lib")
-			title = get_title(new_soup)
-			file.write("Product Name: " + title + "\n")
-			source = "https://www.amazon.com.au" + link
-			file.write("Product Source: " + source + "\n")
-			image = get_image(new_soup)
-			file.write("Product Image: " + image + "\n")
-			price = get_price(new_soup)
-			file.write("Product Sale Price: "+ price + "\n")
-			normal_price = get_normal_price(new_soup)
-			file.write("Product Regular Price: "+ normal_price + "\n")
-			savings = get_savings(new_soup)
-			file.write("Product Savings: " + savings + "\n")
-			description = get_desc(new_soup)
-			file.write("Product Description: " + description + "\n")
-			rating = get_rating(new_soup)
-			file.write("Product Rating: " + rating + "\n")
-			review_count = get_review_count(new_soup)
-			file.write("Product Review Count: " + review_count + "\n")
-			availability = get_availability(new_soup)
-			file.write("Product Availability: " + availability + "\n")
-			file.write("\n--------------------------------------------------------\n\n")
-			time.sleep(4)
-		file.close()
-		
+			product = {
+				"title" : get_title(new_soup),
+				"source" : "https://www.amazon.com.au" + link,
+				"image" : get_image(new_soup),
+				"price" : get_price(new_soup),
+				"normal_price" : get_normal_price(new_soup),
+				"savings" : get_savings(new_soup),
+				"description" : get_desc(new_soup),
+				"rating" : get_rating(new_soup),
+				"review_count" : get_review_count(new_soup),
+				"availability" : get_availability(new_soup),
+			}
+			collection_name.insert_one(product)
 				
 		
 		

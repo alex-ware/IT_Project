@@ -37,6 +37,11 @@ homeRouter.get('/powerSupply', pcPartsController.get_powersupply_data)
 homeRouter.get('/powerSupply/:id', pcPartsController.get_powersupply_item)
 homeRouter.get('/ram', pcPartsController.get_ram_data)
 homeRouter.get('/ram/:id', pcPartsController.get_ram_item)
-homeRouter.get('/bestBuy', homeController.bestBuy)
+homeRouter.get('/bestBuy', pcPartsController.get_best_deals)
+homeRouter.get('/cpuDeal/:id', pcPartsController.get_cpu_deal)
+homeRouter.get('/gpuDeal/:id', pcPartsController.get_gpu_deal)
+homeRouter.get('/ramDeal/:id', pcPartsController.get_ram_deal)
+homeRouter.get('/motherboardDeal/:id', pcPartsController.get_motherboard_deal)
+homeRouter.get('/powerSupplyDeal/:id', pcPartsController.get_powersupply_deal)
 
 module.exports = homeRouter
