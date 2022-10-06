@@ -4,12 +4,14 @@
 
 <div class="item-grid">
     {{#each data}}
-    <div class="small-container">
+    <div class="card">
         <a href="/motherboard/{{this._id}}">
         <img src="{{this.image}}" width="100%">
         </a>
-        <h4>{{this.title}}</h4>
-        <p>{{this.price}}</p>
+        <div class="container">
+            <h4>{{this.title}}</h4>
+            <p>{{this.price}}</p>
+        </div>
     </div>
     {{/each}}
 </div>
