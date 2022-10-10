@@ -8,6 +8,8 @@ import string
 from bs4 import BeautifulSoup
 import requests
 from pymongo import MongoClient
+from thefuzz import fuzz
+
 
 # Connect to the database.
 MONGO_URL="mongodb+srv://username:8lSW02qSgVdZG5fQ@team-45-cluster.usr52zy.mongodb.net/?retryWrites=true&w=majority"
