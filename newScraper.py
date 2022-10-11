@@ -140,7 +140,7 @@ def new_egg_links(items):
 			links.append(link)
 		return links
 
-def new_egg_best_result(links, title, new_egg_title):
+def new_egg_best_result(links, title):
 	# storing the data for product with best match
 	best_title = ""
 	best_rating = ""
@@ -154,15 +154,15 @@ def new_egg_best_result(links, title, new_egg_title):
 
 		for link in links:
 			page = requests.get(link, headers=HEADERS)
-			soup = BeautifulSoup(page.content, 'html5lib')
-			new_title = soup.find('h1', attrs={'class':'product-title'}).text
+			new_egg_soup = BeautifulSoup(page.content, 'html5lib')
+			new_title = new_egg_soup.find('h1', attrs={'class':'product-title'}).text
 			score = fuzz.token_sort_ratio(new_title,desired)
 			if (score > current_best_score):
 				best_result = link
 				current_best_score = score
 				best_title = new_title
-				best_rating = new_egg_rating(soup)
-				best_image = new_egg_image(soup)
+				best_rating = new_egg_rating(new_egg_soup)
+				best_image = new_egg_image(new_egg_soup)
 
 		
 		return best_result, best_title, best_rating, best_image
@@ -275,7 +275,7 @@ if __name__ == '__main__':
 			new_egg_title = ""
 			rating = ""
 			image = ""
-			result, new_egg_title, rating, image = new_egg_best_result(links, title, new_egg_title)
+			result, new_egg_title, rating, image = new_egg_best_result(links, title)
 			print("new egg source: " + result)
 
 			
