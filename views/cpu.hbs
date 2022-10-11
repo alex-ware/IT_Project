@@ -5,12 +5,24 @@
 <div class="item-grid">
     {{#each data}}
     <div class="card">
-        <a href="/cpu/{{this._id}}">
-        <img src="{{this.image}}" width="100%">
-        </a>
+        <div class="product-image-box">
+            <div class="product-image-overlay">
+                <span><a href="/cpu/{{this._id}}">
+                    <img class="product-image" src="{{this.image}}" width="100%">
+                    </a>
+                </span>
+            </div>
+        </div>
         <div class="container">
+            <div class="product-card-info">
             <h4>{{this.title}}</h4>
-            <p>{{this.price}}</p>
+            </div>
+            <div class="product-card-info">
+                <h2>{{this.price}}</h2>
+            </div>
+            <div class="product-card-info">
+            <p>{{this.rating}}</p>
+            </div>
         </div>
     </div>
     {{/each}}

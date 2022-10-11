@@ -4,17 +4,25 @@
 
 <div class="item-grid">
     {{#each data}}
-    <div class="small-container">
-        <a href="/user/powerSupply/{{this._id}}">
-        <img src="{{this.image}}" width="100%">
-        </a>
-        <h4>{{this.title}}</h4>
-        <p>
-            <span>{{this.price}}</span>
-            <span>
-                <i>&#9825;</i>
-            </span>
-        </p>
+    <div class="card">
+        <div class="product-image-box">
+            <div class="product-image-overlay">
+                <a href="/user/powerSupply/{{this._id}}">
+                <img class="product-image" src="{{this.image}}" width="100%">
+                </a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="product-card-info">
+            <h4>{{this.title}}</h4>
+            </div>
+            <div class="product-card-info">
+                <h3>{{this.price}}</h3>
+            </div>
+            <div class="product-card-info">
+            <p>{{this.rating}}</p>
+            </div>
+        </div>
     </div>
     {{/each}}
 </div>

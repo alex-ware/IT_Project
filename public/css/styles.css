@@ -28,6 +28,10 @@ body {
     background-color: var(--colour-background-grey);
     color: #000000;
 }
+p, h4 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
 
 header {
     padding: 20px 20px;
@@ -41,6 +45,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    z-index: 3;
     
     font-size: 30px;
     color: white;
@@ -66,7 +71,15 @@ header {
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 35px 0px;
-    margin: 0 auto 80px;
+    margin: 0 auto 40px;
+}
+
+.subheading h2  {
+    text-align: center;
+}
+
+.page-bottom-margin {
+    margin-bottom: 150px;
 }
 
 #footer {
@@ -77,6 +90,7 @@ header {
     background-color: #fdfbfb;
     color: black;
     text-align: center;
+    z-index: 3;
 }
 
 header.navbar{
@@ -213,12 +227,12 @@ header.navbar{
     display: grid;
     justify-content: center;
     align-content: center;
-    margin-top: 15%;
+    margin-top: 50px;
     margin-left: 15%;
     margin-right: 15%;
-    margin-bottom: 10%;
-    column-gap: 5%;
-    row-gap: 10%;
+    margin-bottom: 50px;
+    column-gap: 8px;
+    row-gap: 32px;
     grid-template-columns: auto auto auto auto;
     padding: 10px;
     
@@ -264,12 +278,63 @@ header.navbar{
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 200px;
+    width: 250px;
+    height: auto;
+    border-radius: 4px;
+    position: relative;
+    background-color: rgb(235, 235, 235);
+    overflow: hidden;
   }
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   .container {
-    padding: 10px 20px;
+    padding-left: 8px;
+    padding-right: 8px;
   }
-  
+.product-image {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+.product-image-box {
+    position: relative;
+    padding-top: 100%;
+    background-color: white;
+    z-index: 1;
+}
+.product-image-overlay {
+    padding-top: 28px !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    margin-bottom: 4px !important;
+}
+.product-image-overlay::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.13;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.product-card-info {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+
+.prev-price {
+    color: rgb(185, 0, 0);
+    text-decoration: line-through;
+}
