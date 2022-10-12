@@ -340,6 +340,17 @@ header.navbar{
     padding-bottom: 4px;
     margin-top: 0!important;
     margin-bottom: 0!important;
+    height: 50px;
+    overflow: hidden;
+}
+
+.product-card-title {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+    height: 105px;
+    overflow: hidden;
 }
 
 .prev-price {
