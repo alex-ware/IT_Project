@@ -154,6 +154,15 @@ header.navbar{
     padding-left: 10px;
 
 }
+.navButton a:hover{
+    color: gray;
+    font-size: large;
+
+    cursor: pointer;
+
+    padding-left: 10px;
+
+}
 
 .sidenav {
     height:100%;
