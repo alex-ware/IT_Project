@@ -154,7 +154,8 @@ header.navbar{
     padding-left: 10px;
 
 }
-.navButton a:hover{
+
+.navButton:hover{
     color: gray;
     font-size: large;
 
@@ -231,6 +232,7 @@ header.navbar{
 
     border-right: #D8D6D6;
 }
+
 
 .item-grid {
     display: grid;
