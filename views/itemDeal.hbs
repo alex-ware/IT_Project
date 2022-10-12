@@ -2,11 +2,11 @@
     <h1>{{title}}</h1>
 </div>
 
-<div class="flex-container">
-    <div>
+<div class="item-display">
+    <div class="left-col">
         <img src="{{data.image}}" width="50%">
     </div>
-    <div>
+    <div class="right-col">
         <h2>{{data.title}}</h2>
         <h3>Price: {{data.price}}</h3>
         <h3>Normal Price: {{data.normal_price}}</h3>
@@ -17,8 +17,10 @@
         <h3><a href="{{data.source}}">Click here for more information</a></h3>
     </div>
 </div>
-<hr>
+<div class="item-description final-item-margin">
+    <hr>
     <div>
         <h2>Description</h2>
         <h3>{{data.description}}</h3>
     </div>
+</div>

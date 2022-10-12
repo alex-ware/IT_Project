@@ -344,3 +344,47 @@ header.navbar{
     margin-right: auto;
     width: 50%;   
   }
+
+.item-display {
+    width: auto;
+    margin-top: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    display:flex;
+    
+}
+
+.left-col {
+    height: 100%;
+    width: 50%;
+    top: 4px;
+    float: left;
+    justify-content: right;
+    align-content: right;
+    align-items:center;
+    vertical-align: middle;
+
+}
+
+.right-col {
+    width: 50%;
+    height: 100%;
+    float: right;
+    top: 4px;
+
+    box-sizing: border-box;
+    display: block;
+}
+
+.item-description {
+    padding-top: 50px;
+    margin-bottom: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: auto;
+    
+}
+
+.final-item-margin {
+    margin-bottom: 100px;
+}
