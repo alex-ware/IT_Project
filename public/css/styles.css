@@ -383,7 +383,6 @@ header.navbar{
     align-content: right;
     align-items:center;
     vertical-align: middle;
-
 }
 
 .right-col {
@@ -391,18 +390,13 @@ header.navbar{
     height: 100%;
     float: right;
     top: 4px;
-
-    box-sizing: border-box;
-    display: block;
 }
 
 .item-description {
     padding-top: 50px;
     margin-bottom: 0;
     margin-left: 50px;
-    margin-right: 50px;
-    width: auto;
-    
+    margin-right: 50px;    
 }
 
 .final-item-margin {
