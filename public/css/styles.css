@@ -338,7 +338,9 @@ header.navbar{
     text-decoration: line-through;
 }
 
-#desktop-lottie {
-     width: 400px; 
-     height: 400px;
+#desktop-lottie { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;   
   }
