@@ -283,6 +283,7 @@ header.navbar{
 .flex-container > div {
     text-align: center;
     font-size: 20px;
+    margin: 0 10px;
 }
 
 .card {
