@@ -4,9 +4,12 @@
 
 <div class="item-display">
     <div class="left-col">
-        <img src="{{data.image}}" >
-        <br>
-        <input text-align="center" class="loginButton" type="submit" value="Add to Wishlist">
+        <div class="image-box">
+            <img src="{{data.image}}" >
+            <br>
+            <br>
+            <input text-align="center" class="loginButton" type="submit" value="Add to Wishlist">
+        </div>
     </div>
     <div class="right-col">
         <h2>{{data.title}}</h2>
@@ -19,10 +22,26 @@
         <h3><a href="{{data.source}}">Click here for more information</a></h3>
     </div>
 </div>
-<div class="item-description final-item-margin">
+<div class="item-description">
     <hr>
     <div>
         <h2>Description</h2>
-        <h3>{{data.description}}</h3>
     </div>
+    <div>
+        <p>{{data.description}}</p>
+    </div>
+</div>
+<div class="similar-item final-item-margin">
+    <hr>
+    <div class="subheading">
+        <h2>Similar Item Found at PC Case Gear</h2>
+    </div>
+    
+    <div class="flex-container">
+        <span>Image</span>
+        <span>Title</span>
+        <span>Price</span>
+        <span>Availability</span>
+    </div>
+
 </div>
