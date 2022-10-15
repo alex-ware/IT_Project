@@ -147,22 +147,15 @@ header.navbar{
 }
 .navButton{
     color: white;
-    font-size: large;
-
     cursor: pointer;
-
-    padding-left: 10px;
+    font-size: large;
+    padding-left: 5px;
 
 }
 
 .navButton:hover{
     color: gray;
-    font-size: large;
-
     cursor: pointer;
-
-    padding-left: 10px;
-
 }
 
 .sidenav {
