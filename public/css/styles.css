@@ -275,7 +275,7 @@ header.navbar{
     display: flex;
     justify-content: center;
     margin: auto;
-    padding: 50px;
+    padding: 10%;
     border: #000000;
     border-radius: 5px;
   }
@@ -304,10 +304,7 @@ padding-left: 8px;
 padding-right: 8px;
 }
 
-.container a {
-    text-decoration: none;
-    color: #000;
-}
+
 
 .product-image {
     position: absolute;
