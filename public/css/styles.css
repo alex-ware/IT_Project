@@ -147,22 +147,15 @@ header.navbar{
 }
 .navButton{
     color: white;
-    font-size: large;
-
     cursor: pointer;
-
-    padding-left: 10px;
+    font-size: large;
+    padding-left: 5px;
 
 }
 
 .navButton:hover{
     color: gray;
-    font-size: large;
-
     cursor: pointer;
-
-    padding-left: 10px;
-
 }
 
 .sidenav {
@@ -295,14 +288,17 @@ header.navbar{
     position: relative;
     background-color: rgb(235, 235, 235);
     overflow: hidden;
-  }
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  .container {
-    padding-left: 8px;
-    padding-right: 8px;
-  }
+}
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+padding-left: 8px;
+padding-right: 8px;
+}
+
+
+
 .product-image {
     position: absolute;
     margin: auto;
@@ -356,7 +352,7 @@ header.navbar{
     overflow: hidden;
 }
 
-.prev-price {
+#prev-price {
     color: rgb(185, 0, 0);
     text-decoration: line-through;
 }
@@ -382,10 +378,6 @@ header.navbar{
     width: 50%;
     top: 4px;
     float: left;
-    justify-content: right;
-    align-content: right;
-    align-items:center;
-    vertical-align: middle;
 }
 
 .right-col {
@@ -398,10 +390,40 @@ header.navbar{
 .item-description {
     padding-top: 50px;
     margin-bottom: 0;
-    margin-left: 50px;
-    margin-right: 50px;    
+    margin-left: 15%;
+    margin-right: 15%; 
+    padding-bottom: 20px;
+       
+}
+.image-box {
+    vertical-align: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.similar-item {
+    margin-left: 15%;
+    margin-right: 15%; 
 }
 
 .final-item-margin {
     margin-bottom: 100px;
+}
+
+#rating-text {
+    color:rgb(202, 148, 0)
+}
+
+#available-text {
+    color: rgb(33, 199, 0);
+}
+
+button a{
+    color: white;
+    text-decoration: none;
 }
