@@ -10,11 +10,29 @@ import requests
 from pymongo import MongoClient
 from thefuzz import fuzz
 
+# webdriver imports
+from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait 
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
+
 
 # Connect to the database.
 MONGO_URL="mongodb+srv://username:8lSW02qSgVdZG5fQ@team-45-cluster.usr52zy.mongodb.net/?retryWrites=true&w=majority"
 client = MongoClient(MONGO_URL)
 db = client['Team-45-Cluster']
+
+# Options required for webdriver
+
+# User Agent Info
+user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36'
+# Chrome Option
+options = webdriver.ChromeOptions()
+# Add option
+options.add_argument('user-agent={0}'.format(user_agent))
+# Initial browser
+browser = webdriver.Chrome(options=options)
 
 # Function to extract Product Title
 def get_title(soup):
@@ -30,6 +48,33 @@ def get_title(soup):
 		title = ""	
 	return title
 
+# Function to retrieve model number for amazon product:
+# Used in pc case gear scraping
+def get_model_num(soup):
+	model_num = ""
+	table = soup.find("table", attrs={"id":"productDetails_techSpec_section_2"})
+	if table:
+		table_contents = table.findAll("tr")
+		for content in table_contents:
+			if content.find("th").text == " Item Model Number ":
+				model_num = content.find("td").string.strip()
+			elif content.find("th").text == " Model Number ":
+				model_num = content.find("td").string.strip()
+			# print(content.find("th").text == " Item Model Number ")
+		return model_num
+	table = soup.find("table", attrs={"id":"productDetails_techSpec_section_1"})
+	if table:
+		table_contents = table.findAll("tr")
+		for content in table_contents:
+			if content.find("th").text == " Item Model Number ":
+				model_num = content.find("td").string.strip()
+			elif content.find("th").text == " Model Number ":
+				model_num = content.find("td").string.strip()
+			# print(content.find("th").text == " Item Model Number ")
+		return model_num
+			
+	return model_num
+		
 ## Function to extract Product Image
 def get_image(soup):
 	try:	
@@ -87,107 +132,98 @@ def get_availability(soup):
 		available = "Not Available"	
 	return available	
 
-# gets all search result items
-def new_egg_items(title, category):
-	new_egg_url_prefix = "https://www.newegg.com/global/au-en/p/pl?d="
-	cur_category = ""
-	# defining each url trail for categories on new egg so that incorrect
-	# parts are not found in the search
-	graphics_card_category = "&N=100203018&isdeptsrh=1"
-	cpu_category = "&N=100203101&isdeptsrh=1"
-	motherboard_category = "&N=100203007"
-	power_category = "&N=100203050&isdeptsrh=1"
-	ram_category = "&N=100203071&isdeptsrh=1"
+
+
+# PC Case Gear Scraping as pc
+def get_pc_url(model_num):
+	if model_num == "":
+		return ""
+	PC_url_prefix = "https://www.pccasegear.com/search?query="
+	PC_url_suffix = "&page=1"
+	url = PC_url_prefix + model_num
+	print(url)
+	return url
+
+def get_pc_soup(model_num):
 	
-	#checking which category is being passed in the current iteration on the amazon scraper
-	if category == "gpu":
-		cur_category = graphics_card_category
-	elif category == "cpu":
-		cur_category = cpu_category
-	elif category == "motherboard":
-		cur_category = motherboard_category
-	elif category == "power":
-		cur_category = power_category
-	else:
-		cur_category = ram_category	
-
-	short_title = title
+	url = get_pc_url(model_num)
+	if url == "":
+		return ""
+			
+	browser.get(url)
 	
-	adapt_title = short_title.replace(" ", "+")
-	if (adapt_title[-1] == "+"):
-		adapt_title[-1] = ""
-	search_url = new_egg_url_prefix + adapt_title + cur_category
-	page = requests.get(search_url, headers=HEADERS)
-	egg_soup = BeautifulSoup(page.content, 'html5lib')
-	items = egg_soup.find_all('a', attrs={'class':'item-title'})
-	return items
+	# Start waiting until page loaded and detect a class rendered
+	
+	try:
+		wait = WebDriverWait(browser, 10)
+		wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, '.product-title')))
+		html = browser.page_source
 
+		soup = BeautifulSoup(html, 'html5lib')
+		no_result = soup.find("div", attrs={"id":"indexDefaultMainContentNoResults"}).find("h3")
+		if no_result:
+			return ""
+		first_item_soup = soup.find("li", attrs={"class": "ais-Hits-item"})
+		if first_item_soup:
+				
+			# print(first_item_soup)
+			# first_result = soup.find("a",attrs={"class":"product-title"})
+			# first_link = first_result.get('href')
+			# first_url = PC_url_prefix + first_link
+			#print("Url to first result: ",first_url, "\n")
+			return first_item_soup
+	except TimeoutException:
+		return ""
+	
+	return ""
 
-# returns the links for the items found in the search if there is any
-def new_egg_links(items):
-	links = []
-	# check for no results in search
-	if (items == []):
-		return "No Matches"
-	# check for only 1 search result
-	elif len(items) == 1:
-		link = items[0].get('href').split(' ')[0]
-		links.append(link)
-		return links
+def get_pc_data(soup, original_title):
+	if soup == "":
+		return "", "", "", "", ""
+	title = get_pc_title(soup)
+	similarity = fuzz.token_sort_ratio(title, original_title)
+	source = get_pc_source(soup)
+	image = get_pc_image(soup)
+	price = get_pc_price(soup)
+	stock = get_pc_stock(soup)
+
+	if similarity > 35:
+		return title, source, image, price, stock
 	else:
-		for item in items:
-			link = item.get('href').split(' ')[0]
-			links.append(link)
-		return links
+		print("title too different...")
+		return "", "", "", "", ""
 
-def new_egg_best_result(links, title):
-	# storing the data for product with best match
-	best_title = ""
-	best_rating = ""
-	best_image = ""
-	if links == []:
-		return "no matches"
+def get_pc_title(soup):
+	#print(soup)
+	title = soup.find("a", attrs={"class": "product-title"})
+	if title:
+		return title.text.strip()
 	else:
-		current_best_score = 0
-		best_result = ""
-		desired = title
-
-		for link in links:
-			page = requests.get(link, headers=HEADERS)
-			new_egg_soup = BeautifulSoup(page.content, 'html5lib')
-			new_title = new_egg_soup.find('h1', attrs={'class':'product-title'}).text
-			score = fuzz.token_sort_ratio(new_title,desired)
-			if (score > current_best_score):
-				best_result = link
-				current_best_score = score
-				best_title = new_title
-				best_rating = new_egg_rating(new_egg_soup)
-				best_image = new_egg_image(new_egg_soup)
-
-		
-		return best_result, best_title, best_rating, best_image
-def new_egg_price(soup):
-	price = soup.find('div', attrs={'class': 'price-current'}).text
-	if price:
-		return price.strip('AUD')
-	else:
-		return " "
-def new_egg_rating(soup):
-	rating = soup.find("div", attrs={"class":"product-rating"}).find("i")['title']
-	#rating = rating_soup['title']
-	if rating:
-		return rating
-	else:
-		return "no rating found"
-		
-def new_egg_image(soup):
-	try:	
-		image = soup.find("div", attrs={"class":'swiper-zoom-container'}).find("img", attrs={"class": 'product-view-img-original'})
+		return ""
+def get_pc_image(soup):
+	image = soup.find("a", attrs={"class": "product-image"}).find("img")
+	if image:
 		source = image['src']
-	except AttributeError:
-		source = ""
-	return source
-
+		return source
+	return ""
+	
+def get_pc_source(soup):
+	PC_url_prefix = "https://www.pccasegear.com"	
+	first_result = soup.find("a",attrs={"class":"product-title"})
+	first_link = first_result.get('href')
+	source_url = PC_url_prefix + first_link
+	return source_url
+def get_pc_price(soup):
+	price = soup.find("div", attrs={"class":"price"})
+	if price:
+		return price.text
+	return ""
+def get_pc_stock(soup):
+	stock = soup.find("div", attrs={"class":"stock-label"})
+	if stock:
+		status = stock.text
+		return status
+	return ""
 
 if __name__ == '__main__':
 
@@ -267,30 +303,7 @@ if __name__ == '__main__':
 			
 			# store amazon title to use when scraping new egg
 			title = get_title(new_soup)
-
-			# new egg data scraped vvvvvvvvvvvvvvv
-			items = new_egg_items(title, category)
-			#print(items)
-			links= new_egg_links(items)
-			new_egg_title = ""
-			rating = ""
-			image = ""
-			result, new_egg_title, rating, image = new_egg_best_result(links, title)
-			print("new egg source: " + result)
-
-			
-			if result == "no matches":
-				print("no matches found")
-			else:
-				page = requests.get(result, headers=HEADERS)
-				soup = BeautifulSoup(page.content, 'html5lib')
-				new_price = new_egg_price(soup)
-				print("new egg title: " + new_egg_title)
-				print("new egg price: " + new_price)
-				print("new egg rating: " + rating)
-				print("new egg image: " + image)
-			# new egg data finised scraping ^^^^^^^^^^^^^^^
-
+			modelNum = get_model_num(new_soup)
 			product = {
 				"title" : get_title(new_soup),
 				"source" : "https://www.amazon.com.au" + link,
@@ -301,4 +314,12 @@ if __name__ == '__main__':
 				"reviews_no" : get_review_count(new_soup),
 				"availability" : get_availability(new_soup),
 			}
+			pc_soup = get_pc_soup(modelNum)
+			pc_title, pc_source, pc_image, pc_price, pc_stock = get_pc_data(pc_soup, title)
+			print("Case Gear Title: " + pc_title)
+			print("Case Gear Source: " + pc_source)
+			print("Case Gear Image: " + pc_image)
+			print("Case Gear Price: " + pc_price)
+			print("Case Gear Stock: " + pc_stock)
+			print("\n\n")
 			collection_name.insert_one(product)
