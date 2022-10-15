@@ -6,20 +6,23 @@
     <div class="left-col">
         <div class="image-box">
             <img src="{{data.image}}" >
-            <br>
-            <br>
-            <input text-align="center" class="loginButton" type="submit" value="Add to Wishlist">
         </div>
     </div>
     <div class="right-col">
-        <h2>{{data.title}}</h2>
-        <h3>Price: {{data.price}}</h3>
-        <h3>Normal Price: {{data.normal_price}}</h3>
-        <h3>Price changed by {{data.savings}}</h3>
-        <h3>{{data.rating}}</h3>
-        <h3>{{data.review_count}}</h3>
-        <h3>{{data.availability}}</h3>
-        <h3><a href="{{data.source}}">Click here for more information</a></h3>
+        <h1>{{data.title}}</h1>
+        <h2>{{data.price}}</h2>
+        <h4 class="prev-price">{{data.normal_price}}</h3>
+        <h4>Cost Reduced {{data.savings}} </h3>
+        <br>
+        <h4 class="rating-text">{{data.rating}}</h3>
+        <p>{{data.review_count}}</p>
+        <h3 class="available-text">{{data.availability}}</h3>
+        <button class="loginButton">
+            <a href="{{data.source}}" target="_blank" >View Product on Amazon </a>
+        </button>
+        <br>
+        <br>
+        <input text-align="center" class="loginButton" type="submit" value="Add to Wishlist">
     </div>
 </div>
 <div class="item-description">
@@ -30,18 +33,4 @@
     <div>
         <p>{{data.description}}</p>
     </div>
-</div>
-<div class="similar-item final-item-margin">
-    <hr>
-    <div class="subheading">
-        <h2>Similar Item Found at PC Case Gear</h2>
-    </div>
-    
-    <div class="flex-container">
-        <span>Image</span>
-        <span>Title</span>
-        <span>Price</span>
-        <span>Availability</span>
-    </div>
-
 </div>

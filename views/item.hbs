@@ -6,18 +6,20 @@
     <div class="left-col">
         <div class="image-box">
             <img src="{{data.image}}">
-            <br>
-            <br>
-            <input text-align="center" class="loginButton" type="submit" value="Add to Wishlist">
         </div>
     </div>
     <div class="right-col">
         <h2>{{data.title}}</h2>
         <h3>{{data.price}}</h3>
-        <h3>{{data.rating}}</h3>
-        <h3>{{data.reviews_no}}</h3>
-        <h3>{{data.availability}}</h3>
-        <h3><a href="{{data.source}}" target="_blank">Click here for more information</a></h3>
+        <h4 class="rating-text">{{data.rating}}</h4>
+        <p>{{data.reviews_no}}</p>
+        <h3 class="available-text">{{data.availability}}</h3>
+        <button class="loginButton">
+            <a href="{{data.source}}" target="_blank" >View Product on Amazon </a>
+        </button>
+        <br>
+        <br>
+        <input text-align="center" class="loginButton" type="submit" value="Add to Wishlist">
     </div>
 </div>       
 <div class="item-description">
