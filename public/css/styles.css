@@ -275,7 +275,7 @@ header.navbar{
     display: flex;
     justify-content: center;
     margin: auto;
-    padding: 10%;
+    padding: 50px;
     border: #000000;
     border-radius: 5px;
   }
