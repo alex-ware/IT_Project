@@ -352,7 +352,7 @@ padding-right: 8px;
     overflow: hidden;
 }
 
-.prev-price {
+#prev-price {
     color: rgb(185, 0, 0);
     text-decoration: line-through;
 }
@@ -415,7 +415,7 @@ padding-right: 8px;
     margin-bottom: 100px;
 }
 
-.rating-text {
+#rating-text {
     color:rgb(202, 148, 0)
 }
 
