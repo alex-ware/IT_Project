@@ -146,19 +146,12 @@ if __name__ == '__main__':
 			reduced_list.append(links_list[j])
 			j += 1
 
-		# Insert output to MongoDB
-		gpu = db["GPU Best Deals"]
-		cpu = db["CPU Best Deals"]
-		ram = db["RAM Best Deals"]
-		power_supply = db["Power Supplies Best Deals"]
-		motherboard = db["Motherboard Best Deals"]
-
-		collection_name = ""
-		if i == 0:collection_name = gpu
-		elif i == 1: collection_name = cpu
-		elif i == 2: collection_name = ram
-		elif i == 3: collection_name = power_supply
-		else: collection_name = motherboard
+		collection = db["Item Scraper"]
+		if i == 0: category = "gpu"
+		elif i == 1: category = "cpu"
+		elif i == 2: category = "ram"
+		elif i == 3: category = "power_supply"
+		else: category = "motherboard"
 		i += 1
 		
 		# Loop for extracting product details from each link 
@@ -176,8 +169,10 @@ if __name__ == '__main__':
 				"rating" : get_rating(new_soup),
 				"review_count" : get_review_count(new_soup),
 				"availability" : get_availability(new_soup),
+				"type": "best_buy",
+				"category": category,
 			}
-			collection_name.insert_one(product)
+			collection.insert_one(product)
 				
 		
 		

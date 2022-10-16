@@ -1,0 +1,46 @@
+<div class="page-heading">
+    <h1>{{title}}</h1>
+</div>
+<div class="item-display">
+    <div class="left-col">
+        <div class="image-box">
+            <img src="{{data.image}}">
+        </div>
+    </div>
+    <div class="right-col">
+        <h2>{{data.title}}</h2>
+        <h3>{{data.price}}</h3>
+        <h4 id="rating-text">{{data.rating}}</h4>
+        <p>{{data.reviews_no}}</p>
+        <h3 id="available-text">{{data.availability}}</h3>
+        <button class="button">
+            <a href="{{data.source}}" target="_blank" >Buy Now</a>
+        </button>
+        <br>
+        <br>
+        <input class="button" type="submit" value="Add to Wishlist">
+    </div>
+</div>       
+<div class="item-description">
+    <hr>
+    <div>
+        <h2>Description</h2>
+    </div>
+    <div>
+        <p>{{data.description}}</p>
+    </div>
+</div>
+<div class="similar-item final-item-margin">
+    <hr>
+    <div class="subheading">
+        <h2>Similar Item Found at PC Case Gear</h2>
+    </div>
+    
+    <div class="flex-container">
+        <span>Image</span>
+        <span>Title</span>
+        <span>Price</span>
+        <span>Availability</span>
+    </div>
+
+</div>

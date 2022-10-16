@@ -200,13 +200,14 @@ def get_pc_title(soup):
 		return title.text.strip()
 	else:
 		return ""
+		
 def get_pc_image(soup):
-	try:	
-		image = soup.find("div", attrs={"class":'product-container list-view'}).find("img")
-		source = image['src']
-	except AttributeError:
-		source = ""
-	return source
+    try:
+        image = soup.find("div", attrs={"class":'product-container list-view'}).find("img")
+        source = image['src']
+    except AttributeError:
+        source = ""
+    return source
 	
 def get_pc_source(soup):
 	PC_url_prefix = "https://www.pccasegear.com"	
@@ -267,7 +268,7 @@ if __name__ == '__main__':
 		## vvvv Currently not in use, but potentially will be used if we reduce number of products scraped  vvvv
 		## get the first 8 links
 		j = 0
-		while j < 20:
+		while j < 12:
 			reduced_list.append(links_list[j])
 			j += 1
 			

@@ -124,23 +124,16 @@ if __name__ == '__main__':
 		## vvvv Currently not in use, but potentially will be used if we reduce number of products scraped  vvvv
 		## get the first 8 links
 		j = 0
-		while j < 20:
+		while j < 12:
 			reduced_list.append(links_list[j])
 			j += 1
-			
-		# Insert output to MongoDB
-		gpu = db["GPU Scraper"]
-		cpu = db["CPU Scraper"]
-		ram = db["RAM Scraper"]
-		power_supply = db["Power Supplies Scraper"]
-		motherboard = db["Motherboard Scraper"]
-
-		collection_name = ""
-		if i == 0:collection_name = gpu
-		elif i == 1: collection_name = cpu
-		elif i == 2: collection_name = ram
-		elif i == 3: collection_name = power_supply
-		else: collection_name = motherboard
+		
+		collection = db["Item Scraper"]
+		if i == 0: category = "gpu"
+		elif i == 1: category = "cpu"
+		elif i == 2: category = "ram"
+		elif i == 3: category = "power_supply"
+		else: category = "motherboard"
 		i += 1
 		
 		# Loop for extracting product details from each link 
@@ -156,5 +149,7 @@ if __name__ == '__main__':
 				"rating" : get_rating(new_soup),
 				"reviews_no" : get_review_count(new_soup),
 				"availability" : get_availability(new_soup),
+				"type": "homepage",
+				"category": category,
 			}
-			collection_name.insert_one(product)
+			collection.insert_one(product)
