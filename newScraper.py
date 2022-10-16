@@ -201,11 +201,12 @@ def get_pc_title(soup):
 	else:
 		return ""
 def get_pc_image(soup):
-	image = soup.find("a", attrs={"class": "product-image"}).find("img")
-	if image:
+	try:	
+		image = soup.find("div", attrs={"class":'product-container list-view'}).find("img")
 		source = image['src']
-		return source
-	return ""
+	except AttributeError:
+		source = ""
+	return source
 	
 def get_pc_source(soup):
 	PC_url_prefix = "https://www.pccasegear.com"	
