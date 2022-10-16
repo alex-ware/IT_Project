@@ -2,7 +2,7 @@ const express = require('express')
 const bodyParser = require("body-parser");
 const user_router = express.Router()
 const pcPartsController = require('../controllers/pcPartsController')
-const historyController = require('../controllers/historyController')
+const HistoryWishlistController = require('../controllers/HistoryWishlistController')
 user_router.use(bodyParser.urlencoded({extended: true}));
 
 // Show homepage
@@ -19,12 +19,12 @@ user_router.get('/homepage/:id', pcPartsController.get_homepage_item_user)
 user_router.get('/best_buy', pcPartsController.get_best_deals_user)
 user_router.get('/best_buy/:id', pcPartsController.get_item_deal_user)
 
-user_router.get('/wishlist', function(req, res) {
-    res.render('wishlist', {layout: 'user.hbs' })
-})
+user_router.get('/wishlist', HistoryWishlistController.get_item_wishlist)
+user_router.get('/addWishlist/:id', HistoryWishlistController.add_item_wishlist)
+user_router.get('/removeWishlist/:id', HistoryWishlistController.remove_item_wishlist)
 
-user_router.get('/userHistory', historyController.get_item_history)
-user_router.get('/remove/:id', historyController.remove_item_history)
+user_router.get('/userHistory', HistoryWishlistController.get_item_history)
+user_router.get('/removeHistory/:id', HistoryWishlistController.remove_item_history)
 
 // Handle logout
 user_router.post('/logout', (req, res) => {

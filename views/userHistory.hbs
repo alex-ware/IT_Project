@@ -9,8 +9,8 @@
     <span>{{this.name}}</span>
     <span>Item Price: {{this.price}}</span>
     <span><button class="button" onclick="window.location.href = '/user/{{this.type}}/{{this.id}}'">view</button></span>
-    <span><button class="button"> wishlist &plus;</button></span>
-    <span><button class="button" onclick="window.location.href = '/user/remove/{{this.id}}'"> remove &times;</button></span>
+    <span><button class="button" onclick="window.location.href = '/user/addWishlist/{{this.id}}'"> wishlist &plus;</button></span>
+    <span><button class="button" onclick="window.location.href = '/user/removeHistory/{{this.id}}'"> remove &times;</button></span>
     <hr>
 </div>
 {{/each}}

@@ -1,6 +1,6 @@
 const db = require('../models/index')
 const mongoose = require('mongoose')
-const userHistory = require('../models/userHistory')
+const HistoryWishlist = require('../models/HistoryWishlist')
 
 const get_cpu_data = async(req, res, next) => {
     try {
@@ -104,13 +104,13 @@ const get_homepage_item = async(req, res, next) => {
 
 const get_homepage_item_user = async(req, res, next) => {
     try {
-        const this_cpu_id = mongoose.Types.ObjectId(req.params.id)
-        const cpu_item_info = await db.collection('Item Scraper').findOne({_id : this_cpu_id})
-        res.render('itemUser', {layout: 'user.hbs', title: "Product Information", data: cpu_item_info})
+        const this_item_id = mongoose.Types.ObjectId(req.params.id)
+        const item_info = await db.collection('Item Scraper').findOne({_id : this_item_id})
+        res.render('itemUser', {layout: 'user.hbs', title: "Product Information", data: item_info})
 
-        const newHistory = new userHistory()
+        const newHistory = new HistoryWishlist.userHistory()
         newHistory.user_id = req.user._id
-        newHistory.item_id = this_cpu_id
+        newHistory.item_id = this_item_id
 
         await newHistory.save()
     } catch(err) {
@@ -160,7 +160,7 @@ const get_item_deal_user = async(req, res, next) => {
         const item_info = await db.collection('Item Scraper').findOne({_id : this_item_id})
         res.render('bestBuyItemUser', {layout:'user.hbs', title: "Best Deals Product Information", data: item_info})
 
-        const newHistory = new userHistory()
+        const newHistory = new HistoryWishlist.userHistory()
         newHistory.user_id = req.user._id
         newHistory.item_id = this_item_id
 
