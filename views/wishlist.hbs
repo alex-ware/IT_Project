@@ -1,16 +1,60 @@
 <div class="page-heading">
     <h1>My Wishlist</h1>
 </div>
-{{#each data}}
-<div>
-    <span>
-        <img src="{{this.image}}" width="100px">
-    </span>
-    <span>{{this.name}}</span>
-    <span>Item Price: {{this.price}}</span>
-    <span><button class="button" onclick="window.location.href = '/user/{{this.type}}/{{this.id}}'">view</button></span>
-    <span><button class="button" onclick="window.location.href = '/user/removeWishlist/{{this.id}}'"> remove &times;</button></span>
-    <hr>
-</div>
-{{/each}}
+<ul class="item-list">
+    {{#each data}}
+    <li>
+        <span>
+            <div class="list grid">
+                <div class="list-grid-inner">
+                    <div class="list-left-grid">
+                        <div class="list-image">
+                            <a href="/user/{{this.type}}/{{this.id}}">
+                                <img src="{{this.image}}" width="100px">
+                            </a>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <div class="list-right-grid">
+                            <div class="list-right-grid-inner">
+                                <div class="list-item-info">
+                                    <div>
+                                        <div class="list-item-info-col">
+                                            <div class="product-card-title">
+                                                <a href="/user/{{this.type}}/{{this.id}}">
+                                                    {{this.name}}
+                                                </a>
+                                            </div>
+                                            <div class="margin-none">
+                                                <h2>{{this.price}}</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                    
+                                <div class="list-item-action">
+                                    <div>
+                                        <button class="button">
+                                            <a href="{{data.source}}" target="_blank" >Buy Now</a>
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <button class="button" onclick="window.location.href = '/user/removeWishlist/{{this.id}}'"> Remove </button>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </span>
+        <hr>
+    </li>
+    {{/each}}
+</ul>
 <div class="final-item-margin"></div>

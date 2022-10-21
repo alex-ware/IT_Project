@@ -303,6 +303,7 @@ padding-right: 8px;
 }
 
 
+
 .product-image {
     position: absolute;
     margin: auto;
@@ -354,6 +355,14 @@ padding-right: 8px;
     margin-bottom: 0!important;
     height: 105px;
     overflow: hidden;
+}
+.product-card-title a {
+    text-decoration: none;
+    color: black;
+}
+.product-card-title :hover{
+    text-decoration: none;
+    color: rgb(202, 138, 0);
 }
 
 #prev-price {
@@ -430,4 +439,97 @@ padding-right: 8px;
 button a{
     color: white;
     text-decoration: none;
+}
+
+.item-list {
+    list-style: none;
+    word-wrap: break-word;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.list-grid {
+    position: relative;
+    display: block;
+    padding-left: 220px;
+    
+}
+.list-grid-inner {
+    display: table;
+    content: "";
+    line-height: 0;
+    margin-left: 25%;
+   
+}
+.list-left-grid {
+    min-height: 150px;
+    float: left;
+    width: 220px;
+    margin-left: -220px;
+
+
+    position: relative;
+    overflow: visible;
+    zoom: 1;
+}
+.list-image{
+    float: left;
+    padding-left: 0%;
+    width: 100%;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    
+    text-align: center!important;
+    min-height: 150px!important;
+}
+.list-item {
+    float: left;
+    padding-left: 0%;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    position: relative;
+    width: 100%;
+
+    overflow: visible;
+    word-wrap: break-word;
+}
+.list-right-grid{
+    text-align: left!important;
+    display: block;
+    position: relative;
+
+}
+.list-right-grid-inner{
+    padding-right: 220px;
+    display: table;
+}
+.list-item-info{
+    float: left;
+    width: 500px;
+    padding-right: 5%!important;
+    display: block;
+    line-height: 20px;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+
+}
+.list-item-action{
+    width: 220px;
+    margin-right: -220px;
+    float: right;
+    padding-left: 0;
+    vertical-align: center;
+    justify-content: center;
+}
+.list-item-info-col {
+    width: 100%!important;
+    margin-right: 0;
+    float: left;
+
+}
+.list-item-info-row {
+    display: table;
+}
+.margin-none h2 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
