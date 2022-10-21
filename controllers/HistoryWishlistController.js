@@ -14,6 +14,7 @@ const get_item_history = async(req, res, next) => {
                     this_item_info = {
                     image: item_info.image,
                     name: item_info.title,
+                    source: item_info.source,
                     price: item_info.price,
                     type: item_info.type,
                     id: item_info._id
@@ -50,6 +51,7 @@ const get_item_wishlist = async(req, res, next) => {
                     this_item_info = {
                     image: item_info.image,
                     name: item_info.title,
+                    source: item_info.source,
                     price: item_info.price,
                     type: item_info.type,
                     id: item_info._id
