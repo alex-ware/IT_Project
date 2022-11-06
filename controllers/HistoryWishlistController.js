@@ -1,7 +1,7 @@
 const db = require('../models/index')
 const mongoose = require('mongoose')
 
-// Display item history according to the user logged in.
+// Display item history according to the user logged in, sorted from newest to oldest.
 const get_item_history = async(req, res, next) => {
     try {
         const item_history = await db.collection('User History Data').find({user_id: req.user._id}).sort({'date':-1}).limit(12).toArray()
@@ -40,7 +40,7 @@ const remove_item_history = async(req, res, next) => {
     }
 }
 
-// Display item wishlist according to the user logged in.
+// Display item wishlist according to the user logged in, sorted from newest to oldest.
 const get_item_wishlist = async(req, res, next) => {
     try {
         const item_wishlist = await db.collection('User Wishlist Data').find({user_id: req.user._id}).sort({'date':-1}).limit(12).toArray()
@@ -68,7 +68,7 @@ const get_item_wishlist = async(req, res, next) => {
     }
 }
 
-// Add item to the wishlist.
+// Add item to the wishlist, ensure no duplicate item is stored.
 const add_item_wishlist = async(req, res, next) => {
     try {
         const this_item_id = mongoose.Types.ObjectId(req.params.id)
@@ -86,6 +86,7 @@ const add_item_wishlist = async(req, res, next) => {
                 'upsert':true
             }
         )
+        res.redirect('/user/wishlist')
     } catch(err) {
         return next(err)
     }
