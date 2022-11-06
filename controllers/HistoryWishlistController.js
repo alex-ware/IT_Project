@@ -2,6 +2,7 @@ const db = require('../models/index')
 const mongoose = require('mongoose')
 const HistoryWishlist = require('../models/HistoryWishlist')
 
+// Display item history according to the user logged in.
 const get_item_history = async(req, res, next) => {
     try {
         const item_history = await db.collection('User History Data').find({user_id: req.user._id}).sort({$natural:-1}).limit(12).toArray()
@@ -29,6 +30,7 @@ const get_item_history = async(req, res, next) => {
     }
 }
 
+// Remove item from history.
 const remove_item_history = async(req, res, next) => {
     try {
         const this_item_id = mongoose.Types.ObjectId(req.params.id)
@@ -39,6 +41,7 @@ const remove_item_history = async(req, res, next) => {
     }
 }
 
+// Display item wishlist according to the user logged in.
 const get_item_wishlist = async(req, res, next) => {
     try {
         const item_wishlist = await db.collection('User Wishlist Data').find({user_id: req.user._id}).sort({$natural:-1}).limit(12).toArray()
@@ -66,6 +69,7 @@ const get_item_wishlist = async(req, res, next) => {
     }
 }
 
+// Add item to the wishlist.
 const add_item_wishlist = async(req, res, next) => {
     try {
         const this_item_id = mongoose.Types.ObjectId(req.params.id)
@@ -81,6 +85,7 @@ const add_item_wishlist = async(req, res, next) => {
     }
 }
 
+// Remove item from the wishlist.
 const remove_item_wishlist = async(req, res, next) => {
     try {
         const this_item_id = mongoose.Types.ObjectId(req.params.id)

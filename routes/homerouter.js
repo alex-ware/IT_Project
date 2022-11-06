@@ -4,7 +4,6 @@ const homeController = require('../controllers/homecontroller.js')
 const pcPartsController = require('../controllers/pcPartsController')
 const User = require('../models/user')
 
-
 homeRouter.get('/', homeController.home)
 
 // Handle registration of new user

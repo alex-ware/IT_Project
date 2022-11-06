@@ -2,6 +2,7 @@ const db = require('../models/index')
 const mongoose = require('mongoose')
 const HistoryWishlist = require('../models/HistoryWishlist')
 
+// Get CPU items from the scraper to display it on the guest page.
 const get_cpu_data = async(req, res, next) => {
     try {
         const cpu_info = await db.collection('Item Scraper').find({category: "cpu", type: "homepage"}).sort({$natural:-1}).limit(12).toArray()
@@ -11,6 +12,7 @@ const get_cpu_data = async(req, res, next) => {
     }
 }
 
+// Get CPU items from the scraper to display it on the user page.
 const get_cpu_data_user = async(req, res, next) => {
     try {
         const cpu_info = await db.collection('Item Scraper').find({category: "cpu", type: "homepage"}).sort({$natural:-1}).limit(12).toArray()
@@ -20,6 +22,7 @@ const get_cpu_data_user = async(req, res, next) => {
     }
 }
 
+// Get GPU items from the scraper to display it on the guest page.
 const get_gpu_data = async(req, res, next) => {
     try {
         const gpu_info = await db.collection('Item Scraper').find({category: "gpu", type: "homepage"}).sort({$natural:-1}).limit(12).toArray()
@@ -29,6 +32,7 @@ const get_gpu_data = async(req, res, next) => {
     }
 }
 
+// Get GPU items from the scraper to display it on the user page.
 const get_gpu_data_user = async(req, res, next) => {
     try {
         const gpu_info = await db.collection('Item Scraper').find({category: "gpu", type: "homepage"}).sort({$natural:-1}).limit(12).toArray()
@@ -38,6 +42,7 @@ const get_gpu_data_user = async(req, res, next) => {
     }
 }
 
+// Get RAM items from the scraper to display it on the guest page.
 const get_ram_data = async(req, res, next) => {
     try {
         const ram_info = await db.collection('Item Scraper').find({category: "ram", type: "homepage"}).sort({$natural:-1}).limit(12).toArray()
@@ -47,6 +52,7 @@ const get_ram_data = async(req, res, next) => {
     }
 }
 
+// Get RAM items from the scraper to display it on the user page.
 const get_ram_data_user = async(req, res, next) => {
     try {
         const ram_info = await db.collection('Item Scraper').find({category: "ram", type: "homepage"}).sort({$natural:-1}).limit(12).toArray()
@@ -56,6 +62,7 @@ const get_ram_data_user = async(req, res, next) => {
     }
 }
 
+// Get motherboard items from the scraper to display it on the guest page.
 const get_motherboard_data = async(req, res, next) => {
     try {
         const motherboard_info = await db.collection('Item Scraper').find({category: "motherboard", type: "homepage"}).sort({$natural:-1}).limit(12).toArray()
@@ -65,6 +72,7 @@ const get_motherboard_data = async(req, res, next) => {
     }
 }
 
+// Get motherboard items from the scraper to display it on the user page.
 const get_motherboard_data_user = async(req, res, next) => {
     try {
         const motherboard_info = await db.collection('Item Scraper').find({category: "motherboard", type: "homepage"}).sort({$natural:-1}).limit(12).toArray()
@@ -74,6 +82,7 @@ const get_motherboard_data_user = async(req, res, next) => {
     }
 }
 
+// Get powersupply items from the scraper to display it on the guest page.
 const get_powersupply_data = async(req, res, next) => {
     try {
         const powersupply_info = await db.collection('Item Scraper').find({category: "power_supply", type: "homepage"}).sort({$natural:-1}).limit(12).toArray()
@@ -83,6 +92,7 @@ const get_powersupply_data = async(req, res, next) => {
     }
 }
 
+// Get powersupply items from the scraper to display it on the user page.
 const get_powersupply_data_user = async(req, res, next) => {
     try {
         const powersupply_info = await db.collection('Item Scraper').find({category: "power_supply", type: "homepage"}).sort({$natural:-1}).limit(12).toArray()
@@ -92,6 +102,7 @@ const get_powersupply_data_user = async(req, res, next) => {
     }
 }
 
+// Display items' information on the guest page.
 const get_homepage_item = async(req, res, next) => {
     try {
         const this_item_id = mongoose.Types.ObjectId(req.params.id)
@@ -102,6 +113,7 @@ const get_homepage_item = async(req, res, next) => {
     }
 }
 
+// Display items' information on the user page, also storing it on the user history.
 const get_homepage_item_user = async(req, res, next) => {
     try {
         const this_item_id = mongoose.Types.ObjectId(req.params.id)
@@ -118,6 +130,7 @@ const get_homepage_item_user = async(req, res, next) => {
     }
 }
 
+// Display Best Deals items on the guest page.
 const get_best_deals = async(req, res, next) => {
     try {
         const cpu_best_deal = await db.collection('Item Scraper').find({type: "best_buy", category: "cpu"}).sort({$natural:-1}).limit(4).toArray()
@@ -131,6 +144,7 @@ const get_best_deals = async(req, res, next) => {
     }
 }
 
+// Display Best Deals items on the user page.
 const get_best_deals_user = async(req, res, next) => {
     try {
         const cpu_best_deal = await db.collection('Item Scraper').find({type: "best_buy", category: "cpu"}).sort({$natural:-1}).limit(4).toArray()
@@ -144,6 +158,7 @@ const get_best_deals_user = async(req, res, next) => {
     }
 }
 
+// Display Best Deals items' information on the guest page.
 const get_item_deal = async(req, res, next) => {
     try {
         const this_item_id = mongoose.Types.ObjectId(req.params.id)
@@ -154,6 +169,7 @@ const get_item_deal = async(req, res, next) => {
     }
 }
 
+// Display Best Deals items' information on the user page, also storing it on the user history.
 const get_item_deal_user = async(req, res, next) => {
     try {
         const this_item_id = mongoose.Types.ObjectId(req.params.id)
