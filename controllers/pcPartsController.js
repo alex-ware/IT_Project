@@ -1,6 +1,5 @@
 const db = require('../models/index')
 const mongoose = require('mongoose')
-const HistoryWishlist = require('../models/HistoryWishlist')
 
 // Get CPU items from the scraper to display it on the guest page.
 const get_cpu_data = async(req, res, next) => {
@@ -113,18 +112,27 @@ const get_homepage_item = async(req, res, next) => {
     }
 }
 
-// Display items' information on the user page, also storing it on the user history.
+// Display items' information on the user page, also storing it on the user history. Ensure no duplicate item is stored.
 const get_homepage_item_user = async(req, res, next) => {
     try {
         const this_item_id = mongoose.Types.ObjectId(req.params.id)
         const item_info = await db.collection('Item Scraper').findOne({_id : this_item_id})
         res.render('itemUser', {layout: 'user.hbs', title: "Product Information", data: item_info})
 
-        const newHistory = new HistoryWishlist.userHistory()
-        newHistory.user_id = req.user._id
-        newHistory.item_id = this_item_id
-
-        await newHistory.save()
+        db.collection('User History Data').replaceOne(
+            {
+                'user_id': req.user._id,
+                'item_id': this_item_id
+            },
+            {
+                'user_id': req.user._id,
+                'item_id': this_item_id,
+                'date': new Date()
+            },
+            {
+                'upsert':true
+            }
+        )
     } catch(err) {
         return next(err)
     }
@@ -169,18 +177,27 @@ const get_item_deal = async(req, res, next) => {
     }
 }
 
-// Display Best Deals items' information on the user page, also storing it on the user history.
+// Display Best Deals items' information on the user page, also storing it on the user history. Ensure no duplicate item is stored.
 const get_item_deal_user = async(req, res, next) => {
     try {
         const this_item_id = mongoose.Types.ObjectId(req.params.id)
         const item_info = await db.collection('Item Scraper').findOne({_id : this_item_id})
         res.render('bestBuyItemUser', {layout:'user.hbs', title: "Best Deals Product Information", data: item_info})
 
-        const newHistory = new HistoryWishlist.userHistory()
-        newHistory.user_id = req.user._id
-        newHistory.item_id = this_item_id
-
-        await newHistory.save()
+        db.collection('User History Data').replaceOne(
+            {
+                'user_id': req.user._id,
+                'item_id': this_item_id
+            },
+            {
+                'user_id': req.user._id,
+                'item_id': this_item_id,
+                'date': new Date()
+            },
+            {
+                'upsert':true
+            }
+        )
     } catch(err) {
         return next(err)
     }

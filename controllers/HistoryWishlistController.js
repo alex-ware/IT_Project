@@ -1,11 +1,10 @@
 const db = require('../models/index')
 const mongoose = require('mongoose')
-const HistoryWishlist = require('../models/HistoryWishlist')
 
 // Display item history according to the user logged in.
 const get_item_history = async(req, res, next) => {
     try {
-        const item_history = await db.collection('User History Data').find({user_id: req.user._id}).sort({$natural:-1}).limit(12).toArray()
+        const item_history = await db.collection('User History Data').find({user_id: req.user._id}).sort({'date':-1}).limit(12).toArray()
         let all_item_info = []
         for (var i = 0; i < item_history.length; i++){
             item_id = item_history[i].item_id
@@ -44,7 +43,7 @@ const remove_item_history = async(req, res, next) => {
 // Display item wishlist according to the user logged in.
 const get_item_wishlist = async(req, res, next) => {
     try {
-        const item_wishlist = await db.collection('User Wishlist Data').find({user_id: req.user._id}).sort({$natural:-1}).limit(12).toArray()
+        const item_wishlist = await db.collection('User Wishlist Data').find({user_id: req.user._id}).sort({'date':-1}).limit(12).toArray()
         let all_item_info = []
         for (var i = 0; i < item_wishlist.length; i++){
             item_id = item_wishlist[i].item_id
@@ -73,13 +72,20 @@ const get_item_wishlist = async(req, res, next) => {
 const add_item_wishlist = async(req, res, next) => {
     try {
         const this_item_id = mongoose.Types.ObjectId(req.params.id)
-
-        const newWishlist = new HistoryWishlist.userWishlist()
-        newWishlist.user_id = req.user._id
-        newWishlist.item_id = this_item_id
-
-        await newWishlist.save()
-        res.redirect('/user/wishlist')
+        db.collection('User Wishlist Data').replaceOne(
+            {
+                'user_id': req.user._id,
+                'item_id': this_item_id
+            },
+            {
+                'user_id': req.user._id,
+                'item_id': this_item_id,
+                'date': new Date()
+            },
+            {
+                'upsert':true
+            }
+        )
     } catch(err) {
         return next(err)
     }
