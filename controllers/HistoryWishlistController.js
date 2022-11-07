@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 // Display item history according to the user logged in, sorted from newest to oldest.
 const get_item_history = async(req, res, next) => {
     try {
-        const item_history = await db.collection('User History Data').find({user_id: req.user._id}).sort({'date':-1}).limit(12).toArray()
+        const item_history = await db.collection('User History Data').find({user_id: req.user._id}).sort({'date':-1}).toArray()
         let all_item_info = []
         for (var i = 0; i < item_history.length; i++){
             item_id = item_history[i].item_id
@@ -43,7 +43,7 @@ const remove_item_history = async(req, res, next) => {
 // Display item wishlist according to the user logged in, sorted from newest to oldest.
 const get_item_wishlist = async(req, res, next) => {
     try {
-        const item_wishlist = await db.collection('User Wishlist Data').find({user_id: req.user._id}).sort({'date':-1}).limit(12).toArray()
+        const item_wishlist = await db.collection('User Wishlist Data').find({user_id: req.user._id}).sort({'date':-1}).toArray()
         let all_item_info = []
         for (var i = 0; i < item_wishlist.length; i++){
             item_id = item_wishlist[i].item_id

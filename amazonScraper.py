@@ -124,7 +124,7 @@ if __name__ == '__main__':
 		## vvvv Currently not in use, but potentially will be used if we reduce number of products scraped  vvvv
 		## get the first 8 links
 		j = 0
-		while j < 12:
+		while j < 24:
 			reduced_list.append(links_list[j])
 			j += 1
 		

@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 // Get CPU items from the scraper to display it on the guest page.
 const get_cpu_data = async(req, res, next) => {
     try {
-        const cpu_info = await db.collection('Item Scraper').find({category: "cpu", type: "homepage"}).sort({$natural:-1}).limit(12).toArray()
+        const cpu_info = await db.collection('Item Scraper').find({category: "cpu", type: "homepage"}).sort({$natural:-1}).limit(24).toArray()
         res.render('product', {title: "Processors", data: cpu_info})
     } catch(err) {
         return next(err)
@@ -14,7 +14,7 @@ const get_cpu_data = async(req, res, next) => {
 // Get CPU items from the scraper to display it on the user page.
 const get_cpu_data_user = async(req, res, next) => {
     try {
-        const cpu_info = await db.collection('Item Scraper').find({category: "cpu", type: "homepage"}).sort({$natural:-1}).limit(12).toArray()
+        const cpu_info = await db.collection('Item Scraper').find({category: "cpu", type: "homepage"}).sort({$natural:-1}).limit(24).toArray()
         res.render('product', {layout: 'user.hbs', title: "Processors", data: cpu_info})
     } catch(err) {
         return next(err)
@@ -24,7 +24,7 @@ const get_cpu_data_user = async(req, res, next) => {
 // Get GPU items from the scraper to display it on the guest page.
 const get_gpu_data = async(req, res, next) => {
     try {
-        const gpu_info = await db.collection('Item Scraper').find({category: "gpu", type: "homepage"}).sort({$natural:-1}).limit(12).toArray()
+        const gpu_info = await db.collection('Item Scraper').find({category: "gpu", type: "homepage"}).sort({$natural:-1}).limit(24).toArray()
         res.render('product', {title: "Graphics Cards", data: gpu_info})
     } catch(err) {
         return next(err)
@@ -34,7 +34,7 @@ const get_gpu_data = async(req, res, next) => {
 // Get GPU items from the scraper to display it on the user page.
 const get_gpu_data_user = async(req, res, next) => {
     try {
-        const gpu_info = await db.collection('Item Scraper').find({category: "gpu", type: "homepage"}).sort({$natural:-1}).limit(12).toArray()
+        const gpu_info = await db.collection('Item Scraper').find({category: "gpu", type: "homepage"}).sort({$natural:-1}).limit(24).toArray()
         res.render('product', {layout: 'user.hbs', title: "Graphics Cards", data: gpu_info})
     } catch(err) {
         return next(err)
@@ -44,7 +44,7 @@ const get_gpu_data_user = async(req, res, next) => {
 // Get RAM items from the scraper to display it on the guest page.
 const get_ram_data = async(req, res, next) => {
     try {
-        const ram_info = await db.collection('Item Scraper').find({category: "ram", type: "homepage"}).sort({$natural:-1}).limit(12).toArray()
+        const ram_info = await db.collection('Item Scraper').find({category: "ram", type: "homepage"}).sort({$natural:-1}).limit(24).toArray()
         res.render('product', {title: "Memory", data: ram_info})
     } catch(err) {
         return next(err)
@@ -54,7 +54,7 @@ const get_ram_data = async(req, res, next) => {
 // Get RAM items from the scraper to display it on the user page.
 const get_ram_data_user = async(req, res, next) => {
     try {
-        const ram_info = await db.collection('Item Scraper').find({category: "ram", type: "homepage"}).sort({$natural:-1}).limit(12).toArray()
+        const ram_info = await db.collection('Item Scraper').find({category: "ram", type: "homepage"}).sort({$natural:-1}).limit(24).toArray()
         res.render('product', {layout: 'user.hbs', title: "Memory", data: ram_info})
     } catch(err) {
         return next(err)
@@ -64,7 +64,7 @@ const get_ram_data_user = async(req, res, next) => {
 // Get motherboard items from the scraper to display it on the guest page.
 const get_motherboard_data = async(req, res, next) => {
     try {
-        const motherboard_info = await db.collection('Item Scraper').find({category: "motherboard", type: "homepage"}).sort({$natural:-1}).limit(12).toArray()
+        const motherboard_info = await db.collection('Item Scraper').find({category: "motherboard", type: "homepage"}).sort({$natural:-1}).limit(24).toArray()
         res.render('product', {title:"Motherboards", data: motherboard_info})
     } catch(err) {
         return next(err)
@@ -74,7 +74,7 @@ const get_motherboard_data = async(req, res, next) => {
 // Get motherboard items from the scraper to display it on the user page.
 const get_motherboard_data_user = async(req, res, next) => {
     try {
-        const motherboard_info = await db.collection('Item Scraper').find({category: "motherboard", type: "homepage"}).sort({$natural:-1}).limit(12).toArray()
+        const motherboard_info = await db.collection('Item Scraper').find({category: "motherboard", type: "homepage"}).sort({$natural:-1}).limit(24).toArray()
         res.render('product', {layout: 'user.hbs', title:"Motherboards", data: motherboard_info})
     } catch(err) {
         return next(err)
@@ -84,7 +84,7 @@ const get_motherboard_data_user = async(req, res, next) => {
 // Get powersupply items from the scraper to display it on the guest page.
 const get_powersupply_data = async(req, res, next) => {
     try {
-        const powersupply_info = await db.collection('Item Scraper').find({category: "power_supply", type: "homepage"}).sort({$natural:-1}).limit(12).toArray()
+        const powersupply_info = await db.collection('Item Scraper').find({category: "power_supply", type: "homepage"}).sort({$natural:-1}).limit(24).toArray()
         res.render('product', {title: "Power Supplies", data: powersupply_info})
     } catch(err) {
         return next(err)
@@ -94,7 +94,7 @@ const get_powersupply_data = async(req, res, next) => {
 // Get powersupply items from the scraper to display it on the user page.
 const get_powersupply_data_user = async(req, res, next) => {
     try {
-        const powersupply_info = await db.collection('Item Scraper').find({category: "power_supply", type: "homepage"}).sort({$natural:-1}).limit(12).toArray()
+        const powersupply_info = await db.collection('Item Scraper').find({category: "power_supply", type: "homepage"}).sort({$natural:-1}).limit(24).toArray()
         res.render('product', {layout: 'user.hbs', title: "Power Supplies", data: powersupply_info})
     } catch(err) {
         return next(err)
