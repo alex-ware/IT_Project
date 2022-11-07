@@ -27,47 +27,53 @@
         <p>{{data.description}}</p>
     </div>
 </div>
-<div class="item-description final-item-margin">
-    <hr>
-    <div>
-        <h2>Similar Product on PC Case Gear</h2>
-    </div>
-    <div class="list grid">
-        <div class="list-grid-inner">
-            <div class="list-left-grid">
-                <div class="list-image">
-                        <img src="{{data.case_gear_image}}" width="100px">
+{{#if data.case_gear_title}}
+    <div class="item-description final-item-margin">
+        <hr>
+        <div>
+            <h2>Similar Product on PC Case Gear</h2>
+        </div>
+        <div class="list grid">
+            <div class="list-grid-inner">
+                <div class="list-left-grid">
+                    <div class="list-image">
+                            <img src="{{data.case_gear_image}}" width="100px">
+                    </div>
                 </div>
-            </div>
-            
-            <div class="list-item">
-                <div class="list-right-grid">
-                    <div class="list-right-grid-inner">
-                        <div class="list-item-info">
-                            <div>
-                                <div class="list-item-info-col">
-                                    <div class="product-card-title">
-                                            {{data.case_gear_title}}
-                                    </div>
-                                    <div class="margin-none">
-                                        <h2>{{data.case_gear_price}}</h2>
-                                        <h3 id="available-text">{{data.case_gear_stock}}</h3>
+                
+                <div class="list-item">
+                    <div class="list-right-grid">
+                        <div class="list-right-grid-inner">
+                            <div class="list-item-info">
+                                <div>
+                                    <div class="list-item-info-col">
+                                        <div class="product-card-title">
+                                                {{data.case_gear_title}}
+                                        </div>
+                                        <div class="margin-none">
+                                            <h2>{{data.case_gear_price}}</h2>
+                                            <h3 id="available-text">{{data.case_gear_stock}}</h3>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                            
-                        <div class="list-item-action">
-                            <div>
-                                <button class="button">
-                                    <a href="{{data.case_gear_source}}" target="_blank" >Buy Now</a>
-                                </button>
+                                
+                            <div class="list-item-action">
+                                <div>
+                                    <button class="button">
+                                        <a href="{{data.case_gear_source}}" target="_blank" >Buy Now</a>
+                                    </button>
+                                </div>
                             </div>
+                            
                         </div>
-                        
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+{{else}}
+    <div class="final-item-margin">
+
+    </div>
+{{/if}}
