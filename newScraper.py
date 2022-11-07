@@ -271,34 +271,16 @@ if __name__ == '__main__':
 		## vvvv Currently not in use, but potentially will be used if we reduce number of products scraped  vvvv
 		## get the first 8 links
 		j = 0
-		while j < 12:
+		while j < 24:
 			reduced_list.append(links_list[j])
 			j += 1
 			
-		# Insert output to MongoDB
-		gpu = db["GPU Scraper"]
-		cpu = db["CPU Scraper"]
-		ram = db["RAM Scraper"]
-		power_supply = db["Power Supplies Scraper"]
-		motherboard = db["Motherboard Scraper"]
-		
-		# category assignment is for the new egg scraping implementation
-		collection_name = ""
-		if i == 0:
-			collection_name = gpu
-			category = "gpu"
-		elif i == 1: 
-			collection_name = cpu
-			category = "cpu"
-		elif i == 2: 
-			collection_name = ram
-			category = "ram"
-		elif i == 3: 
-			collection_name = power_supply
-			category = "power"
-		else: 
-			collection_name = motherboard
-			category = "motherboard"
+		collection = db["Item Scraper"]
+		if i == 0: category = "gpu"
+		elif i == 1: category = "cpu"
+		elif i == 2: category = "ram"
+		elif i == 3: category = "power_supply"
+		else: category = "motherboard"
 		i += 1
 		
 		# Loop for extracting product details from each link 
@@ -309,6 +291,8 @@ if __name__ == '__main__':
 			# store amazon title to use when scraping new egg
 			title = get_title(new_soup)
 			modelNum = get_model_num(new_soup)
+			pc_soup = get_pc_soup(modelNum)
+			pc_title, pc_source, pc_image, pc_price, pc_stock = get_pc_data(pc_soup, title)
 			product = {
 				"title" : get_title(new_soup),
 				"source" : "https://www.amazon.com.au" + link,
@@ -318,13 +302,12 @@ if __name__ == '__main__':
 				"rating" : get_rating(new_soup),
 				"reviews_no" : get_review_count(new_soup),
 				"availability" : get_availability(new_soup),
+				"type": "homepage",
+				"category": category,
+				"case_gear_title": pc_title,
+				"case_gear_source": pc_source,
+				"case_gear_image": pc_image,
+				"case_gear_price": pc_price,
+				"case_gear_stock": pc_stock,
 			}
-			pc_soup = get_pc_soup(modelNum)
-			pc_title, pc_source, pc_image, pc_price, pc_stock = get_pc_data(pc_soup, title)
-			print("Case Gear Title: " + pc_title)
-			print("Case Gear Source: " + pc_source)
-			print("Case Gear Image: " + pc_image)
-			print("Case Gear Price: " + pc_price)
-			print("Case Gear Stock: " + pc_stock)
-			print("\n\n")
-			collection_name.insert_one(product)
+			collection.insert_one(product)
