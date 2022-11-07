@@ -51,6 +51,8 @@ header {
     color: white;
     font-family: arial;
 }
+
+
 .button {
     font-family: var(--font-family-body);
     font-weight: 600;
@@ -133,6 +135,14 @@ header.navbar{
     box-sizing: border-box;
     padding: 15px 30px;
 }
+.menuBox {
+    display: flex;
+    
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+}
 .loginButton {
     background-color: black;
     color: white;
@@ -140,18 +150,22 @@ header.navbar{
 
     cursor: pointer;
 
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 10px;
-    padding-right: 10px;
+    
+    padding-left: 0px;
+    
+}
+.loginButton:hover{
+    color: gray;
+    cursor: pointer;
 }
 .navButton{
     color: white;
     cursor: pointer;
     font-size: large;
-    padding-left: 5px;
+    padding-left: 10px;
 
 }
+
 
 .navButton:hover{
     color: gray;
