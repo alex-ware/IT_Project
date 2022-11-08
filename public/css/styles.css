@@ -566,3 +566,10 @@ button a{
     margin-top: 0;
     margin-bottom: 0;
 }
+
+#login-lottie { 
+    display: block;
+    margin-left: 5%;
+    margin-top: 4%;
+    width: 30%;   
+}
