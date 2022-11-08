@@ -51,6 +51,15 @@ header {
     color: white;
     font-family: arial;
 }
+ .heading{
+    
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    font-family: arial;
+    padding-left: 90px;
+ }
+
 
 .button {
     font-family: var(--font-family-body);
@@ -136,7 +145,14 @@ header.navbar{
     box-sizing: border-box;
     padding: 15px 30px;
 }
-
+.menuBox {
+    display: flex;
+    
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+}
 .loginButton {
     background-color: black;
     color: white;
@@ -144,20 +160,23 @@ header.navbar{
 
     cursor: pointer;
 
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 10px;
-    padding-right: 10px;
+    
+    padding-left: 0px;
+    
+}
+.loginButton:hover{
+    color: gray;
+    cursor: pointer;
 }
 
 .navButton{
     color: white;
     cursor: pointer;
     font-size: large;
-    padding-left: 5px;
-    display: inline-block;
-    margin: 0;
+    padding-left: 10px;
+
 }
+
 
 .navButton:hover{
     color: gray;
@@ -165,6 +184,7 @@ header.navbar{
 }
 
 .sidenav {
+    
     height:100%;
     width: 0;
     position: fixed;
@@ -228,6 +248,10 @@ header.navbar{
     cursor: pointer;
     justify-content: left;
     border-right: #D8D6D6;
+}
+.sideNavButton:hover {
+    color:gray;
+   
 }
 
 .item-grid {
