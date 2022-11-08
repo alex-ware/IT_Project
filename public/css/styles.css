@@ -248,7 +248,10 @@ header.navbar{
 
     border-right: #D8D6D6;
 }
-
+.sideNavButton:hover {
+    color:gray;
+   
+}
 
 .item-grid {
     display: grid;
