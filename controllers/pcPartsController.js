@@ -106,7 +106,7 @@ const get_homepage_item = async(req, res, next) => {
     try {
         const this_item_id = mongoose.Types.ObjectId(req.params.id)
         const item_info = await db.collection('Item Scraper').findOne({_id : this_item_id})
-        star_rating(item_info)
+        //star_rating(item_info)
         res.render('item', {title: "Product Information", data: item_info})
     } catch(err) {
         return next(err)
@@ -118,7 +118,7 @@ const get_homepage_item_user = async(req, res, next) => {
     try {
         const this_item_id = mongoose.Types.ObjectId(req.params.id)
         const item_info = await db.collection('Item Scraper').findOne({_id : this_item_id})
-        star_rating(item_info)
+        //star_rating(item_info)
         res.render('itemUser', {layout: 'user.hbs', title: "Product Information", data: item_info})
 
         db.collection('User History Data').replaceOne(
@@ -204,6 +204,7 @@ const get_item_deal_user = async(req, res, next) => {
         return next(err)
     }
 }
+/*
 // Displays stars for the rating system
 function star_rating(item_info){
     let last
@@ -225,6 +226,7 @@ function star_rating(item_info){
     
 
 }
+*/
 
 module.exports = {
     get_cpu_data,
