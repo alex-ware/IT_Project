@@ -51,6 +51,14 @@ header {
     color: white;
     font-family: arial;
 }
+ .heading{
+    
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    font-family: arial;
+    padding-left: 100px;
+ }
 
 
 .button {
@@ -173,6 +181,7 @@ header.navbar{
 }
 
 .sidenav {
+    
     height:100%;
     width: 0;
     position: fixed;
