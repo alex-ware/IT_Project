@@ -23,8 +23,13 @@
                 <h2>{{this.price}}</h2>
             </div>
             <div class="product-card-info">
-            <p>{{this.rating}}</p>
+            <p>toFloat({{this.rating}})</p>
             </div>
+            <script>
+                function toFloat(text){
+                    return text.parseFloat();
+                }
+            </script>
         </div>
     </div>
     {{/each}}
