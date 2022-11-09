@@ -78,6 +78,12 @@ header {
 .button:hover{
     color: gray;
 }
+.buynow{
+    color:white
+}
+.buynow:hover{
+    color: gray;
+}
 
 .page-heading h1 {
     font-size: var(--text-h1);
