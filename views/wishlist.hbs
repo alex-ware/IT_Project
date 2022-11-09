@@ -36,9 +36,7 @@
                                     
                                 <div class="list-item-action">
                                     <div>
-                                        <button class="button">
-                                            <a href="{{this.source}}" target="_blank" >Buy Now</a>
-                                        </button>
+                                         <button class="button" onclick="window.open('{{data.source}}','_blank');" type="button">Buy Now</button>
                                     </div>
                                     <div>
                                         <button class="button" onclick="window.location.href = '/user/removeWishlist/{{this.id}}'"> Remove </button>

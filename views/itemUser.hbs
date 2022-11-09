@@ -13,9 +13,7 @@
         <h4 id="rating-text">{{data.rating}}</h4>
         <p>{{data.reviews_no}}</p>
         <h3 id="available-text">{{data.availability}}</h3>
-        <button class="button">
-            <a href="{{data.source}}" target="_blank" >Buy Now</a>
-        </button>
+         <button class="button" onclick="window.open('{{data.source}}','_blank');" type="button">Buy Now</button>
         <br>
         <br>
         <input class="button" type="submit" value="Add to Wishlist &#9825;" onclick="window.location.href = '/user/addWishlist/{{data._id}}'">
