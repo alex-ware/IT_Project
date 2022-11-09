@@ -1,4 +1,4 @@
-# adapted from https://www.digitalocean.com/community/tutorials/scrape-amazon-product-information-beautiful-soup
+# Adapted from https://www.digitalocean.com/community/tutorials/scrape-amazon-product-information-beautiful-soup
 # Accessed 31.08.2022
 # How to scrape Amazon Product Information Using Beautiful Soup
 # Published by Meghna Gangwar on 04.08.2022
@@ -132,8 +132,6 @@ def get_availability(soup):
 		available = "Not Available"	
 	return available	
 
-
-
 # PC Case Gear Scraping as pc
 def get_pc_url(model_num):
 	if model_num == "":
@@ -165,12 +163,6 @@ def get_pc_soup(model_num):
 			return ""
 		first_item_soup = soup.find("li", attrs={"class": "ais-Hits-item"})
 		if first_item_soup:
-				
-			# print(first_item_soup)
-			# first_result = soup.find("a",attrs={"class":"product-title"})
-			# first_link = first_result.get('href')
-			# first_url = PC_url_prefix + first_link
-			#print("Url to first result: ",first_url, "\n")
 			return first_item_soup
 	except TimeoutException:
 		return ""
@@ -267,8 +259,7 @@ if __name__ == '__main__':
 
 		# category for use in new egg scraping
 		category = ""
-		## to make use of reduced list, see line 164
-		## vvvv Currently not in use, but potentially will be used if we reduce number of products scraped  vvvv
+
 		## get the first 8 links
 		j = 0
 		while j < 24:

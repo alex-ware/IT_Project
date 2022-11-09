@@ -1,4 +1,4 @@
-# adapted from https://www.digitalocean.com/community/tutorials/scrape-amazon-product-information-beautiful-soup
+# Adapted from https://www.digitalocean.com/community/tutorials/scrape-amazon-product-information-beautiful-soup
 # Accessed 31.08.2022
 # How to scrape Amazon Product Information Using Beautiful Soup
 # Published by Meghna Gangwar on 04.08.2022
@@ -22,11 +22,6 @@ def get_title(soup):
 	try:
 		# Outer Tag Object
 		title = soup.find("span", attrs={"id":'productTitle'}).string.strip()
-		# # Printing types of values for efficient understanding
-		# print(type(title))
-		# print(type(title_value))
-		# print(type(title_string))
-		# print()
 	except AttributeError:
 		title = ""	
 	return title

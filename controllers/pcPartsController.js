@@ -204,29 +204,6 @@ const get_item_deal_user = async(req, res, next) => {
         return next(err)
     }
 }
-/*
-// Displays stars for the rating system
-function star_rating(item_info){
-    let last
-    let rating =parseFloat(item_info.rating)
-    if((rating-Math.floor(rating))%10>0){
-        last=1
-    }
-    let first =Math.floor(rating)
-    let stars = ""
-    for(let i=0;i<5;i++){
-        if(i<first){stars = stars + String.fromCharCode(11044)}
-        else if (last>0) {
-            stars = stars + String.fromCharCode(9680)
-        } else {
-            stars = stars + String.fromCharCode(9675)
-        }
-    }
-    item_info.stars = stars
-    
-
-}
-*/
 
 module.exports = {
     get_cpu_data,

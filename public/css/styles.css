@@ -51,15 +51,14 @@ header {
     color: white;
     font-family: arial;
 }
- .heading{
-    
+
+.heading{
     justify-content: center;
     font-size: 30px;
     color: white;
     font-family: arial;
     padding-left: 90px;
- }
-
+}
 
 .button {
     font-family: var(--font-family-body);
@@ -75,12 +74,15 @@ header {
     cursor: pointer;
     border-radius: 999em;
 }
+
 .button:hover{
     color: gray;
 }
+
 .buynow{
     color:white
 }
+
 .buynow:hover{
     color: gray;
 }
@@ -154,6 +156,7 @@ header.navbar{
     box-sizing: border-box;
     padding: 15px 30px;
 }
+
 .menuBox {
     display: flex;
     
@@ -162,17 +165,18 @@ header.navbar{
     justify-content: space-between;
     z-index: 3;
 }
+
 .loginButton {
     background-color: black;
     color: white;
     font-size: large;
-
+    
     cursor: pointer;
     border: none;
     outline: none;
-    padding-left: 0px;
-    
+    padding-left: 0px; 
 }
+
 .loginButton:hover{
     color: gray;
     cursor: pointer;
@@ -183,9 +187,7 @@ header.navbar{
     cursor: pointer;
     font-size: large;
     padding-left: 10px;
-
 }
-
 
 .navButton:hover{
     color: gray;
@@ -193,7 +195,6 @@ header.navbar{
 }
 
 .sidenav {
-    
     height:100%;
     width: 0;
     position: fixed;
@@ -258,9 +259,9 @@ header.navbar{
     justify-content: left;
     border-right: #D8D6D6;
 }
+
 .sideNavButton:hover {
     color:gray;
-   
 }
 
 .item-grid {
