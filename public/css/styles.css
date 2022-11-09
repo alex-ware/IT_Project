@@ -159,7 +159,7 @@ header.navbar{
     font-size: large;
 
     cursor: pointer;
-
+    border: none;
     outline: none;
     padding-left: 0px;
     
