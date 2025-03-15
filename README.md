@@ -11,17 +11,20 @@ Maybe you can mention me or this repo in the acknowledgements too
   </div>
   <p>
   SmartShopper is a web application that has been developed as an interactive application to help the client find cheapest hardware items online by comparing between ebay, gumtree and amazon
-
-  The project has been developed using Javascript, HTML and CSS. MongoDB has been used to store all patient information and the application had been deployed on Heroku(Since Heroku is a paid service, being on a student budget, we could only maintain the deployment for the duration of the subject).
+  The project has been developed using Javascript, HTML and CSS. MongoDB has been used to store all patient information and the application had been deployed on Heroku (since heroku is a paid service, being on a student budget, we could only   
+  maintain the deployment for the duration of the subject).
   Further information on the tech-stack and features can be found below.
 
     
-  
+   <img width="1125" alt="image" src="https://github.com/user-attachments/assets/28c1dbc9-a3a4-4a3c-b3fd-6b4728bc460a" />
+   <img width="1125" alt="image" src="https://github.com/user-attachments/assets/f8227203-6581-4f21-ac06-d733e378b212" />
+   <img width="1123" alt="image" src="https://github.com/user-attachments/assets/e43d2e62-5726-4c2f-b446-b506f37d6118" />
+
+
   </p>
    
 
 <br />
-
 
 <!-- TechStack -->
 ### :space_invader: Tech Stack
